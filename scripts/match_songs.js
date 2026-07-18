@@ -161,6 +161,32 @@ function queryOllama(prompt) {
   });
 }
 
+// Query Ollama API for Japanese title translation with description context
+async function translateToJapaneseTitle(cleanedTitle, originalTitle, description) {
+  const descContext = description
+    ? description.split('\n').slice(0, 10).join('\n').trim()
+    : '';
+
+  const prompt = `You are a Japanese music and Vocaloid expert.
+Translate the following English/Romaji title of a Japanese song (usually Vocaloid, anime, or J-pop) into its official original Japanese title (Kanji, Hiragana, or Katakana) as used in rhythm games.
+If the title is already Japanese or doesn't have a Japanese title, return the title as-is.
+
+YouTube Cover Title: "${originalTitle}"
+Cleaned Title: "${cleanedTitle}"
+Video Description Context:
+${descContext}
+
+Output only the translated Japanese title. Do not include any explanation or quote marks.`;
+
+  try {
+    const response = await queryOllama(prompt);
+    return response.trim().replace(/^["']|["']$/g, ''); // strip quotes
+  } catch (err) {
+    console.error(`     Ollama translation error for "${cleanedTitle}":`, err.message);
+    return null;
+  }
+}
+
 // Candidate scoring to find best matches from database
 function getTopCandidates(cleanedYT, ytDescription, allGameSongs) {
   const list = [];
@@ -178,16 +204,15 @@ function getTopCandidates(cleanedYT, ytDescription, allGameSongs) {
     }
     
     // 2. Artist match in description or title
-    // Split the artist string (e.g. "まふまふ / 初音ミク" or "DECO*27 feat.初音ミク") to match individual names
     if (song.artist && song.artist.length > 2) {
       const individualArtists = song.artist.toLowerCase()
         .split(/[\/\,\&x\×\+]|feat\.?/g)
         .map(a => a.trim())
-        .filter(a => a.length >= 3); // ignore very short words
+        .filter(a => a.length >= 3);
         
       for (const artist of individualArtists) {
         if (cleanedYT.toLowerCase().includes(artist) || descLower.includes(artist)) {
-          score += 40; // High boost for matching one of the original artists
+          score += 40;
           break;
         }
       }
@@ -387,27 +412,42 @@ async function main() {
 
     let matchedSong = null;
 
-    // Fast Path: Check if there's a safe match in the database
+    // --- Stage 1: Safe Fast Path Match ---
     const safeMatch = allGameSongs.find(s => isSafeMatch(s.title, cleanedYT));
     
     if (safeMatch) {
       matchedSong = safeMatch;
-      console.log(`  -> Safe Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
+      console.log(`  -> [Stage 1] Safe Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
       exactMatchCount++;
     } else {
-      // Ollama Path: Get top 5 candidates based on similarity, then ask Ollama to choose
-      const candidates = getTopCandidates(cleanedYT, ytVideo.description, allGameSongs);
+      // --- Stage 2: Ollama Translation Match ---
+      console.log(`  -> [Stage 2] Querying Ollama (${OLLAMA_MODEL}) to translate English/Romaji title to Japanese...`);
+      const jpTranslatedTitle = await translateToJapaneseTitle(cleanedYT, originalTitle, ytVideo.description);
       
-      if (candidates.length > 0) {
-        console.log(`  -> Found ${candidates.length} candidates. Querying Ollama (${OLLAMA_MODEL}) to select...`);
-        candidates.forEach((c, idx) => {
-          console.log(`     [Candidate ${idx + 1}] "${c.title}" (${c.artist}) [Category: ${c.category}]`);
-        });
-        matchedSong = await askOllamaToMatch(originalTitle, cleanedYT, ytVideo.description, candidates);
+      if (jpTranslatedTitle && jpTranslatedTitle !== cleanedYT) {
+        console.log(`     Ollama translated "${cleanedYT}" to "${jpTranslatedTitle}"`);
+        matchedSong = allGameSongs.find(s => isSafeMatch(s.title, jpTranslatedTitle));
+      }
+      
+      if (matchedSong) {
+        console.log(`  -> [Stage 2] Ollama Translation Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
+        ollamaMatchCount++;
+      } else {
+        // --- Stage 3: Fallback Ollama Multiple Choice Candidate Match ---
+        console.log(`  -> [Stage 3] No match from translation. Fetching candidates for selection...`);
+        const candidates = getTopCandidates(cleanedYT, ytVideo.description, allGameSongs);
         
-        if (matchedSong) {
-          console.log(`  -> Ollama Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
-          ollamaMatchCount++;
+        if (candidates.length > 0) {
+          console.log(`     Found ${candidates.length} candidates. Querying Ollama to select...`);
+          candidates.forEach((c, idx) => {
+            console.log(`     [Candidate ${idx + 1}] "${c.title}" (${c.artist}) [Category: ${c.category}]`);
+          });
+          matchedSong = await askOllamaToMatch(originalTitle, cleanedYT, ytVideo.description, candidates);
+          
+          if (matchedSong) {
+            console.log(`  -> [Stage 3] Ollama Candidate Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
+            ollamaMatchCount++;
+          }
         }
       }
     }
