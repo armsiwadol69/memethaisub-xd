@@ -1,0 +1,8950 @@
+[
+  {
+    "songName": "ホラフキパペット",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.5758,
+    "genre": "POPS＆ANIME",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "ありきたりな恋の歌",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.4627,
+    "genre": "",
+    "level": 13.8
+  },
+  {
+    "songName": "超最終鬼畜妹フランドール・S",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.6368,
+    "genre": "東方Project",
+    "level": 12.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "MYTH Re：LEASE",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3136,
+    "genre": "GAME＆VARIETY",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "Ref:rain (for 7th Heaven)",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.2127,
+    "genre": "",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "Zitronectar",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.377,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14.3,
+    "fcap": null
+  },
+  {
+    "songName": "シカ色デイズ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.2726,
+    "genre": "POPS＆ANIME",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "Fraq",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.8047,
+    "genre": "maimai",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "はじまりの未来",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.5705,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "Break The Speakers",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.9743,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "少女レイ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.5404,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "Zitronectar",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.5431,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "World's end BLACKBOX",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.1391,
+    "genre": "",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "モエチャッカファイア",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.6189,
+    "genre": "",
+    "level": 13.8
+  },
+  {
+    "songName": "ウタヒメナイトストーム",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.4869,
+    "genre": "maimai",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "ミクマリ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.0974,
+    "genre": "",
+    "level": 13.5
+  },
+  {
+    "songName": "Phase: Theatre",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.1049,
+    "genre": "",
+    "level": 13.8
+  },
+  {
+    "songName": "Lover's Trick",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.7579,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "なんかノイズにきこえる",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.5434,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "月光",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.1025,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "FLΛME/FRΦST",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.0986,
+    "genre": "",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "あいたい星人",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.9813,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "Idoratrize World",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.1733,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "雲外蒼電 -Dreaming Voltage-",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.4539,
+    "genre": "",
+    "level": 12.2
+  },
+  {
+    "songName": "胡蝶乃舞",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7887,
+    "genre": "GAME＆VARIETY",
+    "level": 11.7,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "Help me, ERINNNNNN!!",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.7805,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "ウタヒメナイトストーム",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.6934,
+    "genre": "maimai",
+    "level": 11.5,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "Fraq",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.7505,
+    "genre": "maimai",
+    "level": 12.2,
+    "fcap": null
+  },
+  {
+    "songName": "ハオ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.2285,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "ゆりかご",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.5785,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "鬼女紅妖",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3242,
+    "genre": "",
+    "level": 11.7
+  },
+  {
+    "songName": "メズマライザー",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.8585,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "MIRA",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.1254,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "化けの花",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.9531,
+    "genre": "",
+    "level": 11,
+    "fcap": "AP"
+  },
+  {
+    "songName": "ビビデバ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.7308,
+    "genre": "POPS＆ANIME",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "IMBRUED:FLUX",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.5163,
+    "genre": "maimai",
+    "level": 11,
+    "fcap": "FC"
+  },
+  {
+    "songName": "JIGOKU STATION CENTRAL GATE",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3192,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11.4,
+    "fcap": null
+  },
+  {
+    "songName": "ホラフキパペット",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.8249,
+    "genre": "POPS＆ANIME",
+    "level": 10.8,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "crazy (about you)",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7841,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 10.8,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "月光",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2613,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.2,
+    "fcap": null
+  },
+  {
+    "songName": "イーヴィルガール",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.0688,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11.2,
+    "fcap": null
+  },
+  {
+    "songName": "Restricted Access",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.7552,
+    "genre": "GAME＆VARIETY",
+    "level": 11.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Unwelcome School",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.6193,
+    "genre": "GAME＆VARIETY",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "Unwelcome School",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.7397,
+    "genre": "GAME＆VARIETY",
+    "level": 12.2,
+    "fcap": null
+  },
+  {
+    "songName": "モエチャッカファイア",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.9236,
+    "genre": "POPS＆ANIME",
+    "level": 10.5,
+    "fcap": "AP"
+  },
+  {
+    "songName": "メズマライザー",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7849,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.5,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "ありきたりな恋の歌",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.6097,
+    "genre": "",
+    "level": 10.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "MYTH Re：LEASE",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.0501,
+    "genre": "GAME＆VARIETY",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "砂の函",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.1961,
+    "genre": "maimai",
+    "level": 11.2,
+    "fcap": null
+  },
+  {
+    "songName": "華天月兎",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 94.2361,
+    "genre": "",
+    "level": 14.4
+  },
+  {
+    "songName": "IMBRUED:FLUX",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.6163,
+    "genre": "maimai",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "少女レイ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7826,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.9,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "初音ミクの暴走",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 94.6174,
+    "genre": "",
+    "level": 13.9
+  },
+  {
+    "songName": "シカ色デイズ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7043,
+    "genre": "POPS＆ANIME",
+    "level": 9.8,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "Idoratrize World",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.549,
+    "genre": "東方Project",
+    "level": 10.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ビビデバ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.9609,
+    "genre": "POPS＆ANIME",
+    "level": 9.7,
+    "fcap": "AP"
+  },
+  {
+    "songName": "ジェットブラック",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 96.9402,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "お呪い",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.7038,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.2,
+    "fcap": "FC"
+  },
+  {
+    "songName": "化けの花",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 94.8194,
+    "genre": "",
+    "level": 13.4
+  },
+  {
+    "songName": "INTJINTPENTJENTPINFJENFJINFPENFPISTJISFJESTJESFJESTPISTPISFPESFP",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.0804,
+    "genre": "",
+    "level": 13.3
+  },
+  {
+    "songName": "はじまりの未来",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.3209,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.2,
+    "fcap": null
+  },
+  {
+    "songName": "ビビデバ",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 94.7841,
+    "genre": "POPS＆ANIME",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "Sky Trails",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 92.9362,
+    "genre": "",
+    "level": 14.7
+  },
+  {
+    "songName": "Daredevil Glaive",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 93.4245,
+    "genre": "",
+    "level": 14.2
+  },
+  {
+    "songName": "JIGOKU STATION CENTRAL GATE",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 93.1622,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "イーヴィルガール",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 93.0093,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "雲外蒼電 -Dreaming Voltage-",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 90.832,
+    "genre": "",
+    "level": 13.9
+  },
+  {
+    "songName": "インビジブル",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 100.4444,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "赤心性：カマトト荒療治",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 100.3958,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "FREEDOM DiVE (tpz Overcute Remix)",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.7553,
+    "genre": "GAME＆VARIETY",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "Contrapasso -paradiso-",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.0301,
+    "genre": "maimai",
+    "level": 14.4,
+    "fcap": null
+  },
+  {
+    "songName": "World's end loneliness",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.5082,
+    "genre": "maimai",
+    "level": 13,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "初音ミクの激唱",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.4941,
+    "genre": "niconico＆VOCALOID™",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "QZKago Requiem",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.8347,
+    "genre": "maimai",
+    "level": 14.8,
+    "fcap": null
+  },
+  {
+    "songName": "セハガガガンバッちゃう！！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 100.4213,
+    "genre": "POPS＆ANIME",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "プラネタリウム・レヴュー",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 99.6303,
+    "genre": "POPS＆ANIME",
+    "level": 13.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "クレイジークレイジーダンサーズ",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 100.2027,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "遺伝子レベル∞スパイラル",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.5077,
+    "genre": "maimai",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "ENERGY SYNERGY MATRIX",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.2159,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "終わりなき物語",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 100.5548,
+    "genre": "GAME＆VARIETY",
+    "level": 12.7,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "花と、雪と、ドラムンベース。",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.1365,
+    "genre": "maimai",
+    "level": 14.3,
+    "fcap": null
+  },
+  {
+    "songName": "Aiolos",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.135,
+    "genre": "maimai",
+    "level": 14.3,
+    "fcap": null
+  },
+  {
+    "songName": "拝啓ドッペルゲンガー",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.1347,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "相思創愛",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.7348,
+    "genre": "maimai",
+    "level": 13.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Calamity Fortune",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.4558,
+    "genre": "東方Project",
+    "level": 14.2,
+    "fcap": null
+  },
+  {
+    "songName": "てらてら",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.1875,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "Resolution",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.0406,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "無間嫉妬劇場『666』",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.3804,
+    "genre": "東方Project",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "ENERGY SYNERGY MATRIX",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.3804,
+    "genre": "GAME＆VARIETY",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "Lividi",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.3845,
+    "genre": "maimai",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "METATRON",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.3546,
+    "genre": "GAME＆VARIETY",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "39",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 100.136,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13,
+    "fcap": "FC"
+  },
+  {
+    "songName": "分からない",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.75,
+    "genre": "maimai",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "地獄",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.0074,
+    "genre": "maimai",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "Scarlet Wings",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.3876,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "天ノ弱",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.6706,
+    "genre": "",
+    "level": 13.3
+  },
+  {
+    "songName": "洗脳",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 100.3628,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Bad Apple!! feat.nomico ～五十嵐 撫子 Ver.～",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.5119,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "ダーリンダンス",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 99.4222,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "INTERNET OVERDOSE",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.4221,
+    "genre": "POPS＆ANIME",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "Caliburne ～Story of the Legendary sword～",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.5178,
+    "genre": "maimai",
+    "level": 14.3,
+    "fcap": null
+  },
+  {
+    "songName": "アージェントシンメトリー",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.2418,
+    "genre": "maimai",
+    "level": 13.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "キズナの物語",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.8295,
+    "genre": "GAME＆VARIETY",
+    "level": 13.2,
+    "fcap": "FC"
+  },
+  {
+    "songName": "BAD∞END∞NIGHT",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.0012,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ナイト・オブ・ナイツ (Cranky Remix)",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.581,
+    "genre": "東方Project",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "+♂",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.454,
+    "genre": "",
+    "level": 13.4
+  },
+  {
+    "songName": "Latent Kingdom",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.204,
+    "genre": "maimai",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "猫祭り",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.3888,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "シアトリカル・ケース",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.1658,
+    "genre": "maimai",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "夢現妄想世界",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.3045,
+    "genre": "POPS＆ANIME",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "言ノ葉カルマ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.1882,
+    "genre": "maimai",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "How To Make 音ゲ～曲！",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.6541,
+    "genre": "GAME＆VARIETY",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "撩乱乙女†無双劇",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.1205,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "Garakuta Doll Play",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.1964,
+    "genre": "maimai",
+    "level": 14.2,
+    "fcap": null
+  },
+  {
+    "songName": "インパアフェクシオン・ホワイトガアル",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.1751,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14.2,
+    "fcap": null
+  },
+  {
+    "songName": "Jack-the-Ripper◆",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.7503,
+    "genre": "GAME＆VARIETY",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "ネクロファンタジア～Arr.Demetori",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.2994,
+    "genre": "東方Project",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "#狂った民族２ PRAVARGYAZOOQA",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3844,
+    "genre": "maimai",
+    "level": 12.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "INTERNET YAMERO",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 98.2881,
+    "genre": "POPS＆ANIME",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "エゴロック",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.2869,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "疾走あんさんぶる",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.9761,
+    "genre": "東方Project",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "アイドル",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 99.5485,
+    "genre": "POPS＆ANIME",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "ラビットホール",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 99.448,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "Estahv",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.1994,
+    "genre": "GAME＆VARIETY",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "オモイヨシノ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.3835,
+    "genre": "GAME＆VARIETY",
+    "level": 13.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ウルトラトレーラー",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.1344,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "六兆年と一夜物語",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.1034,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "にっこり^^調査隊のテーマ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.1698,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "幻想に咲いた花",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 98.0836,
+    "genre": "東方Project",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "リンカーネイション",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.0504,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "Y.Y.Y.計画!!!!",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.2505,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "ザムザ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.0801,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "迷える音色は恋の唄",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.7148,
+    "genre": "GAME＆VARIETY",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "タテマエと本心の大乱闘",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.0325,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "アトロポスと最果の探究者",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.6518,
+    "genre": "GAME＆VARIETY",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "ナイト・オブ・ナイツ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.1738,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "天火明命",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.1213,
+    "genre": "maimai",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "The wheel to the right",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.8703,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "After Burner",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.438,
+    "genre": "GAME＆VARIETY",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "シリウスの輝きのように",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 97.7073,
+    "genre": "POPS＆ANIME",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "躯樹の墓守",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.7341,
+    "genre": "maimai",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "oboro",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.3557,
+    "genre": "",
+    "level": 13.7
+  },
+  {
+    "songName": "Contrapasso -paradiso-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.6634,
+    "genre": "maimai",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "Cryptarithm",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.6148,
+    "genre": "maimai",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "セイクリッド　ルイン",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.39,
+    "genre": "GAME＆VARIETY",
+    "level": 12.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "空威張りビヘイビア",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.2093,
+    "genre": "maimai",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "BREAK YOU!!",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.1989,
+    "genre": "maimai",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "夢花火",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.1712,
+    "genre": "maimai",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "テオ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.4178,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "LOSTPHANTASIA",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.2636,
+    "genre": "東方Project",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "無敵We are one!!",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.0433,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "木彫り鯰と右肩ゾンビ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.6642,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "フリィダム ロリィタ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 100,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.6,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "Heartbeats",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.0995,
+    "genre": "",
+    "level": 13.2,
+    "fcap": "FC"
+  },
+  {
+    "songName": "阿修羅ちゃん",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.0443,
+    "genre": "POPS＆ANIME",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "アルカンシエル",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.6775,
+    "genre": "GAME＆VARIETY",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "The Cursed Doll",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.9553,
+    "genre": "maimai",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "シュガーホリック",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.4949,
+    "genre": "POPS＆ANIME",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "コンティニュー！ feat. 藍月なくる",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.1809,
+    "genre": "GAME＆VARIETY",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "アニマル",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.4311,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "ライアーダンサー",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.4092,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "少女幻葬戦慄曲 ～ Necro Fantasia",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.3576,
+    "genre": "東方Project",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "愛包ダンスホール",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.2894,
+    "genre": "POPS＆ANIME",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "セイクリッド　ルイン",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.3034,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "チエルカ／エソテリカ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.1734,
+    "genre": "maimai",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "Chronomia",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.1554,
+    "genre": "GAME＆VARIETY",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "フェイクフェイス・フェイルセイフ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.9513,
+    "genre": "maimai",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "幻想に咲いた花",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.1741,
+    "genre": "東方Project",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "ツクヨミステップ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.5901,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "シリウスの輝きのように",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.53,
+    "genre": "POPS＆ANIME",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "吉原ラメント",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.8336,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "folern",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.1019,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "プナイプナイせんそう",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.777,
+    "genre": "GAME＆VARIETY",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "Reach For The Stars",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.0435,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "群青シグナル",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.7352,
+    "genre": "maimai",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "電車で電車でOPA!OPA!OPA! -GMT mashup-",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.6556,
+    "genre": "GAME＆VARIETY",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "ハム太郎とっとこうた",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 99.7752,
+    "genre": "POPS＆ANIME",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "FREEDOM DiVE (tpz Overcute Remix)",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.7447,
+    "genre": "GAME＆VARIETY",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "最強STRONGER",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.7288,
+    "genre": "GAME＆VARIETY",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "チューリングの跡",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 98.2798,
+    "genre": "maimai",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "Doll Judgment",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.5451,
+    "genre": "東方Project",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "YA･DA･YO [Reborn]",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.8611,
+    "genre": "",
+    "level": 13.4
+  },
+  {
+    "songName": "六兆年と一夜物語",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.4258,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "Energizing Flame",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.5484,
+    "genre": "maimai",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "福宿音屋魂音泉",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.3867,
+    "genre": "maimai",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "咲キ誇レ常世ノ華",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.0441,
+    "genre": "maimai",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "エータ・ベータ・イータ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2932,
+    "genre": "",
+    "level": 12.4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Knight Rider",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.3075,
+    "genre": "GAME＆VARIETY",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "Abstruse Dilemma",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2561,
+    "genre": "GAME＆VARIETY",
+    "level": 12.4,
+    "fcap": null
+  },
+  {
+    "songName": "さよならヒストリー",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.255,
+    "genre": "東方Project",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "いっしそう電☆舞舞神拳！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.9091,
+    "genre": "maimai",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "Limit Break",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.6192,
+    "genre": "maimai",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "パーフェクト生命",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.6165,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "REVIVER オルタンシア・サーガ -蒼の騎士団- オリジナルVer.",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.9018,
+    "genre": "POPS＆ANIME",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "響縁",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.1957,
+    "genre": "東方Project",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "otorii INNOVATED -[i]3-",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.175,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "Ourania",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.5762,
+    "genre": "maimai",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "キミノヨゾラ哨戒班",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.1568,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "厨病激発ボーイ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.0842,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "物凄い勢いでけーねが物凄いうた",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.4607,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "sweet little sister",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.4504,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "人生リセットボタン",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.0096,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "White Traveling Girl",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.3919,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "Brain Power",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.3686,
+    "genre": "GAME＆VARIETY",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "言ノ葉遊戯",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.8475,
+    "genre": "maimai",
+    "level": 12.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "アンハッピーリフレイン",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.3552,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "No Routine",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.344,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "患部で止まってすぐ溶ける～狂気の優曇華院",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.5907,
+    "genre": "東方Project",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "taboo tears you up",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.2822,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "Radiance",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.5444,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "We Gonna Journey",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.7317,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "生きてるおばけは生きている",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.9535,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "エテルニタス・ルドロジー",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.4956,
+    "genre": "東方Project",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "brilliant better",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.9096,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "ミラクル・ショッピング",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.6274,
+    "genre": "POPS＆ANIME",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "Phantasm Brigade",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.1438,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "不毛！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.5884,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "このピアノでお前を8759632145回ぶん殴る",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.1021,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "四次元跳躍機関",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.0889,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "チュルリラ・チュルリラ・ダッダッダ！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.8239,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "イロトリドリのメロディ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.5597,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "MarbleBlue.",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.4218,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "Scream out! -maimai SONIC WASHER Edit-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.528,
+    "genre": "東方Project",
+    "level": 12.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "アンノウン・マザーグース",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.7663,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "アンドロイドガール",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.3395,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "セツナトリップ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.7179,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "ジェヘナ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.7158,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "東方妖々夢 ～the maximum moving about～",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.6822,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "Calamity Fortune",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.1911,
+    "genre": "東方Project",
+    "level": 12.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Endless, Sleepless Night",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.5729,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "Alice's Suitcase",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.1099,
+    "genre": "GAME＆VARIETY",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "sølips",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.078,
+    "genre": "maimai",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "CYCLES",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.5147,
+    "genre": "maimai",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "HERA",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.1265,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "Bad Apple!! feat.nomico",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 98.4727,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "サドマミホリック",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 98.3981,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "プラネタリウム・レヴュー",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.6112,
+    "genre": "POPS＆ANIME",
+    "level": 11.8,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "唱",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.6038,
+    "genre": "POPS＆ANIME",
+    "level": 11.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ダーリンダンス",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.5285,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.8,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "ひれ伏せ愚民どもっ！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.3592,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "天国と地獄 -言ノ葉リンネ-",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.257,
+    "genre": "maimai",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "進捗どうですか？",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.5253,
+    "genre": "東方Project",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "Bad Apple!! feat.nomico (REDALiCE Remix)",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.7643,
+    "genre": "東方Project",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "ラブって♡ジュエリー♪えんじぇる☆ブレイク！！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.9778,
+    "genre": "POPS＆ANIME",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "フォニイ",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 98.0992,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "needLe",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.4785,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "ワールズエンド・ダンスホール",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 98.0631,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "おこちゃま戦争",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.0154,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "UTAKATA",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.5194,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "裏表ラバーズ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.5142,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "人里に下ったアタイがいつの間にか社畜になっていた件",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.7064,
+    "genre": "GAME＆VARIETY",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "AMAZING MIGHTYYYY!!!!",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.238,
+    "genre": "maimai",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "ロストワンの号哭",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.2259,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "テレキャスタービーボーイ",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 99.3214,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "寝起きヤシの木",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.2906,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "Hyper Active",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.6139,
+    "genre": "maimai",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "Money Money",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.5564,
+    "genre": "東方Project",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "勇者",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 98.5363,
+    "genre": "POPS＆ANIME",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "雨露霜雪",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.7885,
+    "genre": "maimai",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "アンクローズ・ヒューマン",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.4969,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "アイディスマイル",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.0994,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "folern",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.1156,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.2,
+    "fcap": null
+  },
+  {
+    "songName": "ViRTUS",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 98.4444,
+    "genre": "maimai",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "トノサマビーム",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.0086,
+    "genre": "maimai",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "すーぱーぬこになれんかった",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.2996,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "撩乱乙女†無双劇",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7462,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11.7,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "単一指向性オーバーブルーム",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.2909,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "カゲロウデイズ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.2377,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "STARRED HEART",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.7772,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "Kairos",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.3926,
+    "genre": "maimai",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "タカハせ！名人マン",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.2405,
+    "genre": "maimai",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "ユメヒバナ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.9281,
+    "genre": "maimai",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "ダンスロボットダンス",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.2951,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "いちげき！のテーマ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.7908,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "響縁",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.679,
+    "genre": "",
+    "level": 13.4
+  },
+  {
+    "songName": "イノコリ先生",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.0415,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "過去を喰らう",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.9639,
+    "genre": "POPS＆ANIME",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "Change Our MIRAI！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.415,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "チルノのパーフェクトさんすう教室　⑨周年バージョン",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.3829,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "Sweets Time",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.1297,
+    "genre": "東方Project",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "洗脳",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.7244,
+    "genre": "maimai",
+    "level": 12.4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Danza zandA",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.3446,
+    "genre": "maimai",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "RAD DOGS",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.8159,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "The wheel to the right",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.9865,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "Still",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.208,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "キャプテン・ムラサのケツアンカー",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.2057,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "Barbed Eye",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.6912,
+    "genre": "maimai",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "QUATTUORUX",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 98.691,
+    "genre": "GAME＆VARIETY",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "やめろ！聴くな！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.8489,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "Secret Sleuth",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.8223,
+    "genre": "maimai",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "バラライカ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 100.3783,
+    "genre": "POPS＆ANIME",
+    "level": 12,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ロールプレイングゲーム",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.2617,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "ガラテアの螺旋",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.7971,
+    "genre": "maimai",
+    "level": 13.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "蒼空に舞え、墨染の桜",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.067,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "Invitation",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.4876,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "How To Make 音ゲ～曲！",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2718,
+    "genre": "GAME＆VARIETY",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "Excalibur ～Revived resolution～",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.481,
+    "genre": "maimai",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "ワールズエンド・ダンスホール",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.4577,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "ばかみたい【Taxi Driver Edition】",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2284,
+    "genre": "GAME＆VARIETY",
+    "level": 12,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "LAMIA",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 98.4391,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "Re：End of a Dream",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2122,
+    "genre": "GAME＆VARIETY",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "WARNING×WARNING×WARNING",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.0646,
+    "genre": "東方Project",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "レッツゴー!陰陽師",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.5,
+    "genre": "GAME＆VARIETY",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "In my world (Prod. KOTONOHOUSE)",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.4832,
+    "genre": "POPS＆ANIME",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "L4TS:2018 (feat. あひる & KTA)",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.462,
+    "genre": "GAME＆VARIETY",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "Jimang Shot",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.4224,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "幾四音-Ixion-",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.354,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "インパアフェクシオン・ホワイトガアル",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7329,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11.5,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "インビジブル",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.5666,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ENJOY POLIS",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.8577,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "Paranoia",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.0916,
+    "genre": "東方Project",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "リアライズ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.9771,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "フィクサー",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.2344,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "ストリーミングハート",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.2063,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "GO BACK 2 YOUR RAVE",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.6262,
+    "genre": "GAME＆VARIETY",
+    "level": 12.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "welcome to maimai!! with マイマイマー",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.7204,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "彗星ハネムーン",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.4201,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Jumble Rumble",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.7012,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "イカサマライフゲイム",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.6764,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "林檎華憐歌",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.385,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Tell Your World",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 97.8569,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "Lividi",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.8128,
+    "genre": "maimai",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "橙の幻想郷音頭",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.0666,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "アディショナルメモリー",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.2821,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "妄想感傷代償連盟",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 97.7755,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "アマツキツネ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.4227,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Axeria",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.5084,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "だれかの心臓になれたなら",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.3437,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ヒバナ",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 97.695,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "乙女解剖",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.1936,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "ジャンキーナイトタウンオーケストラ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.4267,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "トリドリ⇒モリモリ！Lovely fruits☆",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.6279,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "INTERNET YAMERO",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.2595,
+    "genre": "POPS＆ANIME",
+    "level": 11.9,
+    "fcap": null
+  },
+  {
+    "songName": "Bad Apple!! feat.nomico",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.1024,
+    "genre": "東方Project",
+    "level": 12.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Help me, ERINNNNNN!!（Band ver.）",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.0975,
+    "genre": "東方Project",
+    "level": 12.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "サヨナラチェーンソー",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.0933,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "サドマミホリック",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.0755,
+    "genre": "東方Project",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "connecting with you",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.56,
+    "genre": "maimai",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "End of Twilight",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.5577,
+    "genre": "maimai",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "larva",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.3118,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "planet dancer",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.4413,
+    "genre": "maimai",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "MIRROR of MAGIC",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.4142,
+    "genre": "maimai",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "BETTER CHOICE",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.1862,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "Snow Colored Score",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.1612,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "解けないように",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.9181,
+    "genre": "東方Project",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "ビターチョコデコレーション",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.1416,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "ゴーストルール",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.3226,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "Virtual to LIVE",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 98.8718,
+    "genre": "POPS＆ANIME",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "宿題が終わらないっ！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.0956,
+    "genre": "東方Project",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "Glorious Crown",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.2702,
+    "genre": "maimai",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "Xevel",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.0049,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "立川浄穢捕物帳",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.6866,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11.4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "フラグメンツ -T.V. maimai edit-",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.7525,
+    "genre": "東方Project",
+    "level": 12.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "レーイレーイ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.181,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "BLACK ROSE",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.6257,
+    "genre": "maimai",
+    "level": 12.2,
+    "fcap": null
+  },
+  {
+    "songName": "QUEEN",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.653,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "ラビットホール",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.4855,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "ラットが死んだnew words",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.4388,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "エイリアンエイリアン",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.4087,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "勦滅",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3209,
+    "genre": "maimai",
+    "level": 11.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "華鳥風月",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.3801,
+    "genre": "東方Project",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "Altale",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.0614,
+    "genre": "GAME＆VARIETY",
+    "level": 12.4,
+    "fcap": null
+  },
+  {
+    "songName": "Edelweiss",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2067,
+    "genre": "maimai",
+    "level": 11.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Garakuta Doll Play",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.4397,
+    "genre": "maimai",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "Hand in Hand",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.2392,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "猫祭り",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.123,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "One Step Ahead",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.9554,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "命ばっかり",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.9366,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ベノム",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.9053,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "フラジール",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.0499,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "Life Feels Good",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.0426,
+    "genre": "maimai",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "銀のめぐり",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.919,
+    "genre": "東方Project",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "Moon of Noon",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.1706,
+    "genre": "maimai",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "響け！CHIREI MY WAY!",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.7175,
+    "genre": "東方Project",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "脳漿炸裂ガール",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.697,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "Doll Judgment",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.5179,
+    "genre": "東方Project",
+    "level": 12.1,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Our Wrenally",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.6124,
+    "genre": "maimai",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "アンビバレンス",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.597,
+    "genre": "maimai",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "Revive The Rave",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.413,
+    "genre": "maimai",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "インビジブル",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.1553,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.3,
+    "fcap": null
+  },
+  {
+    "songName": "Supersonic Generation",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3781,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "勇者",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.3565,
+    "genre": "POPS＆ANIME",
+    "level": 11.7,
+    "fcap": null
+  },
+  {
+    "songName": "エンドマークに希望と涙を添えて",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.3445,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "GIGANTØMAKHIA",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.4119,
+    "genre": "maimai",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "幸せになれる隠しコマンドがあるらしい",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.1209,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "B.B.K.K.B.K.K.",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.1191,
+    "genre": "GAME＆VARIETY",
+    "level": 12.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "居並ぶ穀物と溜息まじりの運送屋",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.9759,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "究極焼肉レストラン！お燐の地獄亭！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.0199,
+    "genre": "東方Project",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "Falsum Atlantis.",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 98.7152,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "Caliburne ～Story of the Legendary sword～",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.8198,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ぐるぐるWASH！コインランドリー・ディスコ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.6363,
+    "genre": "maimai",
+    "level": 12.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "竹",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.6378,
+    "genre": "GAME＆VARIETY",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "WE'RE BACK!!",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.3848,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.2,
+    "fcap": null
+  },
+  {
+    "songName": "Löschen",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.5474,
+    "genre": "GAME＆VARIETY",
+    "level": 11.2,
+    "fcap": "FC"
+  },
+  {
+    "songName": "強風オールバック",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.5739,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "踊れオーケストラ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.5685,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ULTRA SYNERGY MATRIX",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.5487,
+    "genre": "GAME＆VARIETY",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "Help me, あーりん！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.5167,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "Yet Another ”drizzly rain”",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.4562,
+    "genre": "東方Project",
+    "level": 12.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "シャルル",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.5625,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "悪戯",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.5343,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "CITRUS MONSTER",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.5244,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "表裏一体",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.4162,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "囲い無き世は一期の月影",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.2241,
+    "genre": "東方Project",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "Trick tear",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 98.9567,
+    "genre": "maimai",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "ヱデン",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.9987,
+    "genre": "maimai",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "Ring",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.8615,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "だから僕は音楽を辞めた",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.7134,
+    "genre": "POPS＆ANIME",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "からくりピエロ",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 97.0445,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "明星ロケット",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.6356,
+    "genre": "東方Project",
+    "level": 12.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "DRAGONLADY",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.7134,
+    "genre": "GAME＆VARIETY",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "人生リセットボタン",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.5935,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "tape/stop/night",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.658,
+    "genre": "GAME＆VARIETY",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "Don't Fight The Music",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.6298,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "Aegleseeker",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.6267,
+    "genre": "GAME＆VARIETY",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "熱異常",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.2233,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.1,
+    "fcap": null
+  },
+  {
+    "songName": "夢花火",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.4736,
+    "genre": "maimai",
+    "level": 11.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "アイドル",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.4659,
+    "genre": "POPS＆ANIME",
+    "level": 11.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "スロウダウナー",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.2861,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "立ち入り禁止",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.0288,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.1,
+    "fcap": null
+  },
+  {
+    "songName": "Flashback",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2658,
+    "genre": "maimai",
+    "level": 11.5,
+    "fcap": null
+  },
+  {
+    "songName": "群青讃歌",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.89,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.4,
+    "fcap": null
+  },
+  {
+    "songName": "ダンシング☆サムライ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.9885,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "神威",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.2225,
+    "genre": "GAME＆VARIETY",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "フォニイ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 100.1963,
+    "genre": "",
+    "level": 11.5
+  },
+  {
+    "songName": "しゅわスパ大作戦☆",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.9817,
+    "genre": "東方Project",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "METATRON",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.202,
+    "genre": "GAME＆VARIETY",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "conflict",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.9559,
+    "genre": "GAME＆VARIETY",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "その群青が愛しかったようだった",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.925,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "雨とペトラ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.8089,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.4,
+    "fcap": null
+  },
+  {
+    "songName": "Limit Break",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.1282,
+    "genre": "maimai",
+    "level": 11.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "悪戯センセーション",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.9192,
+    "genre": "東方Project",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "Prophesy One",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.7322,
+    "genre": "maimai",
+    "level": 12.4,
+    "fcap": null
+  },
+  {
+    "songName": "バグ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.812,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "デビル☆アイドル",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.8237,
+    "genre": "POPS＆ANIME",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "恋愛裁判",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.787,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Ultimate taste",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.9182,
+    "genre": "東方Project",
+    "level": 11,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "神々の祈り",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.476,
+    "genre": "東方Project",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "ヤミツキ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.4175,
+    "genre": "maimai",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "腐れ外道とチョコレゐト",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.3861,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "N3V3R G3T OV3R",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.0791,
+    "genre": "maimai",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "アウターサイエンス",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.3617,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "FFT",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.3076,
+    "genre": "maimai",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "拝啓ドッペルゲンガー",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.9935,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "M.S.S.Planet",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.9711,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "マトリョシカ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.962,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Aiolos",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.0806,
+    "genre": "maimai",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "8-EM",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.7937,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "BULK UP (GAME EXCLUSIVE EDIT)",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.3946,
+    "genre": "GAME＆VARIETY",
+    "level": 11.9,
+    "fcap": null
+  },
+  {
+    "songName": "立ち入り禁止",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.5894,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "からくりピエロ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.4268,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "Regulus",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.9605,
+    "genre": "maimai",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "Sound Chimera",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.7611,
+    "genre": "GAME＆VARIETY",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "YURUSHITE",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.7274,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "Blew Moon",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.515,
+    "genre": "maimai",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "幽霊東京",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 97.4925,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "プナイプナイせんそう",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.2528,
+    "genre": "GAME＆VARIETY",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "After Burner",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.2508,
+    "genre": "GAME＆VARIETY",
+    "level": 11.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "夜咄ディセイブ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.4299,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "色は匂へど散りぬるを",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.3786,
+    "genre": "東方Project",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "咲キ誇レ常世ノ華",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.0975,
+    "genre": "maimai",
+    "level": 11.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "キラメキ居残り大戦争",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7629,
+    "genre": "GAME＆VARIETY",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Geranium",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.6442,
+    "genre": "maimai",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ハッピーシンセサイザ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.175,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "Link",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.1582,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Straight into the lights",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.1536,
+    "genre": "maimai",
+    "level": 12.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Virtual to LIVE",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 98.064,
+    "genre": "POPS＆ANIME",
+    "level": 12.2,
+    "fcap": null
+  },
+  {
+    "songName": "いっしそう電☆舞舞神拳！",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.8271,
+    "genre": "maimai",
+    "level": 11.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "FEEL ALIVE",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.5851,
+    "genre": "maimai",
+    "level": 12.1,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ロウワー",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 99.7821,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.5,
+    "fcap": null
+  },
+  {
+    "songName": "疾走あんさんぶる",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.4271,
+    "genre": "東方Project",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "LANCE",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.4163,
+    "genre": "maimai",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "天国と地獄 -言ノ葉リンネ-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.3869,
+    "genre": "maimai",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Transcend Lights",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.6716,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11.5,
+    "fcap": null
+  },
+  {
+    "songName": "Phantasm Brigade",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.2688,
+    "genre": "東方Project",
+    "level": 11.7,
+    "fcap": null
+  },
+  {
+    "songName": "頓珍漢の宴",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.1492,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "クレイジークレイジーダンサーズ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.1245,
+    "genre": "東方Project",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "R'N'R Monsta",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 98.9898,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "ルカルカ★ナイトフィーバー",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.0702,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "分からない",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.0593,
+    "genre": "maimai",
+    "level": 11.7,
+    "fcap": null
+  },
+  {
+    "songName": "Grievous Lady",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 98.884,
+    "genre": "GAME＆VARIETY",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "INTERNET YAMERO",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7609,
+    "genre": "POPS＆ANIME",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ひれ伏せ愚民どもっ！",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.7,
+    "genre": "東方Project",
+    "level": 10.7,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "Baddest",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.6915,
+    "genre": "POPS＆ANIME",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "六兆年と一夜物語",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.6379,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.7,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "アンビバレンス",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.6037,
+    "genre": "maimai",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "DROPS feat. Such",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.5832,
+    "genre": "GAME＆VARIETY",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "地獄",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.5786,
+    "genre": "maimai",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "初音ミクの激唱",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.1191,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.4,
+    "fcap": null
+  },
+  {
+    "songName": "Deicide",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 98.7134,
+    "genre": "maimai",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "Halcyon",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.6529,
+    "genre": "GAME＆VARIETY",
+    "level": 11.4,
+    "fcap": null
+  },
+  {
+    "songName": "oboro",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.3866,
+    "genre": "maimai",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "サドマミホリック",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.2479,
+    "genre": "東方Project",
+    "level": 11.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "相思創愛",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.5169,
+    "genre": "maimai",
+    "level": 11.4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "HUMANBORG",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 98.2645,
+    "genre": "POPS＆ANIME",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "ドーナツホール",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.8394,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ウルトラトレーラー",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.4844,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11,
+    "fcap": null
+  },
+  {
+    "songName": "イカサマライフゲイム",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.6094,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.6,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "Jack-the-Ripper◆",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.7964,
+    "genre": "GAME＆VARIETY",
+    "level": 12.2,
+    "fcap": null
+  },
+  {
+    "songName": "BATTLE NO.1",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.7851,
+    "genre": "GAME＆VARIETY",
+    "level": 12.2,
+    "fcap": null
+  },
+  {
+    "songName": "MYTHOS",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.7459,
+    "genre": "maimai",
+    "level": 12.2,
+    "fcap": null
+  },
+  {
+    "songName": "チュルリラ・チュルリラ・ダッダッダ！",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.3461,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "oboro",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3351,
+    "genre": "maimai",
+    "level": 11,
+    "fcap": "FC"
+  },
+  {
+    "songName": "パラドクスイヴ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2331,
+    "genre": "",
+    "level": 11,
+    "fcap": "FC"
+  },
+  {
+    "songName": "taboo tears you up",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.8089,
+    "genre": "東方Project",
+    "level": 11.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "エテルニタス・ルドロジー",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.7588,
+    "genre": "東方Project",
+    "level": 11.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "End of Twilight",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.4172,
+    "genre": "maimai",
+    "level": 11.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "D✪N’T ST✪P R✪CKIN’",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.2719,
+    "genre": "maimai",
+    "level": 11.9,
+    "fcap": null
+  },
+  {
+    "songName": "最終鬼畜妹・一部声",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.2307,
+    "genre": "東方Project",
+    "level": 11.9,
+    "fcap": null
+  },
+  {
+    "songName": "進め！イッスン軍団 -Rebellion of the Dwarfs-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.5135,
+    "genre": "東方Project",
+    "level": 11.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "セハガガガンバッちゃう！！",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.1483,
+    "genre": "POPS＆ANIME",
+    "level": 11.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "VERTeX",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.0925,
+    "genre": "maimai",
+    "level": 11.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "エピクロスの虹はもう見えない",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.9104,
+    "genre": "東方Project",
+    "level": 11.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "初音ミクの消失",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.8951,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "神室雪月花",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.0297,
+    "genre": "GAME＆VARIETY",
+    "level": 12.2,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "最終鬼畜妹フランドール・S",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.7334,
+    "genre": "東方Project",
+    "level": 12.1,
+    "fcap": null
+  },
+  {
+    "songName": "プラネタリウム・レヴュー",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.9283,
+    "genre": "POPS＆ANIME",
+    "level": 10.5,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "さよならヒストリー",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.5861,
+    "genre": "東方Project",
+    "level": 10.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "吉原ラメント",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.6709,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "田中",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 97.6106,
+    "genre": "GAME＆VARIETY",
+    "level": 12.1,
+    "fcap": null
+  },
+  {
+    "songName": "天狗の落とし文 feat. ｙｔｒ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.4968,
+    "genre": "東方Project",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "Death Scythe",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.4588,
+    "genre": "maimai",
+    "level": 12.1,
+    "fcap": "FC"
+  },
+  {
+    "songName": "電車で電車でOPA!OPA!OPA! -GMT mashup-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.404,
+    "genre": "GAME＆VARIETY",
+    "level": 11.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "アマノジャクリバース feat. ｙｔｒ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.3192,
+    "genre": "東方Project",
+    "level": 11.4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "7thSense",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.1751,
+    "genre": "maimai",
+    "level": 11.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "brilliant better",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.8973,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "バーチャルダム　ネーション",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.4521,
+    "genre": "",
+    "level": 10.8
+  },
+  {
+    "songName": "空威張りビヘイビア",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.4166,
+    "genre": "maimai",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "リンカーネイション",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.4362,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "INTERNET OVERDOSE",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.177,
+    "genre": "POPS＆ANIME",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "ツクヨミステップ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.1593,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "ドキドキDREAM!!!",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.2229,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11.7,
+    "fcap": null
+  },
+  {
+    "songName": "ナイト・オブ・ナイツ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.1029,
+    "genre": "東方Project",
+    "level": 12,
+    "fcap": "FC"
+  },
+  {
+    "songName": "FEEL the BEATS",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.6904,
+    "genre": "maimai",
+    "level": 11.6,
+    "fcap": null
+  },
+  {
+    "songName": "FLOWER",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.5923,
+    "genre": "GAME＆VARIETY",
+    "level": 11.9,
+    "fcap": null
+  },
+  {
+    "songName": "シリウスの輝きのように",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.4323,
+    "genre": "POPS＆ANIME",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Beginning together!",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3803,
+    "genre": "maimai",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "幾望の月",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2894,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.7,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "その群青が愛しかったようだった",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.8646,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "FUJIN Rumble",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.3806,
+    "genre": "GAME＆VARIETY",
+    "level": 11.9,
+    "fcap": null
+  },
+  {
+    "songName": "Bad Apple!! feat.nomico ～五十嵐 撫子 Ver.～",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.1665,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "QUATTUORUX",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.0209,
+    "genre": "GAME＆VARIETY",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "宵の鳥",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.1431,
+    "genre": "maimai",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "Oshama Scramble!",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.226,
+    "genre": "maimai",
+    "level": 11.9,
+    "fcap": null
+  },
+  {
+    "songName": "蒼空に舞え、墨染の桜",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.687,
+    "genre": "東方Project",
+    "level": 11,
+    "fcap": "FC"
+  },
+  {
+    "songName": "GEMINI -M-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.1535,
+    "genre": "maimai",
+    "level": 11.9,
+    "fcap": null
+  },
+  {
+    "songName": "Help me, ERINNNNNN!!（Band ver.）",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.1929,
+    "genre": "東方Project",
+    "level": 11.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Brain Power",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.9697,
+    "genre": "GAME＆VARIETY",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "夢現妄想世界",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.0052,
+    "genre": "POPS＆ANIME",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "Knight Rider",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.1918,
+    "genre": "GAME＆VARIETY",
+    "level": 11.2,
+    "fcap": null
+  },
+  {
+    "songName": "CYBER Sparks",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.9135,
+    "genre": "東方Project",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "アンハッピーリフレイン",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.6209,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "閃鋼のブリューナク",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.5033,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "言ノ葉遊戯",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.9515,
+    "genre": "maimai",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "終わりなき物語",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.9393,
+    "genre": "GAME＆VARIETY",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ロストワンの号哭",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 96.2316,
+    "genre": "niconico＆VOCALOID™",
+    "level": 14.2,
+    "fcap": null
+  },
+  {
+    "songName": "Heartbeats",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.2372,
+    "genre": "maimai",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "チエルカ／エソテリカ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.3705,
+    "genre": "maimai",
+    "level": 14.3,
+    "fcap": null
+  },
+  {
+    "songName": "Nyan Cat EX",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.9101,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "魔ジョ狩リ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.2078,
+    "genre": "maimai",
+    "level": 11.1,
+    "fcap": null
+  },
+  {
+    "songName": "ゴーストルール",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.5627,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Space Harrier Main Theme [Reborn]",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.7581,
+    "genre": "GAME＆VARIETY",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "カゲロウデイズ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.5695,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "B.B.K.K.B.K.K.",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.8661,
+    "genre": "",
+    "level": 14
+  },
+  {
+    "songName": "エゴロック",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.4499,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Endless, Sleepless Night",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.9405,
+    "genre": "東方Project",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Alea jacta est!",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.1299,
+    "genre": "",
+    "level": 14.4
+  },
+  {
+    "songName": "BREAK YOU!!",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.473,
+    "genre": "maimai",
+    "level": 11,
+    "fcap": null
+  },
+  {
+    "songName": "クレイジークレイジーダンサーズ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.8194,
+    "genre": "東方Project",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "セツナトリップ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.4065,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11,
+    "fcap": "FC"
+  },
+  {
+    "songName": "神々が恋した幻想郷",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.7653,
+    "genre": "東方Project",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "木彫り鯰と右肩ゾンビ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.6831,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "幾四音-Ixion-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.6695,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "橙の幻想郷音頭",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.2455,
+    "genre": "東方Project",
+    "level": 11,
+    "fcap": null
+  },
+  {
+    "songName": "進捗どうですか？",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.2119,
+    "genre": "東方Project",
+    "level": 11,
+    "fcap": null
+  },
+  {
+    "songName": "東京リアルワールド",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.5799,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "ハート・ビート",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.5733,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Grievous Lady",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.0925,
+    "genre": "GAME＆VARIETY",
+    "level": 14.2,
+    "fcap": null
+  },
+  {
+    "songName": "Beautiful Future",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.5206,
+    "genre": "maimai",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "心象蜃気楼",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.0292,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11,
+    "fcap": null
+  },
+  {
+    "songName": "初音ミクの消失",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.9748,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "Scream out! -maimai SONIC WASHER Edit-",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.9646,
+    "genre": "東方Project",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "conflict",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.8914,
+    "genre": "GAME＆VARIETY",
+    "level": 14.2,
+    "fcap": null
+  },
+  {
+    "songName": "Cosmic Magic Shooter",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.8189,
+    "genre": "東方Project",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "ECHO",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.4387,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "源平大戦絵巻テーマソング",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.946,
+    "genre": "GAME＆VARIETY",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ナイト・オブ・ナイツ (Cranky Remix)",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.378,
+    "genre": "東方Project",
+    "level": 10.4,
+    "fcap": null
+  },
+  {
+    "songName": "カゲロウデイズ",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 95.1895,
+    "genre": "niconico＆VOCALOID™",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "人里に下ったアタイがいつの間にか社畜になっていた件",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.8676,
+    "genre": "GAME＆VARIETY",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "幻想のサテライト",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.1417,
+    "genre": "東方Project",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "FLOWER",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.4947,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "儚きもの人間",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.3333,
+    "genre": "東方Project",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "洗脳",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.7266,
+    "genre": "maimai",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Löschen",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 96.406,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "Mystic Parade",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7949,
+    "genre": "maimai",
+    "level": 10,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "すーぱーぬこになれんかった",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.76,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "ユメヒバナ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7212,
+    "genre": "maimai",
+    "level": 10,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ロストワードクロニカル",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.6859,
+    "genre": "東方Project",
+    "level": 10,
+    "fcap": "FC"
+  },
+  {
+    "songName": "麒麟",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.0291,
+    "genre": "GAME＆VARIETY",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "緋色のDance",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.694,
+    "genre": "東方Project",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "デッドレッドガールズ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.2654,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.9,
+    "fcap": null
+  },
+  {
+    "songName": "Jumble Rumble",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.6348,
+    "genre": "maimai",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "マツヨイナイトバグ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 96.261,
+    "genre": "東方Project",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "アージェントシンメトリー",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.1424,
+    "genre": "maimai",
+    "level": 10.9,
+    "fcap": null
+  },
+  {
+    "songName": "天火明命",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.5505,
+    "genre": "maimai",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "リリリリ★バーニングナイト",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 99.118,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "夜咄ディセイブ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.8458,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "Monochrome Rainbow",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.0283,
+    "genre": "maimai",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "デッドレッドガールズ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.6876,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "アマノジャクリバース feat. ｙｔｒ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.9488,
+    "genre": "東方Project",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "Nyan Cat EX",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.5157,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "Barbed Eye",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.4337,
+    "genre": "maimai",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "オモイヨシノ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.3877,
+    "genre": "GAME＆VARIETY",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "One Step Ahead",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.1407,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.2,
+    "fcap": null
+  },
+  {
+    "songName": "Edelweiss",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.5217,
+    "genre": "maimai",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "りばーぶ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.8314,
+    "genre": "maimai",
+    "level": 11.4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Like the Wind [Reborn]",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.8246,
+    "genre": "GAME＆VARIETY",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "幽闇に目醒めしは",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.0787,
+    "genre": "東方Project",
+    "level": 11.2,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Secret Sleuth",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.2545,
+    "genre": "maimai",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "Good Bye, Mr. Jack",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.447,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "Infantoon Fantasy",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.1369,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "赤心性：カマトト荒療治",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.5625,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "+♂",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.6328,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "妄想感傷代償連盟",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 97.7123,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.4,
+    "fcap": null
+  },
+  {
+    "songName": "Life Feels Good",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.7897,
+    "genre": "maimai",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "Death Scythe",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.0574,
+    "genre": "maimai",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "光線チューニング",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.7222,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "立川浄穢捕物帳",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 96.019,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "Lionheart",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.6349,
+    "genre": "maimai",
+    "level": 11.4,
+    "fcap": null
+  },
+  {
+    "songName": "四次元跳躍機関",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.082,
+    "genre": "東方Project",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "FEEL ALIVE",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.6909,
+    "genre": "maimai",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "すーぱーぬこになりたい",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.664,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "儚きもの人間",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.928,
+    "genre": "東方Project",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "立ち入り禁止",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 95.8656,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "GRÄNDIR",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.1283,
+    "genre": "maimai",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "Like the Wind [Reborn]",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.2961,
+    "genre": "GAME＆VARIETY",
+    "level": 11.4,
+    "fcap": null
+  },
+  {
+    "songName": "勇者",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.9218,
+    "genre": "POPS＆ANIME",
+    "level": 9.8,
+    "fcap": "AP"
+  },
+  {
+    "songName": "最終鬼畜妹・一部声",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.8689,
+    "genre": "東方Project",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "Kattobi KEIKYU Rider",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.2235,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "最終鬼畜妹フランドール・S",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 96.2195,
+    "genre": "東方Project",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "Altale",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.1979,
+    "genre": "GAME＆VARIETY",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "裏表ラバーズ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.7619,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "コトバ・カラフル",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.0822,
+    "genre": "GAME＆VARIETY",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "魔ジョ狩リ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 96.0792,
+    "genre": "maimai",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "単一指向性オーバーブルーム",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.352,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 10.2,
+    "fcap": null
+  },
+  {
+    "songName": "星界ちゃんと可不ちゃんのおつかい合騒曲",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.3533,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "No Routine",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.9747,
+    "genre": "東方Project",
+    "level": 11,
+    "fcap": "FC"
+  },
+  {
+    "songName": "FEEL the BEATS",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.6558,
+    "genre": "maimai",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "進め！イッスン軍団 -Rebellion of the Dwarfs-",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.9104,
+    "genre": "東方Project",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "スリップフリップ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.1828,
+    "genre": "maimai",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "Revive The Rave",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.1776,
+    "genre": "maimai",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "We Gonna Journey",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.4887,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "頓珍漢の宴",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.161,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "ラビットホール",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.8804,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.8,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "廻廻奇譚",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.8406,
+    "genre": "POPS＆ANIME",
+    "level": 9.8,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "転生林檎",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7838,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.8,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "ザムザ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7212,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "アイドル",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.7033,
+    "genre": "POPS＆ANIME",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ラットが死んだnew words",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.6774,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ULTRA B+K",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.4402,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "シアワセうさぎ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 98.7331,
+    "genre": "東方Project",
+    "level": 11,
+    "fcap": "FC"
+  },
+  {
+    "songName": "幻想のサテライト",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.5106,
+    "genre": "東方Project",
+    "level": 11.3,
+    "fcap": null
+  },
+  {
+    "songName": "ヴァンパイア",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.0148,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.2,
+    "fcap": "FC"
+  },
+  {
+    "songName": "林檎華憐歌",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.4479,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "GEMINI -M-",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.2545,
+    "genre": "maimai",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "Geranium",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.5877,
+    "genre": "maimai",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "DRAGONLADY",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.1711,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "DETARAME ROCK&ROLL THEORY",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.4054,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11,
+    "fcap": null
+  },
+  {
+    "songName": "Mystic Parade",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 96.8228,
+    "genre": "maimai",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "天ノ弱",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.1969,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11,
+    "fcap": "FC"
+  },
+  {
+    "songName": "宿題が終わらないっ！",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.361,
+    "genre": "東方Project",
+    "level": 10.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Dragoon",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.9442,
+    "genre": "maimai",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Scars of FAUNA",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.5671,
+    "genre": "GAME＆VARIETY",
+    "level": 11.2,
+    "fcap": null
+  },
+  {
+    "songName": "REVIVER オルタンシア・サーガ -蒼の騎士団- オリジナルVer.",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.688,
+    "genre": "POPS＆ANIME",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "アイディスマイル",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.5642,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ウミユリ海底譚",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.5312,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "バッド・ダンス・ホール",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.9546,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "ロストワードクロニカル",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 96.9343,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "絶え間なく藍色",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 96.9194,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "Baddest",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 94.7945,
+    "genre": "POPS＆ANIME",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "管弦楽組曲 第3番 ニ長調「第2曲（G線上のアリア）」BWV.1068-2",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 94.0868,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "planet dancer",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.3617,
+    "genre": "maimai",
+    "level": 11.2,
+    "fcap": null
+  },
+  {
+    "songName": "energy trixxx",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 94.0589,
+    "genre": "GAME＆VARIETY",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "RIDGE RACER STEPS -GMT remix-",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.8238,
+    "genre": "GAME＆VARIETY",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "ドーナツホール",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.3571,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "ウミユリ海底譚",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.768,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "厨病激発ボーイ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.4004,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.9,
+    "fcap": null
+  },
+  {
+    "songName": "神々が恋した幻想郷",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.9852,
+    "genre": "東方Project",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "セツナトリップ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 96.5555,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "彗星ハネムーン",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.4182,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "紅星ミゼラブル～廃憶編",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.4674,
+    "genre": "東方Project",
+    "level": 10,
+    "fcap": null
+  },
+  {
+    "songName": "心象蜃気楼",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.2868,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "ヒバナ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.6345,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.1,
+    "fcap": null
+  },
+  {
+    "songName": "CYCLES",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.8467,
+    "genre": "maimai",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "きゅうくらりん",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 94.133,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "ロストワンの号哭",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.8092,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "DO RORO DERODERO ON DO RORO",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.1109,
+    "genre": "GAME＆VARIETY",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "Oshama Scramble!",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 94.7873,
+    "genre": "maimai",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "私の中の幻想的世界観及びその顕現を想起させたある現実での出来事に関する一考察",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.1996,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "connecting with you",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.7104,
+    "genre": "maimai",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Halcyon",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.4185,
+    "genre": "GAME＆VARIETY",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "Now or Never",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.3939,
+    "genre": "maimai",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "インドア系ならトラックメイカー",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.0225,
+    "genre": "POPS＆ANIME",
+    "level": 10.5,
+    "fcap": null
+  },
+  {
+    "songName": "鼓動",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.5934,
+    "genre": "GAME＆VARIETY",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "キミノヨゾラ哨戒班",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.5586,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "Seyana. ～何でも言うことを聞いてくれるアカネチャン～",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.5955,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "ハート・ビート",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.867,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "Blew Moon",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.8504,
+    "genre": "maimai",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "ダンシング☆サムライ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.0743,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.1,
+    "fcap": "FC"
+  },
+  {
+    "songName": "おこちゃま戦争",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.2875,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Danza zandA",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.2745,
+    "genre": "maimai",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "きたさいたま2000",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 96.3795,
+    "genre": "GAME＆VARIETY",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "テオ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 98.0879,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "BAD∞END∞NIGHT",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.9532,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "響け！CHIREI MY WAY!",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.9428,
+    "genre": "東方Project",
+    "level": 9.5,
+    "fcap": "AP"
+  },
+  {
+    "songName": "悪戯",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.3208,
+    "genre": "maimai",
+    "level": 10.4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ウッーウッーウマウマ(ﾟ∀ﾟ)",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.3895,
+    "genre": "POPS＆ANIME",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "Change Our MIRAI！",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.6021,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 11,
+    "fcap": "FC"
+  },
+  {
+    "songName": "究極焼肉レストラン！お燐の地獄亭！",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.8448,
+    "genre": "東方Project",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "Yet Another ”drizzly rain”",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.2344,
+    "genre": "東方Project",
+    "level": 10.4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ぽっぴっぽー",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.0505,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "ばかみたい【Taxi Driver Edition】",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.2966,
+    "genre": "GAME＆VARIETY",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "welcome to maimai!! with マイマイマー",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.3062,
+    "genre": "maimai",
+    "level": 9.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "パラドクスイヴ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 94.5584,
+    "genre": "maimai",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "インドア系ならトラックメイカー",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.2559,
+    "genre": "POPS＆ANIME",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "東方スイーツ！～鬼畜姉妹と受難メイド～",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.7015,
+    "genre": "東方Project",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "失敗作少女",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.5518,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.2,
+    "fcap": null
+  },
+  {
+    "songName": "月に叢雲華に風",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.6101,
+    "genre": "東方Project",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "患部で止まってすぐ溶ける～狂気の優曇華院",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.6277,
+    "genre": "東方Project",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "バグ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.5214,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.2,
+    "fcap": null
+  },
+  {
+    "songName": "Blew Moon",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 95.1273,
+    "genre": "maimai",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "アディショナルメモリー",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.1345,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "紅星ミゼラブル～廃憶編",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 96.4841,
+    "genre": "東方Project",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "唱",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.8483,
+    "genre": "POPS＆ANIME",
+    "level": 9.5,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "White Traveling Girl",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.4468,
+    "genre": "東方Project",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "M.S.S.Planet",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.3931,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "キラメキ居残り大戦争",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 96.2366,
+    "genre": "GAME＆VARIETY",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "ローリンガール",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.2301,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "DO RORO DERODERO ON DO RORO",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 96.2137,
+    "genre": "GAME＆VARIETY",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "HIMITSUスパーク",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.1836,
+    "genre": "POPS＆ANIME",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "砂の惑星 feat. HATSUNE MIKU",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.173,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "Link",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.1663,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "フィクサー",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.4616,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Grip & Break down !!",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.639,
+    "genre": "東方Project",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "Cosmic Train",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.7182,
+    "genre": "maimai",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "パーフェクト生命",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.9294,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.1,
+    "fcap": "FC"
+  },
+  {
+    "songName": "踊",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 95.9265,
+    "genre": "POPS＆ANIME",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "ジングルベル",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.5339,
+    "genre": "maimai",
+    "level": 10.9,
+    "fcap": null
+  },
+  {
+    "songName": "大輪の魂 (feat. AO, 司芭扶)",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3972,
+    "genre": "東方Project",
+    "level": 9.8,
+    "fcap": null
+  },
+  {
+    "songName": "バラライカ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.3953,
+    "genre": "POPS＆ANIME",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "解けないように",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3898,
+    "genre": "東方Project",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "色は匂へど散りぬるを",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.25,
+    "genre": "東方Project",
+    "level": 9.8,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "Save This World νMIX",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.6111,
+    "genre": "GAME＆VARIETY",
+    "level": 10.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Bad Apple!! feat.nomico",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.5918,
+    "genre": "東方Project",
+    "level": 10.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ヒステリックナイトガール",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2194,
+    "genre": "GAME＆VARIETY",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Reach For The Stars",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.236,
+    "genre": "GAME＆VARIETY",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "アンクローズ・ヒューマン",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.055,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.8,
+    "fcap": null
+  },
+  {
+    "songName": "弱虫モンブラン",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.0523,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "最速最高シャッターガール",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.024,
+    "genre": "東方Project",
+    "level": 10.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "すーぱーぬこになりたい",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.9015,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "少女幻葬戦慄曲 ～ Necro Fantasia",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.8037,
+    "genre": "東方Project",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "ナミダと流星",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.7857,
+    "genre": "maimai",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "天ノ弱",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.876,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10,
+    "fcap": "FC"
+  },
+  {
+    "songName": "月に叢雲華に風",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.7757,
+    "genre": "東方Project",
+    "level": 10,
+    "fcap": "FC"
+  },
+  {
+    "songName": "命ばっかり",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.767,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10,
+    "fcap": "FC"
+  },
+  {
+    "songName": "BETTER CHOICE",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.3611,
+    "genre": "maimai",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "デビルじゃないもん",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3423,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.7,
+    "fcap": null
+  },
+  {
+    "songName": "恋愛裁判",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.6005,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10,
+    "fcap": null
+  },
+  {
+    "songName": "ケロ⑨destiny",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.2182,
+    "genre": "東方Project",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "Cosmic Magic Shooter",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.2696,
+    "genre": "東方Project",
+    "level": 10.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "フリィダム ロリィタ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.5562,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10,
+    "fcap": null
+  },
+  {
+    "songName": "Sweets Time",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.5165,
+    "genre": "東方Project",
+    "level": 10,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Back 2 Back",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.1993,
+    "genre": "GAME＆VARIETY",
+    "level": 10.8,
+    "fcap": null
+  },
+  {
+    "songName": "Grip & Break down !!",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.1875,
+    "genre": "東方Project",
+    "level": 9.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Hand in Hand",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.3836,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.5,
+    "fcap": null
+  },
+  {
+    "songName": "失敗作少女",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 95.1763,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "ストリーミングハート",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.8314,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "MIRROR of MAGIC",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.8084,
+    "genre": "maimai",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "VERTeX",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.6683,
+    "genre": "maimai",
+    "level": 14.7,
+    "fcap": null
+  },
+  {
+    "songName": "ぴぴぱぷぅ！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.5266,
+    "genre": "maimai",
+    "level": 12.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "言ノ葉カルマ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.7138,
+    "genre": "maimai",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "ねぇ、壊れタ人形ハ何処へ棄テらレるノ？",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 95.7413,
+    "genre": "maimai",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "スリップフリップ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.7,
+    "genre": "maimai",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "やめろ！聴くな！",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.4688,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.1,
+    "fcap": "FC"
+  },
+  {
+    "songName": "sweet little sister",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.6299,
+    "genre": "東方Project",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "エピクロスの虹はもう見えない",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 94.2009,
+    "genre": "東方Project",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "larva",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.7995,
+    "genre": "maimai",
+    "level": 14.8,
+    "fcap": null
+  },
+  {
+    "songName": "東方スイーツ！～鬼畜姉妹と受難メイド～",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 94.1005,
+    "genre": "東方Project",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "Re:Unknown X",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 93.3753,
+    "genre": "東方Project",
+    "level": 14.7,
+    "fcap": null
+  },
+  {
+    "songName": "りばーぶ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.7745,
+    "genre": "maimai",
+    "level": 9.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "BREaK! BREaK! BREaK!",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 96.9096,
+    "genre": "maimai",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "囲い無き世は一期の月影",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.3106,
+    "genre": "東方Project",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "踊れオーケストラ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.683,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.9,
+    "fcap": null
+  },
+  {
+    "songName": "Garakuta Doll Play",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 92.4846,
+    "genre": "maimai",
+    "level": 14.8,
+    "fcap": null
+  },
+  {
+    "songName": "Got more raves？",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 96.6402,
+    "genre": "GAME＆VARIETY",
+    "level": 12.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Glorious Crown",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.0742,
+    "genre": "maimai",
+    "level": 14.8,
+    "fcap": null
+  },
+  {
+    "songName": "愛包ダンスホール",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.8693,
+    "genre": "POPS＆ANIME",
+    "level": 9.2,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "Conquista Ciela",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.9593,
+    "genre": "GAME＆VARIETY",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "CITRUS MONSTER",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.8364,
+    "genre": "maimai",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "超熊猫的周遊記（ワンダーパンダートラベラー）",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 96.9282,
+    "genre": "maimai",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "Oshama Scramble!",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.7005,
+    "genre": "maimai",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "物凄い勢いでけーねが物凄いうた",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.7305,
+    "genre": "東方Project",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "若い力 -SEGA HARD GIRLS MIX-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.0952,
+    "genre": "POPS＆ANIME",
+    "level": 10,
+    "fcap": null
+  },
+  {
+    "songName": "テレキャスタービーボーイ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.54,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.8,
+    "fcap": null
+  },
+  {
+    "songName": "ガラテアの螺旋",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.5743,
+    "genre": "maimai",
+    "level": 14.6,
+    "fcap": null
+  },
+  {
+    "songName": "7thSense",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.8434,
+    "genre": "maimai",
+    "level": 14.4,
+    "fcap": null
+  },
+  {
+    "songName": "Tell Your World",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.7935,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "神室雪月花",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.1234,
+    "genre": "GAME＆VARIETY",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "Re：End of a Dream",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 93.5722,
+    "genre": "",
+    "level": 14.4
+  },
+  {
+    "songName": "Fragrance",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 95.8776,
+    "genre": "maimai",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "最速最高シャッターガール",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.5548,
+    "genre": "東方Project",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "イノコリ先生",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.1877,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "響縁",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.7631,
+    "genre": "東方Project",
+    "level": 9.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ワールズエンド・ダンスホール",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.753,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.7,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "Invitation",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.1139,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 9.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "しゅわスパ大作戦☆",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.0449,
+    "genre": "東方Project",
+    "level": 9.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Schwarzschild",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.7596,
+    "genre": "maimai",
+    "level": 14.3,
+    "fcap": null
+  },
+  {
+    "songName": "幻想に咲いた花",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.5487,
+    "genre": "東方Project",
+    "level": 9.7,
+    "fcap": null
+  },
+  {
+    "songName": "六兆年と一夜物語",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.3064,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "弱虫モンブラン",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 95.3834,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "MYTHOS",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.9015,
+    "genre": "maimai",
+    "level": 14.4,
+    "fcap": null
+  },
+  {
+    "songName": "MarbleBlue.",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 92.2065,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "Deicide",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 92.8033,
+    "genre": "maimai",
+    "level": 14.4,
+    "fcap": null
+  },
+  {
+    "songName": "Axeria",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.0987,
+    "genre": "maimai",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "Mysterious Destiny",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 95.1173,
+    "genre": "GAME＆VARIETY",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "ガラテアの螺旋",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 90.8032,
+    "genre": "maimai",
+    "level": 14.7,
+    "fcap": null
+  },
+  {
+    "songName": "エンドマークに希望と涙を添えて",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.3007,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14.3,
+    "fcap": null
+  },
+  {
+    "songName": "明星ロケット",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 95.0063,
+    "genre": "東方Project",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "無敵We are one!!",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.8324,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 10.1,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Ignis Danse",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 91.9135,
+    "genre": "GAME＆VARIETY",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "妄想感傷代償連盟",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.1312,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.8,
+    "fcap": null
+  },
+  {
+    "songName": "シャルル",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.1155,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Tell Your World",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.9401,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.4,
+    "fcap": null
+  },
+  {
+    "songName": "イアイア★ナイトオブデザイア",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.0151,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.8,
+    "fcap": null
+  },
+  {
+    "songName": "Chronomia",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 93.2371,
+    "genre": "GAME＆VARIETY",
+    "level": 14.2,
+    "fcap": null
+  },
+  {
+    "songName": "ViRTUS",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 90.5346,
+    "genre": "maimai",
+    "level": 14.6,
+    "fcap": null
+  },
+  {
+    "songName": "ナイト・オブ・ナイツ",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 91.7758,
+    "genre": "東方Project",
+    "level": 14.4,
+    "fcap": null
+  },
+  {
+    "songName": "Prophesy One",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 90.353,
+    "genre": "maimai",
+    "level": 14.6,
+    "fcap": null
+  },
+  {
+    "songName": "リリリリ★バーニングナイト",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.3664,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "トルコ行進曲 - オワタ＼(^o^)／",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.652,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10,
+    "fcap": "FC"
+  },
+  {
+    "songName": "レッツゴー!陰陽師",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.2307,
+    "genre": "GAME＆VARIETY",
+    "level": 9.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Credits",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 90.1387,
+    "genre": "GAME＆VARIETY",
+    "level": 14.6,
+    "fcap": null
+  },
+  {
+    "songName": "幸せになれる隠しコマンドがあるらしい",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.7318,
+    "genre": "niconico＆VOCALOID™",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "ダンスロボットダンス",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.2008,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.2,
+    "fcap": null
+  },
+  {
+    "songName": "Ai C",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 93.3762,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "エピクロスの虹はもう見えない",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.8433,
+    "genre": "東方Project",
+    "level": 9.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "デスパレイト",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.9548,
+    "genre": "maimai",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "患部で止まってすぐ溶ける～狂気の優曇華院",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 93.216,
+    "genre": "東方Project",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "閃鋼のブリューナク",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.7627,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "東方妖々夢 ～the maximum moving about～",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.5267,
+    "genre": "東方Project",
+    "level": 9.9,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "深海少女",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.4133,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "東京リアルワールド",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.6815,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "不毛！",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.8571,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.1,
+    "fcap": null
+  },
+  {
+    "songName": "からくりピエロ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.6604,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.1,
+    "fcap": "FC"
+  },
+  {
+    "songName": "フラグメンツ -T.V. maimai edit-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.0813,
+    "genre": "東方Project",
+    "level": 9.9,
+    "fcap": null
+  },
+  {
+    "songName": "DETARAME ROCK&ROLL THEORY",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.7671,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "ぐるぐるWASH！コインランドリー・ディスコ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.8612,
+    "genre": "maimai",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "keep hopping",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.8773,
+    "genre": "maimai",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "フラジール",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.6115,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.8,
+    "fcap": null
+  },
+  {
+    "songName": "高気圧ねこロック",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.5072,
+    "genre": "maimai",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "Hyper Active",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.7152,
+    "genre": "maimai",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "magician's operation",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.9817,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "待チ人ハ来ズ。",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.2142,
+    "genre": "東方Project",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "雨とペトラ",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.4802,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Tricolor⁂circuS",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 91.7702,
+    "genre": "maimai",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "CYBER Sparks",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 93.0838,
+    "genre": "東方Project",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "LANCE",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.0682,
+    "genre": "maimai",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "脳漿炸裂ガール",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 91.0709,
+    "genre": "niconico＆VOCALOID™",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "炎歌 -ほむらうた-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 96.8129,
+    "genre": "maimai",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "初音天地開闢神話",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 92.3229,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "ローリンガール",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.043,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "明星ロケット",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.5126,
+    "genre": "東方Project",
+    "level": 10,
+    "fcap": null
+  },
+  {
+    "songName": "腐れ外道とチョコレゐト",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.6235,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "もうみんなしねばいいのに",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 91.5541,
+    "genre": "東方Project",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "Sakura Fubuki",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.1444,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "NightTheater",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 92.0225,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "City Escape: Act1",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.5589,
+    "genre": "GAME＆VARIETY",
+    "level": 9.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "BAD∞END∞NIGHT",
+    "chartType": 0,
+    "difficulty": 1,
+    "achievement": 100.5312,
+    "genre": "niconico＆VOCALOID™",
+    "level": 8.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "バカ通信",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 93.5314,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "Back 2 Back",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.8161,
+    "genre": "GAME＆VARIETY",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "ウッーウッーウマウマ(ﾟ∀ﾟ)",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.1196,
+    "genre": "POPS＆ANIME",
+    "level": 9.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ワンダーシャッフェンの法則",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 90.0256,
+    "genre": "maimai",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "Redemption",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 91.2809,
+    "genre": "maimai",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "CHOCOLATE BOMB!!!!",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 92.5718,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.7,
+    "fcap": null
+  },
+  {
+    "songName": "Sound Chimera",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 91.0514,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "Scars of FAUNA",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 91.6994,
+    "genre": "GAME＆VARIETY",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "OTOGEMA",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 92.9671,
+    "genre": "maimai",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "タカハせ！名人マン",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.8523,
+    "genre": "maimai",
+    "level": 9.8,
+    "fcap": null
+  },
+  {
+    "songName": "踊",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 100.902,
+    "genre": "POPS＆ANIME",
+    "level": 8.5,
+    "fcap": "FC+"
+  },
+  {
+    "songName": "ECHO",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.8824,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "YATTA!",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 96.7187,
+    "genre": "POPS＆ANIME",
+    "level": 11.7,
+    "fcap": null
+  },
+  {
+    "songName": "Bad Apple!! feat.nomico (Tetsuya Komuro Remix)",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 93.8617,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "華鳥風月",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.6939,
+    "genre": "東方Project",
+    "level": 9.7,
+    "fcap": null
+  },
+  {
+    "songName": "ナンセンス文学",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 91.5075,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.6,
+    "fcap": null
+  },
+  {
+    "songName": "Ignite Infinity",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 94.2352,
+    "genre": "GAME＆VARIETY",
+    "level": 11.9,
+    "fcap": null
+  },
+  {
+    "songName": "リッジでリッジでGO!GO!GO! -GMT mashup-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 94.8546,
+    "genre": "GAME＆VARIETY",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "Dragoon",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.1855,
+    "genre": "maimai",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "maiム・maiム feat.週刊少年マガジン",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 96.2586,
+    "genre": "maimai",
+    "level": 11.6,
+    "fcap": null
+  },
+  {
+    "songName": "ロウワー",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 91.3752,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "緋色のDance",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 92.526,
+    "genre": "東方Project",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "ハッピーシンセサイザ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 97.3607,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ルカルカ★ナイトフィーバー",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.9244,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "コトバ・カラフル",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 100.4333,
+    "genre": "GAME＆VARIETY",
+    "level": 8.6,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ボッカデラベリタ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 92.5481,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "shake it!",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 99.0963,
+    "genre": "niconico＆VOCALOID™",
+    "level": 9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "神々の祈り",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.2456,
+    "genre": "東方Project",
+    "level": 9.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Lionheart",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 90.9174,
+    "genre": "maimai",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "Magical Flavor",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 91.5375,
+    "genre": "maimai",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "ネ！コ！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.7338,
+    "genre": "POPS＆ANIME",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "極圏",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 93.616,
+    "genre": "GAME＆VARIETY",
+    "level": 12.9,
+    "fcap": null
+  },
+  {
+    "songName": "待チ人ハ来ズ。",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 91.3447,
+    "genre": "東方Project",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "幽霊東京",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 99.7489,
+    "genre": "niconico＆VOCALOID™",
+    "level": 8.7,
+    "fcap": null
+  },
+  {
+    "songName": "Live & Learn",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 96.1861,
+    "genre": "GAME＆VARIETY",
+    "level": 11.3,
+    "fcap": null
+  },
+  {
+    "songName": "鼓動",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 90.323,
+    "genre": "GAME＆VARIETY",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "キズナの物語",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.2442,
+    "genre": "GAME＆VARIETY",
+    "level": 9.1,
+    "fcap": "FC"
+  },
+  {
+    "songName": "World's end loneliness",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 89.543,
+    "genre": "",
+    "level": 14.9
+  },
+  {
+    "songName": "深海少女",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 90.3634,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "TRUST",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 90.9626,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.1,
+    "fcap": null
+  },
+  {
+    "songName": "Excalibur ～Revived resolution～",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 89.5934,
+    "genre": "maimai",
+    "level": 14.8,
+    "fcap": null
+  },
+  {
+    "songName": "ロミオとシンデレラ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 96.6105,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.1,
+    "fcap": "FC"
+  },
+  {
+    "songName": "Cryptarithm",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 89.7562,
+    "genre": "maimai",
+    "level": 14.7,
+    "fcap": null
+  },
+  {
+    "songName": "Latent Kingdom",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 88.0978,
+    "genre": "maimai",
+    "level": 14.9,
+    "fcap": null
+  },
+  {
+    "songName": "雷切-RAIKIRI-",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 89.8741,
+    "genre": "maimai",
+    "level": 14.6,
+    "fcap": null
+  },
+  {
+    "songName": "SHOW TIME",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.3802,
+    "genre": "GAME＆VARIETY",
+    "level": 8.9,
+    "fcap": "FC"
+  },
+  {
+    "songName": "AMAZING MIGHTYYYY!!!!",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 88.8922,
+    "genre": "maimai",
+    "level": 14.7,
+    "fcap": null
+  },
+  {
+    "songName": "SHOW TIME",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 93.0804,
+    "genre": "GAME＆VARIETY",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "ねぇ、壊れタ人形ハ何処へ棄テらレるノ？",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 89.6304,
+    "genre": "maimai",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "Pixel Voyage",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 90.8125,
+    "genre": "maimai",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "Our Wrenally",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 87.3089,
+    "genre": "maimai",
+    "level": 14.8,
+    "fcap": null
+  },
+  {
+    "songName": "シアワセうさぎ",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 98.3123,
+    "genre": "東方Project",
+    "level": 8.8,
+    "fcap": null
+  },
+  {
+    "songName": "Xevel",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 89.9383,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14.3,
+    "fcap": null
+  },
+  {
+    "songName": "Outlaw's Lullaby",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 96.914,
+    "genre": "GAME＆VARIETY",
+    "level": 10.7,
+    "fcap": "FC"
+  },
+  {
+    "songName": "HERA",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 89.4142,
+    "genre": "maimai",
+    "level": 14.3,
+    "fcap": null
+  },
+  {
+    "songName": "Windy Hill -Zone 1",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 94.0669,
+    "genre": "GAME＆VARIETY",
+    "level": 11,
+    "fcap": null
+  },
+  {
+    "songName": "ジングルベル",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 88.5524,
+    "genre": "maimai",
+    "level": 14.4,
+    "fcap": null
+  },
+  {
+    "songName": "AMABIE",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 87.3343,
+    "genre": "maimai",
+    "level": 14.6,
+    "fcap": null
+  },
+  {
+    "songName": "Titania",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 87.29,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14.6,
+    "fcap": null
+  },
+  {
+    "songName": "the EmpErroR",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 85.7208,
+    "genre": "maimai",
+    "level": 14.8,
+    "fcap": null
+  },
+  {
+    "songName": "the EmpErroR",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 85.1256,
+    "genre": "maimai",
+    "level": 14.9,
+    "fcap": null
+  },
+  {
+    "songName": "Brand-new Japanesque",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 95.7173,
+    "genre": "GAME＆VARIETY",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "FUJIN Rumble",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 87.0275,
+    "genre": "GAME＆VARIETY",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "Ragnarok",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 89.4153,
+    "genre": "maimai",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "PANDORA PARADOXXX",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 84.5797,
+    "genre": "maimai",
+    "level": 14.9,
+    "fcap": null
+  },
+  {
+    "songName": "AMAZING MIGHTYYYY!!!!",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 86.7321,
+    "genre": "maimai",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "Moon of Noon",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 87.3338,
+    "genre": "maimai",
+    "level": 14.4,
+    "fcap": null
+  },
+  {
+    "songName": "BATTLE NO.1",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 86.5606,
+    "genre": "GAME＆VARIETY",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "Panopticon",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 86.5983,
+    "genre": "maimai",
+    "level": 14.4,
+    "fcap": null
+  },
+  {
+    "songName": "きたさいたま2000",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 87.7536,
+    "genre": "GAME＆VARIETY",
+    "level": 14.2,
+    "fcap": null
+  },
+  {
+    "songName": "魔法少女になるしかねぇ",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 88.7381,
+    "genre": "GAME＆VARIETY",
+    "level": 14,
+    "fcap": null
+  },
+  {
+    "songName": "D✪N’T ST✪P R✪CKIN’",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 89.8658,
+    "genre": "maimai",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "花と、雪と、ドラムンベース。",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 89.8533,
+    "genre": "maimai",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "Starlight Disco",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 93.1648,
+    "genre": "maimai",
+    "level": 11.9,
+    "fcap": null
+  },
+  {
+    "songName": "バグ",
+    "chartType": 1,
+    "difficulty": 4,
+    "achievement": 89.7375,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.8,
+    "fcap": null
+  },
+  {
+    "songName": "KING is BACK!!",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 89.063,
+    "genre": "maimai",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "躯樹の墓守",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 82.7041,
+    "genre": "maimai",
+    "level": 14.9,
+    "fcap": null
+  },
+  {
+    "songName": "Fragrance",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 86.7616,
+    "genre": "maimai",
+    "level": 14.2,
+    "fcap": null
+  },
+  {
+    "songName": "TiamaT:F minor",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 84.3437,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14.6,
+    "fcap": null
+  },
+  {
+    "songName": "DADDY MULK -Groove remix-",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 91.6338,
+    "genre": "GAME＆VARIETY",
+    "level": 12,
+    "fcap": null
+  },
+  {
+    "songName": "PANDORA PARADOXXX",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 81.5018,
+    "genre": "maimai",
+    "level": 15,
+    "fcap": null
+  },
+  {
+    "songName": "magician's operation",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 92.6004,
+    "genre": "niconico＆VOCALOID™",
+    "level": 11.8,
+    "fcap": null
+  },
+  {
+    "songName": "火炎地獄",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 86.594,
+    "genre": "maimai",
+    "level": 14.1,
+    "fcap": null
+  },
+  {
+    "songName": "Terminal Storm",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 93.647,
+    "genre": "GAME＆VARIETY",
+    "level": 11.6,
+    "fcap": null
+  },
+  {
+    "songName": "もぺもぺ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 86.8577,
+    "genre": "GAME＆VARIETY",
+    "level": 13.9,
+    "fcap": null
+  },
+  {
+    "songName": "Transcend Lights",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 89.3012,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 13.5,
+    "fcap": null
+  },
+  {
+    "songName": "怒槌",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 81.3269,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14.8,
+    "fcap": null
+  },
+  {
+    "songName": "有明/Ariake",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 83.3434,
+    "genre": "",
+    "level": 14.4
+  },
+  {
+    "songName": "otorii INNOVATED -[i]3-",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 82.5887,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14.5,
+    "fcap": null
+  },
+  {
+    "songName": "Windy Hill -Zone 1",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 86.5509,
+    "genre": "GAME＆VARIETY",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "UniTas",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 80.5264,
+    "genre": "maimai",
+    "level": 14.4,
+    "fcap": null
+  },
+  {
+    "songName": "Climax",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 80.5975,
+    "genre": "オンゲキ＆CHUNITHM",
+    "level": 14.3,
+    "fcap": null
+  },
+  {
+    "songName": "地上の戦士",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 90.2191,
+    "genre": "GAME＆VARIETY",
+    "level": 11.4,
+    "fcap": null
+  },
+  {
+    "songName": "YA･DA･YO [Reborn]",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 87.3265,
+    "genre": "GAME＆VARIETY",
+    "level": 13,
+    "fcap": null
+  },
+  {
+    "songName": "KONNANじゃないっ！",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 84.2126,
+    "genre": "GAME＆VARIETY",
+    "level": 13.4,
+    "fcap": null
+  },
+  {
+    "songName": "放課後ストライド",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 93.5362,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "スイートマジック",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 93.3812,
+    "genre": "niconico＆VOCALOID™",
+    "level": 10.7,
+    "fcap": null
+  },
+  {
+    "songName": "Link",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 88.4248,
+    "genre": "maimai",
+    "level": 12.6,
+    "fcap": null
+  },
+  {
+    "songName": "放課後ストライド",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 83.6466,
+    "genre": "niconico＆VOCALOID™",
+    "level": 13.3,
+    "fcap": null
+  },
+  {
+    "songName": "System “Z”",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 86.7637,
+    "genre": "maimai",
+    "level": 12.8,
+    "fcap": null
+  },
+  {
+    "songName": "かせげ！ジャリンコヒーロー",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 87.7554,
+    "genre": "GAME＆VARIETY",
+    "level": 12.5,
+    "fcap": null
+  },
+  {
+    "songName": "maiム・maiム feat.週刊少年マガジン",
+    "chartType": 0,
+    "difficulty": 3,
+    "achievement": 82.0084,
+    "genre": "maimai",
+    "level": 13.2,
+    "fcap": null
+  },
+  {
+    "songName": "グリーンライツ・セレナーデ",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 80.43,
+    "genre": "niconico＆VOCALOID™",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "Straight into the lights",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 77.8091,
+    "genre": "maimai",
+    "level": 14.8,
+    "fcap": null
+  },
+  {
+    "songName": "かせげ！ジャリンコヒーロー",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 92.7201,
+    "genre": "GAME＆VARIETY",
+    "level": 9.8,
+    "fcap": "FC"
+  },
+  {
+    "songName": "DRAGONLADY",
+    "chartType": 0,
+    "difficulty": 1,
+    "achievement": 96.7064,
+    "genre": "GAME＆VARIETY",
+    "level": 8.4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "CYCLES",
+    "chartType": 0,
+    "difficulty": 0,
+    "achievement": 101,
+    "genre": "maimai",
+    "level": 6,
+    "fcap": "AP+"
+  },
+  {
+    "songName": "ソーラン☆節",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 87.4368,
+    "genre": "maimai",
+    "level": 11.4,
+    "fcap": null
+  },
+  {
+    "songName": "Beat Of Mind",
+    "chartType": 0,
+    "difficulty": 4,
+    "achievement": 79.429,
+    "genre": "GAME＆VARIETY",
+    "level": 14.2,
+    "fcap": null
+  },
+  {
+    "songName": "awake",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 90.9009,
+    "genre": "GAME＆VARIETY",
+    "level": 9.3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "チルノのパーフェクトさんすう教室",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 87.7606,
+    "genre": "東方Project",
+    "level": 10.4,
+    "fcap": null
+  },
+  {
+    "songName": "GIGANTØMAKHIA",
+    "chartType": 1,
+    "difficulty": 3,
+    "achievement": 73.9911,
+    "genre": "maimai",
+    "level": 14.7,
+    "fcap": null
+  },
+  {
+    "songName": "Caliburne ～Story of the Legendary sword～",
+    "chartType": 0,
+    "difficulty": 0,
+    "achievement": 99.2907,
+    "genre": "maimai",
+    "level": 5,
+    "fcap": "FC"
+  },
+  {
+    "songName": "言ノ葉カルマ",
+    "chartType": 0,
+    "difficulty": 0,
+    "achievement": 100.7777,
+    "genre": "maimai",
+    "level": 4,
+    "fcap": "AP"
+  },
+  {
+    "songName": "planet dancer",
+    "chartType": 0,
+    "difficulty": 0,
+    "achievement": 99.4943,
+    "genre": "maimai",
+    "level": 4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "POP STAR",
+    "chartType": 0,
+    "difficulty": 0,
+    "achievement": 100.5,
+    "genre": "POPS＆ANIME",
+    "level": 3,
+    "fcap": "FC"
+  },
+  {
+    "songName": "ナイト・オブ・ナイツ",
+    "chartType": 0,
+    "difficulty": 0,
+    "achievement": 95.4375,
+    "genre": "東方Project",
+    "level": 4,
+    "fcap": "FC"
+  },
+  {
+    "songName": "花と、雪と、ドラムンベース。",
+    "chartType": 0,
+    "difficulty": 2,
+    "achievement": 46.8831,
+    "genre": "maimai",
+    "level": 12.7,
+    "fcap": null
+  },
+  {
+    "songName": "Mutation",
+    "chartType": 1,
+    "difficulty": 2,
+    "achievement": 23.1133,
+    "genre": "maimai",
+    "level": 12.5,
+    "fcap": null
+  }
+]
