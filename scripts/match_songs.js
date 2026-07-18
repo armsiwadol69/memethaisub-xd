@@ -83,6 +83,33 @@ function normalizeForMatch(str) {
     .replace(/\s+/g, '');
 }
 
+// Check if string contains Japanese characters
+function hasJapanese(str) {
+  return /[\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uffef\u4e00-\u9faf]/.test(str);
+}
+
+// Helper: Check if Game Title and YouTube Title match safely
+function isSafeMatch(gameTitle, ytTitle) {
+  const g = normalizeForMatch(gameTitle);
+  const y = normalizeForMatch(ytTitle);
+  if (!g || !y) return false;
+
+  // 1. Exact Match
+  if (g === y) return true;
+
+  // 2. Safe Prefix/Substring Matches
+  // Case A: Game starts with YT (e.g. game: "badapplefeatnomico" starts with yt: "badapple")
+  if (g.startsWith(y) && y.length >= 5) return true;
+
+  // Case B: YT starts with Game (e.g. yt: "keitairenwa..." starts with game: "keitairenwa" or "携帯恋話keitairenwa" starts with "携帯恋話")
+  if (y.startsWith(g) && (g.length >= 5 || hasJapanese(gameTitle))) return true;
+
+  // Case C: YT contains Game and Game has Japanese characters (e.g. yt: "携帯恋話โกรธกันนะ..." contains game: "携帯恋話")
+  if (y.includes(g) && hasJapanese(gameTitle) && g.length >= 2) return true;
+
+  return false;
+}
+
 // Generate trigrams for fuzzy text overlap
 function getTrigrams(str) {
   const trigrams = [];
@@ -139,32 +166,34 @@ function getTopCandidates(cleanedYT, ytDescription, allGameSongs) {
   const list = [];
   const normalizedYT = normalizeForMatch(cleanedYT);
   const descLower = ytDescription.toLowerCase();
-
+  
   for (const song of allGameSongs) {
     const normGame = normalizeForMatch(song.title);
-
+    
     let score = 0;
-
-    // 1. Exact match (highest priority)
-    if (normGame === normalizedYT) {
+    
+    // 1. Safe Match Boost
+    if (isSafeMatch(song.title, cleanedYT)) {
       score += 150;
     }
-
+    
     // 2. Artist match in description or title
+    // Split the artist string (e.g. "まふまふ / 初音ミク" or "DECO*27 feat.初音ミク") to match individual names
     if (song.artist && song.artist.length > 2) {
-      const artistClean = song.artist.toLowerCase();
-      if (cleanedYT.toLowerCase().includes(artistClean) || descLower.includes(artistClean)) {
-        score += 30;
+      const individualArtists = song.artist.toLowerCase()
+        .split(/[\/\,\&x\×\+]|feat\.?/g)
+        .map(a => a.trim())
+        .filter(a => a.length >= 3); // ignore very short words
+        
+      for (const artist of individualArtists) {
+        if (cleanedYT.toLowerCase().includes(artist) || descLower.includes(artist)) {
+          score += 40; // High boost for matching one of the original artists
+          break;
+        }
       }
     }
-
-    // 3. Safe Substring matches (minimum length 5 to avoid false hits on short words)
-    if (normGame.length >= 5) {
-      if (normalizedYT.includes(normGame)) score += 20;
-      if (normGame.includes(normalizedYT)) score += 20;
-    }
-
-    // 4. Trigram overlap (fuzzy matching)
+    
+    // 3. Trigram overlap (fuzzy matching on titles)
     const ytTrigrams = getTrigrams(normalizedYT);
     const gameTrigrams = getTrigrams(normGame);
     let trigramOverlap = 0;
@@ -172,15 +201,15 @@ function getTopCandidates(cleanedYT, ytDescription, allGameSongs) {
       if (gameTrigrams.includes(t)) trigramOverlap++;
     }
     score += trigramOverlap * 3;
-
+    
     if (score > 2) {
       list.push({ song, score });
     }
   }
-
+  
   // Sort descending by score
   list.sort((a, b) => b.score - a.score);
-
+  
   // Return top 5 candidate songs
   return list.slice(0, 5).map(x => x.song);
 }
@@ -357,21 +386,21 @@ async function main() {
 
     let matchedSong = null;
 
-    // Fast Path: Check if there's an exact match in the database
-    const exactMatch = allGameSongs.find(s => normalizeForMatch(s.title) === normalizeForMatch(cleanedYT));
-
-    if (exactMatch) {
-      matchedSong = exactMatch;
-      console.log(`  -> Exact Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
+    // Fast Path: Check if there's a safe match in the database
+    const safeMatch = allGameSongs.find(s => isSafeMatch(s.title, cleanedYT));
+    
+    if (safeMatch) {
+      matchedSong = safeMatch;
+      console.log(`  -> Safe Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
       exactMatchCount++;
     } else {
       // Ollama Path: Get top 5 candidates based on similarity, then ask Ollama to choose
       const candidates = getTopCandidates(cleanedYT, ytVideo.description, allGameSongs);
-
+      
       if (candidates.length > 0) {
         console.log(`  -> Found ${candidates.length} candidates. Querying Ollama (${OLLAMA_MODEL}) to select...`);
         matchedSong = await askOllamaToMatch(originalTitle, cleanedYT, ytVideo.description, candidates);
-
+        
         if (matchedSong) {
           console.log(`  -> Ollama Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
           ollamaMatchCount++;
