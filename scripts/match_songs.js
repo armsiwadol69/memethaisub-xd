@@ -159,6 +159,11 @@ function queryOllama(prompt) {
       });
     });
 
+    // Set connection timeout to 15 seconds to prevent hanging
+    req.setTimeout(15000, () => {
+      req.destroy(new Error('Timeout: Ollama did not respond within 15 seconds.'));
+    });
+
     req.on('error', (e) => reject(e));
     req.write(data);
     req.end();
@@ -505,6 +510,28 @@ async function main() {
     } else {
       console.log(`  -> [No Match] Could not match to any game song.`);
       noMatchCount++;
+      // Push unmatched video so it can be manually matched on the frontend
+      matchedData.push({
+        id: null,
+        title: null,
+        artist: null,
+        game: null,
+        category: null,
+        bpm: null,
+        releaseDate: null,
+        sheets: [],
+        maimaiSheets: [],
+        chuniSheets: [],
+        youtube: {
+          title: originalTitle,
+          url: ytVideo.url,
+          videoId: ytVideo.videoId
+        },
+        localImagePaths: {
+          maimai: null,
+          chunithm: null
+        }
+      });
     }
   }
 
@@ -515,6 +542,19 @@ async function main() {
     'utf8'
   );
   console.log(`Output saved to: ${path.join(RESULT_DIR, 'matched_songs.json')}`);
+
+  // Also write to default root directory for Next.js static imports
+  fs.writeFileSync(
+    path.join(__dirname, '../src/data/matched_songs.json'),
+    JSON.stringify(matchedData, null, 2),
+    'utf8'
+  );
+  fs.writeFileSync(
+    path.join(__dirname, '../src/data/filtered_game_songs.json'),
+    JSON.stringify(allGameSongs, null, 2),
+    'utf8'
+  );
+  console.log('Saved default root outputs to src/data/ matched_songs.json and filtered_game_songs.json');
 
   console.log('\n--- Preprocessing & Matching Complete ---');
   console.log(`Total Videos Processed: ${youtubeVideos.length}`);

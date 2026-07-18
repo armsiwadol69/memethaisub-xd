@@ -1,0 +1,817 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Header */
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--glass-border);
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.titleArea {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logoGlow {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, rgb(var(--primary-rgb)), rgb(var(--secondary-rgb)));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  box-shadow: 0 0 20px rgba(0, 238, 255, 0.4);
+}
+
+.titleText h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.7));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.5px;
+}
+
+.titleText p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.2rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Buttons and Controls */
+.editToggle {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  gap: 0.8rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.editToggle:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.editToggleActive {
+  background: rgba(187, 75, 255, 0.15);
+  border-color: rgb(var(--secondary-rgb));
+  box-shadow: 0 0 15px rgba(187, 75, 255, 0.2);
+}
+
+.toggleDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transition: var(--transition-fast);
+}
+
+.editToggleActive .toggleDot {
+  background: rgb(var(--primary-rgb));
+  box-shadow: 0 0 8px rgb(var(--primary-rgb));
+}
+
+.exportButton {
+  background: linear-gradient(135deg, rgb(var(--secondary-rgb)), rgb(var(--accent-rgb)));
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(187, 75, 255, 0.3);
+  transition: var(--transition-bounce);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.exportButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(187, 75, 255, 0.5);
+}
+
+.exportButton:active {
+  transform: scale(0.98);
+}
+
+/* Filters Panel */
+.filtersPanel {
+  background: rgba(var(--card-bg-rgb), 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  padding: 1.5rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .filtersPanel {
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: end;
+  }
+}
+
+@media (min-width: 1024px) {
+  .filtersPanel {
+    grid-template-columns: 3fr 1.5fr 1.5fr 2fr;
+  }
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filterGroup label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+}
+
+.searchInputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--glass-border);
+  padding: 0.8rem 1rem 0.8rem 2.5rem;
+  border-radius: 12px;
+  outline: none;
+  font-size: 0.95rem;
+  transition: var(--transition-fast);
+}
+
+.searchInput:focus {
+  border-color: rgb(var(--primary-rgb));
+  box-shadow: 0 0 10px rgba(0, 238, 255, 0.15);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.searchIcon {
+  position: absolute;
+  left: 1rem;
+  color: rgba(255, 255, 255, 0.3);
+  pointer-events: none;
+}
+
+.selectInput {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--glass-border);
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  outline: none;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+  padding-right: 2.5rem;
+}
+
+.selectInput:focus {
+  border-color: rgb(var(--primary-rgb));
+}
+
+.difficultyRange {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.difficultyRange select {
+  flex: 1;
+}
+
+.rangeSeparator {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Stats info banner */
+.statsInfo {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Songs Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1400px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Card */
+.card {
+  background: rgb(var(--card-bg-rgb));
+  border: 1px solid var(--border-rgb);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition-bounce);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(187, 75, 255, 0.4);
+  box-shadow: 0 15px 40px rgba(187, 75, 255, 0.15);
+}
+
+.cardHidden {
+  opacity: 0.35;
+  filter: grayscale(80%);
+}
+
+.coverContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.coverImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card:hover .coverImg {
+  transform: scale(1.06);
+}
+
+.gameBadge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.badgeMaimai {
+  background: linear-gradient(135deg, #0055ff, #00d9ff);
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
+}
+
+.badgeChuni {
+  background: linear-gradient(135deg, #ffaa00, #ff5500);
+  color: #fff;
+  box-shadow: 0 0 15px rgba(255, 85, 0, 0.3);
+}
+
+.badgeBoth {
+  background: linear-gradient(135deg, #00ff66, #00e5ff);
+  color: #0c1822;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.3);
+}
+
+.categoryBadge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(5px);
+  border: 1px solid var(--glass-border);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0.3rem 0.7rem;
+  border-radius: 50px;
+  font-size: 0.7rem;
+  z-index: 2;
+}
+
+.cardDetails {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cardTitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 0.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardArtist {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Sheets Difficulties */
+.sheetsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+  margin-top: auto;
+}
+
+.sheetBadge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sheetBasic {
+  background: rgba(0, 200, 80, 0.15);
+  border-color: rgba(0, 200, 80, 0.3);
+  color: #00ff66;
+}
+
+.sheetAdvanced {
+  background: rgba(255, 170, 0, 0.15);
+  border-color: rgba(255, 170, 0, 0.3);
+  color: #ffaa00;
+}
+
+.sheetExpert {
+  background: rgba(255, 62, 129, 0.15);
+  border-color: rgba(255, 62, 129, 0.3);
+  color: #ff3e81;
+}
+
+.sheetMaster {
+  background: rgba(187, 75, 255, 0.15);
+  border-color: rgba(187, 75, 255, 0.3);
+  color: #bb4bff;
+}
+
+.sheetRemaster {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+/* YT Info section in Card */
+.ytSection {
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+}
+
+.ytTitle {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.45);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.ytIcon {
+  color: #ff0000;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.ytButton {
+  flex: 1;
+  background: rgba(255, 0, 0, 0.1);
+  border: 1px solid rgba(255, 0, 0, 0.25);
+  color: #ff4d4d;
+  padding: 0.6rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  transition: var(--transition-fast);
+  cursor: pointer;
+}
+
+.ytButton:hover {
+  background: #ff0000;
+  color: #fff;
+  border-color: #ff0000;
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+}
+
+/* Edit Panel on Card */
+.editOverlay {
+  background: rgba(10, 12, 22, 0.95);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.8rem;
+  border-top: 1px solid var(--border-rgb);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4rem;
+  z-index: 10;
+}
+
+.editButton {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
+  padding: 0.45rem;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.editButton:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.addBtn {
+  color: rgb(var(--secondary-rgb));
+  border-color: rgba(187, 75, 255, 0.25);
+}
+
+.addBtn:hover {
+  background: rgba(187, 75, 255, 0.15);
+  border-color: rgb(var(--secondary-rgb));
+}
+
+.remapBtn {
+  color: rgb(var(--primary-rgb));
+  border-color: rgba(0, 238, 255, 0.25);
+}
+
+.remapBtn:hover {
+  background: rgba(0, 238, 255, 0.15);
+  border-color: rgb(var(--primary-rgb));
+}
+
+.hideBtn {
+  color: rgb(var(--accent-rgb));
+  border-color: rgba(255, 62, 129, 0.25);
+}
+
+.hideBtn:hover {
+  background: rgba(255, 62, 129, 0.15);
+  border-color: rgb(var(--accent-rgb));
+}
+
+/* Modal */
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(5, 6, 12, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal {
+  background: rgb(var(--card-bg-rgb));
+  border: 1px solid var(--border-rgb);
+  border-radius: 24px;
+  width: 100%;
+  max-width: 650px;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 40px rgba(187, 75, 255, 0.1);
+}
+
+.modalHeader {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--glass-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalHeader h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #fff, rgba(255, 255, 255, 0.7));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.closeButton {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.closeButton:hover {
+  color: #fff;
+}
+
+.modalBody {
+  padding: 1.5rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  flex: 1;
+}
+
+.ytSourceInfo {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--glass-border);
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.ytSourceInfo label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 600;
+}
+
+.ytSourceTitle {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-top: 0.2rem;
+}
+
+.modalSearchBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.candidateList {
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.15);
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.candidateItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--glass-border);
+  transition: var(--transition-fast);
+}
+
+.candidateItem:last-child {
+  border-bottom: none;
+}
+
+.candidateItem:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.candidateSongInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  max-width: 75%;
+}
+
+.candidateSongTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.candidateSongArtist {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.selectCandidateBtn {
+  background: rgba(0, 238, 255, 0.1);
+  border: 1px solid rgba(0, 238, 255, 0.25);
+  color: rgb(var(--primary-rgb));
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.selectCandidateBtn:hover {
+  background: rgb(var(--primary-rgb));
+  color: #0c1822;
+  border-color: rgb(var(--primary-rgb));
+}
+
+.modalFooter {
+  padding: 1.2rem 1.5rem;
+  border-top: 1px solid var(--glass-border);
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8rem;
+}
+
+.btnSecondary {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.btnSecondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btnPrimary {
+  background: linear-gradient(135deg, rgb(var(--primary-rgb)), rgb(var(--secondary-rgb)));
+  border: none;
+  color: #0c1822;
+  padding: 0.6rem 1.4rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.btnPrimary:hover {
+  opacity: 0.95;
+  box-shadow: 0 4px 15px rgba(0, 238, 255, 0.3);
+}
+
+.emptyState {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem;
+  background: rgba(var(--card-bg-rgb), 0.3);
+  border: 1px dashed var(--border-rgb);
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
+}
+
+/* Category pills in filters */
+.categoryPills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.categoryPill {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  padding: 0.35rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.categoryPillActive {
+  background: rgba(0, 238, 255, 0.15);
+  border-color: rgb(var(--primary-rgb));
+  color: rgb(var(--primary-rgb));
+}
+
+.verifiedBadge {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background: rgba(0, 200, 80, 0.85);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 255, 102, 0.4);
+  color: #fff;
+  padding: 0.35rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  z-index: 2;
+  box-shadow: 0 0 15px rgba(0, 200, 80, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.verifyBtn {
+  color: #00ff66;
+  border-color: rgba(0, 200, 80, 0.25);
+}
+
+.verifyBtn:hover {
+  background: rgba(0, 200, 80, 0.15);
+  border-color: #00ff66;
+}
+
+.verifyBtnActive {
+  background: rgba(0, 200, 80, 0.25);
+  border-color: #00ff66;
+  box-shadow: 0 0 10px rgba(0, 200, 80, 0.2);
+}
