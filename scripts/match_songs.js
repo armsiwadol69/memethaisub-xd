@@ -242,6 +242,7 @@ Respond with ONLY the index number (0, 1, 2, 3, 4, or 5) of the matching song. D
 
   try {
     const response = await queryOllama(prompt);
+    console.log(`     Ollama returned: "${response.trim()}"`);
     const match = response.trim().match(/[0-5]/);
     if (match) {
       const idx = parseInt(match[0], 10);
