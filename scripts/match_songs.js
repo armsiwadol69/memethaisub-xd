@@ -244,8 +244,8 @@ function getTopCandidates(cleanedYT, ytDescription, allGameSongs) {
   // Sort descending by score
   list.sort((a, b) => b.score - a.score);
   
-  // Return top 5 candidate songs
-  return list.slice(0, 5).map(x => x.song);
+  // Return top 10 candidate songs
+  return list.slice(0, 10).map(x => x.song);
 }
 
 // Ask Ollama to choose the correct song from candidates
@@ -272,14 +272,14 @@ ${candidateListText}
 Choose which candidate song matches the YouTube cover video. 
 If none of the candidates match, choose 0.
 
-Respond with ONLY the index number (0, 1, 2, 3, 4, or 5) of the matching song. Do not output any explanation or extra text.`;
+Respond with ONLY the index number (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, or 10) of the matching song. Do not output any explanation or extra text.`;
 
   try {
     const response = await queryOllama(prompt);
     console.log(`     Ollama returned: "${response.trim()}"`);
-    const match = response.trim().match(/[0-5]/);
+    const match = response.trim().match(/\b(10|[0-9])\b/);
     if (match) {
-      const idx = parseInt(match[0], 10);
+      const idx = parseInt(match[1], 10);
       if (idx > 0 && idx <= candidates.length) {
         return candidates[idx - 1];
       }
