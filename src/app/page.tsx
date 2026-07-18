@@ -86,13 +86,7 @@ export default function Home() {
   const [verifiedCardIds, setVerifiedCardIds] = useState<Set<string>>(new Set());
 
   // Played Status States
-  const [playedSongs, setPlayedSongs] = useState<Record<string, { maimai?: 'played' | 'fc' | 'ap' | null; chunithm?: 'played' | 'fc' | 'aj' | null }>>(() => {
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('playedSongs');
-      return saved ? JSON.parse(saved) : {};
-    }
-    return {};
-  });
+  const [playedSongs, setPlayedSongs] = useState<Record<string, { maimai?: 'played' | 'fc' | 'ap' | null; chunithm?: 'played' | 'fc' | 'aj' | null }>>({})
 
   // Randomizer States
   const [isRandomizerOpen, setIsRandomizerOpen] = useState(false);
@@ -102,25 +96,32 @@ export default function Home() {
   const [spunSong, setSpunSong] = useState<any | null>(null);
   const [funnyMessage, setFunnyMessage] = useState('');
 
-  // SNS Share States
-  const [isSnsModalOpen, setIsSnsModalOpen] = useState(false);
-  const [playerName, setPlayerName] = useState(() => {
-    if (typeof window !== 'undefined') {
-      return localStorage.getItem('playerName') || '`Meen Thaisub\'s FC`';
-    }
-    return 'Meen Thaisub\'s FC';
-  });
   // Import States
   const [isImportModalOpen, setIsImportModalOpen] = useState(false);
   const [isImporting, setIsImporting] = useState(false);
+  const [isHydrated, setIsHydrated] = useState(false);
+
+  // SNS Share States
+  const [isSnsModalOpen, setIsSnsModalOpen] = useState(false);
+  const [playerName, setPlayerName] = useState('Meen Thaisub\'s FC');
   // Modal States
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeRemapSong, setActiveRemapSong] = useState<Song | null>(null);
   const [activeRemapCardId, setActiveRemapCardId] = useState<string>('');
   const [modalSearch, setModalSearch] = useState('');
 
-  // Load initial data
+  // Load initial data from localStorage (runs only on client, after hydration)
   useEffect(() => {
+    setIsHydrated(true);
+
+    // Load playedSongs
+    const savedPlayed = localStorage.getItem('playedSongs');
+    if (savedPlayed) setPlayedSongs(JSON.parse(savedPlayed));
+
+    // Load playerName
+    const savedName = localStorage.getItem('playerName');
+    if (savedName) setPlayerName(savedName);
+
     // Load LocalStorage edits
     const savedHidden = localStorage.getItem('hiddenCardIds');
     if (savedHidden) {
@@ -1019,12 +1020,13 @@ export default function Home() {
                 </div>
 
                 {/* Played Toggle Section */}
-                <div className={styles.playedSection}>
+                <div className={styles.playedSection} suppressHydrationWarning>
                   {(currentSong.game === 'maimai' || currentSong.game === 'both') && (
                     <div className={styles.playedRow}>
                       <span className={styles.playedRowLabel} style={{ color: '#00d9ff' }}>maimai DX:</span>
                       <div className={styles.stagePills}>
                         <button
+                          suppressHydrationWarning
                           className={`${styles.stagePill} ${playedSongs[cardId]?.maimai === 'played' ? styles.pillPlayedActive : ''}`}
                           onClick={() => setPlayedStage(cardId, 'maimai', 'played')}
                           title="ทำเครื่องหมาย: เล่นแล้ว"
@@ -1032,6 +1034,7 @@ export default function Home() {
                           PLAY
                         </button>
                         <button
+                          suppressHydrationWarning
                           className={`${styles.stagePill} ${playedSongs[cardId]?.maimai === 'fc' ? styles.pillFcActive : ''}`}
                           onClick={() => setPlayedStage(cardId, 'maimai', 'fc')}
                           title="ทำเครื่องหมาย: Full Combo"
@@ -1039,6 +1042,7 @@ export default function Home() {
                           FC
                         </button>
                         <button
+                          suppressHydrationWarning
                           className={`${styles.stagePill} ${playedSongs[cardId]?.maimai === 'ap' ? styles.pillApActive : ''}`}
                           onClick={() => setPlayedStage(cardId, 'maimai', 'ap')}
                           title="ทำเครื่องหมาย: All Perfect"
@@ -1053,6 +1057,7 @@ export default function Home() {
                       <span className={styles.playedRowLabel} style={{ color: '#ffaa00' }}>CHUNITHM:</span>
                       <div className={styles.stagePills}>
                         <button
+                          suppressHydrationWarning
                           className={`${styles.stagePill} ${playedSongs[cardId]?.chunithm === 'played' ? styles.pillPlayedActive : ''}`}
                           onClick={() => setPlayedStage(cardId, 'chunithm', 'played')}
                           title="ทำเครื่องหมาย: เล่นแล้ว"
@@ -1060,6 +1065,7 @@ export default function Home() {
                           PLAY
                         </button>
                         <button
+                          suppressHydrationWarning
                           className={`${styles.stagePill} ${playedSongs[cardId]?.chunithm === 'fc' ? styles.pillFcActive : ''}`}
                           onClick={() => setPlayedStage(cardId, 'chunithm', 'fc')}
                           title="ทำเครื่องหมาย: Full Chain"
@@ -1067,6 +1073,7 @@ export default function Home() {
                           FC
                         </button>
                         <button
+                          suppressHydrationWarning
                           className={`${styles.stagePill} ${playedSongs[cardId]?.chunithm === 'aj' ? styles.pillAjActive : ''}`}
                           onClick={() => setPlayedStage(cardId, 'chunithm', 'aj')}
                           title="ทำเครื่องหมาย: All Justice"
