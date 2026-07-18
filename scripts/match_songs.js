@@ -16,8 +16,12 @@ const CHUNI_CATEGORIES = ['niconico', 'ゲキマイ', '東方Project'];
 const SONG_DATA_DIR = path.join(__dirname, '../song_data');
 const PUBLIC_IMG_DIR = path.join(__dirname, '../public/img/covers');
 
+// Make model-specific output directory (replace colon with underscore)
+const modelFolder = OLLAMA_MODEL.replace(':', '_');
+const RESULT_DIR = path.join(__dirname, '../src/data', modelFolder);
+
 // Make sure output directories exist
-fs.mkdirSync(path.join(__dirname, '../src/data'), { recursive: true });
+fs.mkdirSync(RESULT_DIR, { recursive: true });
 fs.mkdirSync(PUBLIC_IMG_DIR, { recursive: true });
 
 // Helper: Parse CSV
@@ -361,11 +365,11 @@ async function main() {
 
   // Save filtered game songs list for the user to inspect
   fs.writeFileSync(
-    path.join(__dirname, '../src/data/filtered_game_songs.json'),
+    path.join(RESULT_DIR, 'filtered_game_songs.json'),
     JSON.stringify(allGameSongs, null, 2),
     'utf8'
   );
-  console.log('Saved filtered game songs list to src/data/filtered_game_songs.json');
+  console.log(`Saved filtered game songs list to ${path.join(RESULT_DIR, 'filtered_game_songs.json')}`);
 
   // 2. Read and Parse YouTube CSV
   console.log('Loading YouTube covers list (Meen-Thaisub.csv)...');
@@ -504,19 +508,19 @@ async function main() {
     }
   }
 
-  // Write matched data to src/data/matched_songs.json
+  // Write matched data to src/data/{modelFolder}/matched_songs.json
   fs.writeFileSync(
-    path.join(__dirname, '../src/data/matched_songs.json'),
+    path.join(RESULT_DIR, 'matched_songs.json'),
     JSON.stringify(matchedData, null, 2),
     'utf8'
   );
+  console.log(`Output saved to: ${path.join(RESULT_DIR, 'matched_songs.json')}`);
 
   console.log('\n--- Preprocessing & Matching Complete ---');
   console.log(`Total Videos Processed: ${youtubeVideos.length}`);
   console.log(`Exact Matches: ${exactMatchCount}`);
   console.log(`Ollama Matches: ${ollamaMatchCount}`);
   console.log(`No Matches: ${noMatchCount}`);
-  console.log(`Output saved to: src/data/matched_songs.json`);
 }
 
 main().catch(err => {
