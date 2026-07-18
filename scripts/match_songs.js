@@ -400,6 +400,9 @@ async function main() {
       
       if (candidates.length > 0) {
         console.log(`  -> Found ${candidates.length} candidates. Querying Ollama (${OLLAMA_MODEL}) to select...`);
+        candidates.forEach((c, idx) => {
+          console.log(`     [Candidate ${idx + 1}] "${c.title}" (${c.artist}) [Category: ${c.category}]`);
+        });
         matchedSong = await askOllamaToMatch(originalTitle, cleanedYT, ytVideo.description, candidates);
         
         if (matchedSong) {
