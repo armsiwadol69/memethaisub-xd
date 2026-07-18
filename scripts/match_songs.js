@@ -24,6 +24,25 @@ const RESULT_DIR = path.join(__dirname, '../src/data', modelFolder);
 fs.mkdirSync(RESULT_DIR, { recursive: true });
 fs.mkdirSync(PUBLIC_IMG_DIR, { recursive: true });
 
+// Setup Log Files
+const LOG_FILE_PATH = path.join(RESULT_DIR, 'matching_log.txt');
+const ROOT_LOG_FILE_PATH = path.join(__dirname, '../src/data/matching_log.txt');
+
+// Initialize/clear log files
+fs.writeFileSync(LOG_FILE_PATH, '', 'utf8');
+fs.writeFileSync(ROOT_LOG_FILE_PATH, '', 'utf8');
+
+// Custom logging function to print to terminal and append to text files
+function writeLog(msg = '') {
+  console.log(msg);
+  try {
+    fs.appendFileSync(LOG_FILE_PATH, msg + '\n', 'utf8');
+    fs.appendFileSync(ROOT_LOG_FILE_PATH, msg + '\n', 'utf8');
+  } catch (err) {
+    console.error('Failed to append to log files:', err.message);
+  }
+}
+
 // Helper: Parse CSV
 function parseCSV(csvText) {
   const result = [];
@@ -68,13 +87,10 @@ function parseCSV(csvText) {
 function cleanTitle(title) {
   if (!title) return '';
   let cleaned = title;
-  // Remove content in brackets [ ... ] and parentheses ( ... )
   cleaned = cleaned.replace(/\[.*?\]/g, '');
   cleaned = cleaned.replace(/\(.*?\)/g, '');
   cleaned = cleaned.replace(/（.*?）/g, '');
-  // Remove common music terms/suffixes
   cleaned = cleaned.replace(/(Piano ver|Piano version|ver\.Rock|Ver\.Rock|short ver|Another|TV size|by Kanaria|by Kenshi Yonezu)/gi, '');
-  // Clean whitespace
   cleaned = cleaned.replace(/\s+/g, ' ').trim();
   return cleaned;
 }
@@ -83,7 +99,7 @@ function cleanTitle(title) {
 function normalizeForMatch(str) {
   if (!str) return '';
   return str.toLowerCase()
-    .replace(/[^a-z0-9\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uffef\u4e00-\u9faf\u0e00-\u0e7f]/g, '') // Keep alphanumeric, jp characters, thai characters
+    .replace(/[^a-z0-9\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uffef\u4e00-\u9faf\u0e00-\u0e7f]/g, '')
     .replace(/\s+/g, '');
 }
 
@@ -98,17 +114,9 @@ function isSafeMatch(gameTitle, ytTitle) {
   const y = normalizeForMatch(ytTitle);
   if (!g || !y) return false;
 
-  // 1. Exact Match
   if (g === y) return true;
-
-  // 2. Safe Prefix/Substring Matches
-  // Case A: Game starts with YT (e.g. game: "badapplefeatnomico" starts with yt: "badapple")
   if (g.startsWith(y) && y.length >= 5) return true;
-
-  // Case B: YT starts with Game (e.g. yt: "keitairenwa..." starts with game: "keitairenwa" or "携帯恋話keitairenwa" starts with "携帯恋話")
   if (y.startsWith(g) && (g.length >= 5 || hasJapanese(gameTitle))) return true;
-
-  // Case C: YT contains Game and Game has Japanese characters (e.g. yt: "携帯恋話โกรธกันนะ..." contains game: "携帯恋話")
   if (y.includes(g) && hasJapanese(gameTitle) && g.length >= 2) return true;
 
   return false;
@@ -159,9 +167,9 @@ function queryOllama(prompt) {
       });
     });
 
-    // Set connection timeout to 15 seconds to prevent hanging
-    req.setTimeout(15000, () => {
-      req.destroy(new Error('Timeout: Ollama did not respond within 15 seconds.'));
+    // Set connection timeout to 30 seconds to prevent hanging
+    req.setTimeout(30000, () => {
+      req.destroy(new Error('Timeout: Ollama did not respond within 30 seconds.'));
     });
 
     req.on('error', (e) => reject(e));
@@ -189,9 +197,9 @@ Output only the translated Japanese title. Do not include any explanation or quo
 
   try {
     const response = await queryOllama(prompt);
-    return response.trim().replace(/^["']|["']$/g, ''); // strip quotes
+    return response.trim().replace(/^["']|["']$/g, '');
   } catch (err) {
-    console.error(`     Ollama translation error for "${cleanedTitle}":`, err.message);
+    writeLog(`     Ollama translation error for "${cleanedTitle}": ${err.message}`);
     return null;
   }
 }
@@ -276,7 +284,7 @@ Respond with ONLY the index number (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, or 10) of the 
 
   try {
     const response = await queryOllama(prompt);
-    console.log(`     Ollama returned: "${response.trim()}"`);
+    writeLog(`     Ollama returned: "${response.trim()}"`);
     const match = response.trim().match(/\b(10|[0-9])\b/);
     if (match) {
       const idx = parseInt(match[1], 10);
@@ -286,7 +294,7 @@ Respond with ONLY the index number (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, or 10) of the 
     }
     return null;
   } catch (err) {
-    console.error(`     Ollama match error for "${cleanedTitle}":`, err.message);
+    writeLog(`     Ollama match error for "${cleanedTitle}": ${err.message}`);
     return null;
   }
 }
@@ -295,7 +303,7 @@ Respond with ONLY the index number (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, or 10) of the 
 function downloadImage(url, destPath) {
   return new Promise((resolve, reject) => {
     if (fs.existsSync(destPath)) {
-      resolve(); // Skip if exists
+      resolve();
       return;
     }
 
@@ -314,7 +322,7 @@ function downloadImage(url, destPath) {
       });
 
       fileStream.on('error', (err) => {
-        fs.unlink(destPath, () => { }); // delete partial file
+        fs.unlink(destPath, () => { });
         reject(err);
       });
     }).on('error', (err) => {
@@ -325,21 +333,19 @@ function downloadImage(url, destPath) {
 
 // Main execution function
 async function main() {
-  console.log('--- Starting Song Preprocessing and Matching ---');
+  writeLog('--- Starting Song Preprocessing and Matching ---');
 
   // 1. Read and Parse Game Songs
-  console.log('Loading game song databases...');
+  writeLog('Loading game song databases...');
   const chuniData = JSON.parse(fs.readFileSync(path.join(SONG_DATA_DIR, 'songdata_chuni.json'), 'utf8'));
   const maimaiData = JSON.parse(fs.readFileSync(path.join(SONG_DATA_DIR, 'songdata_maimai.json'), 'utf8'));
 
-  // Apply category filters
   const filteredChuni = chuniData.songs.filter(s => CHUNI_CATEGORIES.includes(s.category));
   const filteredMaimai = maimaiData.songs.filter(s => MAIMAI_CATEGORIES.includes(s.category));
 
-  console.log(`Loaded ${filteredChuni.length} CHUNITHM songs (filtered).`);
-  console.log(`Loaded ${filteredMaimai.length} maimai songs (filtered).`);
+  writeLog(`Loaded ${filteredChuni.length} CHUNITHM songs (filtered).`);
+  writeLog(`Loaded ${filteredMaimai.length} maimai songs (filtered).`);
 
-  // Combine all candidate songs
   const allGameSongs = [];
 
   filteredChuni.forEach(s => {
@@ -352,7 +358,7 @@ async function main() {
   filteredMaimai.forEach(s => {
     const existing = allGameSongs.find(x => normalizeForMatch(x.title) === normalizeForMatch(s.title));
     if (existing) {
-      existing.game = 'both'; // Song exists in both games
+      existing.game = 'both';
       existing.maimaiSheets = s.sheets;
       existing.chuniSheets = existing.sheets;
       existing.maimaiImageName = s.imageName;
@@ -366,18 +372,17 @@ async function main() {
     }
   });
 
-  console.log(`Total unique candidate game songs: ${allGameSongs.length}`);
+  writeLog(`Total unique candidate game songs: ${allGameSongs.length}`);
 
-  // Save filtered game songs list for the user to inspect
   fs.writeFileSync(
     path.join(RESULT_DIR, 'filtered_game_songs.json'),
     JSON.stringify(allGameSongs, null, 2),
     'utf8'
   );
-  console.log(`Saved filtered game songs list to ${path.join(RESULT_DIR, 'filtered_game_songs.json')}`);
+  writeLog(`Saved filtered game songs list to ${path.join(RESULT_DIR, 'filtered_game_songs.json')}`);
 
   // 2. Read and Parse YouTube CSV
-  console.log('Loading YouTube covers list (Meen-Thaisub.csv)...');
+  writeLog('Loading YouTube covers list (Meen-Thaisub.csv)...');
   const csvText = fs.readFileSync(path.join(__dirname, '../Meen-Thaisub.csv'), 'utf8');
   const csvRows = parseCSV(csvText);
 
@@ -393,13 +398,15 @@ async function main() {
       });
     }
   }
-  console.log(`Parsed ${youtubeVideos.length} YouTube videos.`);
+  writeLog(`Parsed ${youtubeVideos.length} YouTube videos.`);
 
   // 3. Match Songs
   const matchedData = [];
   let exactMatchCount = 0;
   let ollamaMatchCount = 0;
   let noMatchCount = 0;
+  let processedCount = 0;
+  const startTime = Date.now();
 
   for (let i = 0; i < youtubeVideos.length; i++) {
     const ytVideo = youtubeVideos[i];
@@ -413,11 +420,12 @@ async function main() {
       originalTitle.includes('Q&A ของผู้ติดตาม') ||
       originalTitle.includes('วาดรูปเล่น')
     ) {
-      console.log(`[Skipping] ${originalTitle} (Non-song video)`);
+      writeLog(`[Skipping] ${originalTitle} (Non-song video)`);
       continue;
     }
 
-    console.log(`\n[Processing ${i + 1}/${youtubeVideos.length}] "${originalTitle}" -> Cleaned: "${cleanedYT}"`);
+    processedCount++;
+    writeLog(`\n[Processing ${i + 1}/${youtubeVideos.length}] "${originalTitle}" -> Cleaned: "${cleanedYT}"`);
 
     let matchedSong = null;
 
@@ -426,35 +434,35 @@ async function main() {
     
     if (safeMatch) {
       matchedSong = safeMatch;
-      console.log(`  -> [Stage 1] Safe Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
+      writeLog(`  -> [Stage 1] Safe Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
       exactMatchCount++;
     } else {
       // --- Stage 2: Ollama Translation Match ---
-      console.log(`  -> [Stage 2] Querying Ollama (${OLLAMA_MODEL}) to translate English/Romaji title to Japanese...`);
+      writeLog(`  -> [Stage 2] Querying Ollama (${OLLAMA_MODEL}) to translate English/Romaji title to Japanese...`);
       const jpTranslatedTitle = await translateToJapaneseTitle(cleanedYT, originalTitle, ytVideo.description);
       
       if (jpTranslatedTitle && jpTranslatedTitle !== cleanedYT) {
-        console.log(`     Ollama translated "${cleanedYT}" to "${jpTranslatedTitle}"`);
+        writeLog(`     Ollama translated "${cleanedYT}" to "${jpTranslatedTitle}"`);
         matchedSong = allGameSongs.find(s => isSafeMatch(s.title, jpTranslatedTitle));
       }
       
       if (matchedSong) {
-        console.log(`  -> [Stage 2] Ollama Translation Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
+        writeLog(`  -> [Stage 2] Ollama Translation Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
         ollamaMatchCount++;
       } else {
         // --- Stage 3: Fallback Ollama Multiple Choice Candidate Match ---
-        console.log(`  -> [Stage 3] No match from translation. Fetching candidates for selection...`);
+        writeLog(`  -> [Stage 3] No match from translation. Fetching candidates for selection...`);
         const candidates = getTopCandidates(cleanedYT, ytVideo.description, allGameSongs);
         
         if (candidates.length > 0) {
-          console.log(`     Found ${candidates.length} candidates. Querying Ollama to select...`);
+          writeLog(`     Found ${candidates.length} candidates. Querying Ollama to select...`);
           candidates.forEach((c, idx) => {
-            console.log(`     [Candidate ${idx + 1}] "${c.title}" (${c.artist}) [Category: ${c.category}]`);
+            writeLog(`     [Candidate ${idx + 1}] "${c.title}" (${c.artist}) [Category: ${c.category}]`);
           });
           matchedSong = await askOllamaToMatch(originalTitle, cleanedYT, ytVideo.description, candidates);
           
           if (matchedSong) {
-            console.log(`  -> [Stage 3] Ollama Candidate Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
+            writeLog(`  -> [Stage 3] Ollama Candidate Match found! Game Song: "${matchedSong.title}" (${matchedSong.artist})`);
             ollamaMatchCount++;
           }
         }
@@ -481,9 +489,9 @@ async function main() {
           await downloadImage(url, dest);
           chuniLocalPath = `/img/covers/chuni_${imgName}`;
         }
-        console.log(`     Covers downloaded successfully.`);
+        writeLog(`     Covers downloaded successfully.`);
       } catch (err) {
-        console.error(`     Image download error:`, err.message);
+        writeLog(`     Image download error: ${err.message}`);
       }
 
       matchedData.push({
@@ -508,9 +516,8 @@ async function main() {
         }
       });
     } else {
-      console.log(`  -> [No Match] Could not match to any game song.`);
+      writeLog(`  -> [No Match] Could not match to any game song.`);
       noMatchCount++;
-      // Push unmatched video so it can be manually matched on the frontend
       matchedData.push({
         id: null,
         title: null,
@@ -541,7 +548,7 @@ async function main() {
     JSON.stringify(matchedData, null, 2),
     'utf8'
   );
-  console.log(`Output saved to: ${path.join(RESULT_DIR, 'matched_songs.json')}`);
+  writeLog(`Output saved to: ${path.join(RESULT_DIR, 'matched_songs.json')}`);
 
   // Also write to default root directory for Next.js static imports
   fs.writeFileSync(
@@ -554,13 +561,19 @@ async function main() {
     JSON.stringify(allGameSongs, null, 2),
     'utf8'
   );
-  console.log('Saved default root outputs to src/data/ matched_songs.json and filtered_game_songs.json');
+  writeLog('Saved default root outputs to src/data/ matched_songs.json and filtered_game_songs.json');
 
-  console.log('\n--- Preprocessing & Matching Complete ---');
-  console.log(`Total Videos Processed: ${youtubeVideos.length}`);
-  console.log(`Exact Matches: ${exactMatchCount}`);
-  console.log(`Ollama Matches: ${ollamaMatchCount}`);
-  console.log(`No Matches: ${noMatchCount}`);
+  const totalTimeMs = Date.now() - startTime;
+  const totalTimeSec = (totalTimeMs / 1000).toFixed(1);
+  const avgTimeSec = processedCount > 0 ? (totalTimeMs / 1000 / processedCount).toFixed(1) : '0.0';
+
+  writeLog('\n--- Preprocessing & Matching Complete ---');
+  writeLog(`Total Videos: ${youtubeVideos.length} (Processed: ${processedCount}, Skipped: ${youtubeVideos.length - processedCount})`);
+  writeLog(`Exact Matches: ${exactMatchCount}`);
+  writeLog(`Ollama Matches: ${ollamaMatchCount}`);
+  writeLog(`No Matches: ${noMatchCount}`);
+  writeLog(`Total Time Taken: ${totalTimeSec}s`);
+  writeLog(`Average Time per Video: ${avgTimeSec}s`);
 }
 
 main().catch(err => {
