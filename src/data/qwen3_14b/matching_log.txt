@@ -1,0 +1,1743 @@
+--- Starting Song Preprocessing and Matching ---
+Loading game song databases...
+Loaded 687 CHUNITHM songs (filtered).
+Loaded 954 maimai songs (filtered).
+Total unique candidate game songs: 1252
+Saved filtered game songs list to /home/administrator/si_shitpost/memethaisub-xd/src/data/qwen3_14b/filtered_game_songs.json
+Loading YouTube covers list (Meen-Thaisub.csv)...
+Parsed 120 YouTube videos.
+
+[Processing 1/120] "Psychogram [Thai cover by meen]" -> Cleaned: "Psychogram"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Psychogram" to "サイコグラム"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "ストリーミングハート" (DECO*27) [Category: niconico]
+     [Candidate 2] "愛迷エレジー" (DECO*27) [Category: niconico]
+     [Candidate 3] "愛言葉" (DECO*27) [Category: niconico]
+     [Candidate 4] "ゴーストルール" (DECO*27) [Category: niconico]
+     [Candidate 5] "妄想感傷代償連盟" (DECO*27) [Category: niconico]
+     [Candidate 6] "39" (sasakure.UK x DECO*27) [Category: niconico]
+     [Candidate 7] "ヒバナ" (DECO*27) [Category: niconico]
+     [Candidate 8] "乙女解剖" (DECO*27) [Category: niconico]
+     [Candidate 9] "アンドロイドガール" (DECO*27) [Category: niconico]
+     [Candidate 10] "セカイ" (DECO*27×堀江晶太(kemu)) [Category: niconico]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 2/120] "ベルセルク Berserk [Thai ver by Meen]" -> Cleaned: "ベルセルク Berserk"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "ベルセルク Berserk" to "ベルセルク"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "輪廻転生" (まふまふ) [Category: niconico]
+     [Candidate 2] "サクリファイス" (まふまふ) [Category: niconico]
+     [Candidate 3] "拝啓、桜舞い散るこの日に" (まふまふ) [Category: niconico]
+     [Candidate 4] "携帯恋話" (まふまふ / 初音ミク / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 5] "すーぱーぬこになりたい" (まふまふ) [Category: niconico＆ボーカロイド]
+     [Candidate 6] "立ち入り禁止" (まふまふ) [Category: niconico＆ボーカロイド]
+     [Candidate 7] "すーぱーぬこになれんかった" (まふまふ) [Category: niconico＆ボーカロイド]
+     [Candidate 8] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 9] "U&iVERSE -銀河鸞翔-" (Kai VS 大国奏音 VS 水野健治) [Category: ゲキマイ]
+     [Candidate 10] "Adverse Gaff" (siromaru) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 3/120] "携帯恋話 Keitai Renwa [Cover by Meen]" -> Cleaned: "携帯恋話 Keitai Renwa"
+  -> [Stage 1] Safe Match found! Game Song: "携帯恋話" (まふまふ / 初音ミク / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」)
+     Covers downloaded successfully.
+
+[Processing 4/120] "Bad Apple!! (SEKAI) [Thai cover by meen]" -> Cleaned: "Bad Apple!!"
+  -> [Stage 1] Safe Match found! Game Song: "Bad Apple!! feat.nomico" (Masayoshi Minoshima)
+     Covers downloaded successfully.
+
+[Processing 5/120] "Love And Deepspace theme song [Thai cover by Meen]" -> Cleaned: "Love And Deepspace theme song"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Love And Deepspace theme song" to "ラブ・アンド・ディープスペース テーマソング"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "True Love Song" (Kai/クラシック「G線上のアリア」) [Category: maimai]
+     [Candidate 3] "多重未来のカルテット -Quartet Theme-" (Kusemono/SWANTONE) [Category: niconico]
+     [Candidate 4] "東方妖々夢 ～the maximum moving about～" (石鹸屋) [Category: 東方Project]
+     [Candidate 5] "シジョウノコエ VOCALO ver." (OSTER project) [Category: niconico]
+     [Candidate 6] "Like the Wind [Reborn]" (sampling masters MEGA「パワードリフト」) [Category: ゲキマイ]
+     [Candidate 7] "LOVE EAST" (暁Records) [Category: 東方Project]
+     [Candidate 8] "Don't Fight The Music" (黒魔) [Category: ゲキマイ]
+     [Candidate 9] "Rule the World!!" (曲：八木雄一 feat. Marty Friedman／歌：逢坂 茜(CV：大空 直美)) [Category: ゲキマイ]
+     [Candidate 10] "トリドリ⇒モリモリ! Lovely fruits☆" (曲：やしきん／歌：柏木 美亜(CV：和氣 あず未)) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 6/120] "心做し (Kokoronashi) [Thai cover by Meen]" -> Cleaned: "心做し"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 1 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 7/120] "Mozaik Role (Reloaded) [Thai cover by Meen]" -> Cleaned: "Mozaik Role"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Mozaik Role" to "モザイクロール"
+  -> [Stage 2] Ollama Translation Match found! Game Song: "モザイクロール" (DECO*27)
+     Covers downloaded successfully.
+
+[Processing 8/120] "ULTRA C [Thai ver by Meen x zxbara]" -> Cleaned: "ULTRA C"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "ULTRA C" to "アルトラC"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Ready Steady" (Giga / 初音ミク / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 2] "劣等上等" (Giga / 鏡音リン・レン / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico＆ボーカロイド]
+     [Candidate 3] "ワーワーワールド" (Giga & Mitchie M / 初音ミク、花里みのり、小豆沢こはね「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico＆ボーカロイド]
+     [Candidate 4] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 5] "Ultranova" (A4paper) [Category: maimai]
+     [Candidate 6] "STEEL TRANSONIC" (BlackY vs. WAiKURO) [Category: maimai]
+     [Candidate 7] "Hyper Active" (HiTECH NINJA) [Category: ゲキマイ]
+     [Candidate 8] "White Traveling Girl" (A-One) [Category: 東方Project]
+     [Candidate 9] "Transcend Lights" (曲：小高光太郎／歌：オンゲキシューターズ) [Category: ゲキマイ]
+     [Candidate 10] "Cult future" (LV.4) [Category: ゲキマイ]
+     Ollama returned: "5"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "Ultranova" (A4paper)
+     Covers downloaded successfully.
+
+[Processing 9/120] "The Poor Rabbit's Song (บทเพลงกระต่ายผู้เศร้าหมอง) [Thai ver by Meen]" -> Cleaned: "The Poor Rabbit's Song"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "The Poor Rabbit's Song" to "貧乏ウサギの歌"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "True Love Song" (Kai/クラシック「G線上のアリア」) [Category: maimai]
+     [Candidate 3] "Yet Another ”drizzly rain”" (myu314 feat.あまね（COOL&CREATE）) [Category: 東方Project]
+     [Candidate 4] "東方妖々夢 ～the maximum moving about～" (石鹸屋) [Category: 東方Project]
+     [Candidate 5] "FREELY TOMORROW" (Mitchie M) [Category: niconico]
+     [Candidate 6] "ぼくらの16bit戦争" (sasakure.UK) [Category: niconico]
+     [Candidate 7] "Starlight Dance Floor" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 8] "Like the Wind [Reborn]" (sampling masters MEGA「パワードリフト」) [Category: ゲキマイ]
+     [Candidate 9] "Caliburne ～Story of the Legendary sword～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 10] "FEEL the BEATS" (A-One) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 10/120] "Twilight Light (แสงสนธยา) [Thai ver by Meen]" -> Cleaned: "Twilight Light"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Twilight Light" to "トワイライト・ライト"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "幽闇に目醒めしは" (セブンスヘブンMAXION) [Category: 東方Project]
+     [Candidate 2] "セカイはまだ始まってすらいない" (ピノキオピー / 初音ミク / ワンダーランズ×ショウタイム「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 3] "失敗作少女" (かいりきベア・MARETU feat.初音ミク) [Category: niconico]
+     [Candidate 4] "モア！ジャンプ！モア！" (ナユタン星人 / 初音ミク / MORE MORE JUMP！「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 5] "携帯恋話" (まふまふ / 初音ミク / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 6] "The secret garden" (Project DIVA Original Song feat.初音ミク) [Category: niconico]
+     [Candidate 7] "ステラ" (じん / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 8] "Ready Steady" (Giga / 初音ミク / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 9] "ワールドイズマイン" (supercell feat. 初音ミク) [Category: niconico]
+     [Candidate 10] "フューチャー・イヴ" (sasakure.UK feat. 初音ミク) [Category: niconico]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 11/120] "Anonymous M (ชื่อนิรนาม M) [Thai ver by Meen x zxbara]" -> Cleaned: "Anonymous M"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Anonymous M" to "匿名のM"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "幽闇に目醒めしは" (セブンスヘブンMAXION) [Category: 東方Project]
+     [Candidate 2] "咲キ誇レ常世ノ華" (Sou×マチゲリータ) [Category: ゲキマイ]
+     [Candidate 3] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 4] "ここからはじまるプロローグ。 (Kanon Remix)" (ああああ／大国奏音) [Category: maimai]
+     [Candidate 5] "Yet Another ”drizzly rain”" (myu314 feat.あまね（COOL&CREATE）) [Category: 東方Project]
+     [Candidate 6] "Scream out! -CHUNITHM Tuning-" (A-One) [Category: 東方Project]
+     [Candidate 7] "Paranoia" (DiGiTAL WiNG feat. 花たん) [Category: 東方Project]
+     [Candidate 8] "CITRUS MONSTER" (D-Cee) [Category: ゲキマイ]
+     [Candidate 9] "Glorious Crown" (xi) [Category: maimai]
+     [Candidate 10] "Nitrous Fury" (Jun Senoue) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 12/120] "RAD DOGS [Thai ver by Meen]" -> Cleaned: "RAD DOGS"
+  -> [Stage 1] Safe Match found! Game Song: "RAD DOGS" (八王子P / 初音ミク / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」)
+     Covers downloaded successfully.
+
+[Processing 13/120] "The Disease Called Love (โรคที่เรียกว่าความรัก) [Thai ver by Meen]" -> Cleaned: "The Disease Called Love"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "The Disease Called Love" to "愛の感染症"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "ロストワンの号哭" (Neru) [Category: niconico]
+     [Candidate 2] "洗脳" (ゆりん・柿チョコ×Neru) [Category: ゲキマイ]
+     [Candidate 3] "咲キ誇レ常世ノ華" (Sou×マチゲリータ) [Category: ゲキマイ]
+     [Candidate 4] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 5] "シジョウノコエ VOCALO ver." (OSTER project) [Category: niconico]
+     [Candidate 6] "LOVE EAST" (暁Records) [Category: 東方Project]
+     [Candidate 7] "M@GICAL☆CURE! LOVE ♥ SHOT!" (SAWTOWNE) [Category: niconico]
+     [Candidate 8] "Caliburne ～Story of the Legendary sword～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 9] "トリドリ⇒モリモリ! Lovely fruits☆" (曲：やしきん／歌：柏木 美亜(CV：和氣 あず未)) [Category: ゲキマイ]
+     [Candidate 10] "崩壊歌姫 -disruptive diva-" (マチゲリータ) [Category: niconico]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 14/120] "Unknown Mother-Goose [Thai cover by Meen]" -> Cleaned: "Unknown Mother-Goose"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "裏表ラバーズ" (wowaka) [Category: niconico]
+     [Candidate 2] "アンハッピーリフレイン" (wowaka) [Category: niconico]
+     [Candidate 3] "アンノウン・マザーグース" (wowaka) [Category: niconico]
+     [Candidate 4] "ワールズエンド・ダンスホール" (wowaka) [Category: niconico]
+     [Candidate 5] "ローリンガール" (wowaka) [Category: niconico]
+     [Candidate 6] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 7] "Re:Unknown X" (まらしぃ) [Category: 東方Project]
+     [Candidate 8] "Yet Another ”drizzly rain”" (myu314 feat.あまね（COOL&CREATE）) [Category: 東方Project]
+     [Candidate 9] "Aetheric Energy" (aran) [Category: maimai]
+     [Candidate 10] "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)" (かめりあ) [Category: maimai]
+     Ollama returned: "3"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "アンノウン・マザーグース" (wowaka)
+     Covers downloaded successfully.
+
+[Processing 15/120] "Twilight Light [Cover by Meen]" -> Cleaned: "Twilight Light"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "幽闇に目醒めしは" (セブンスヘブンMAXION) [Category: 東方Project]
+     [Candidate 2] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 3] "恋の氷結おてんば湯けむりチルノ温泉" (uno×夕野ヨシミ feat. miko) [Category: 東方Project]
+     [Candidate 4] "End of Twilight" (ALiCE'S EMOTiON feat. Ayumi Nomiya) [Category: maimai]
+     [Candidate 5] "Starlight★Limited" (カタオカツグミ) [Category: ゲキマイ]
+     [Candidate 6] "Starlight Vision" (矢鴇つかさ feat. 三澤秋) [Category: 東方Project]
+     [Candidate 7] "Starlight Dance Floor" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 8] "Transcend Lights" (曲：小高光太郎／歌：オンゲキシューターズ) [Category: ゲキマイ]
+     [Candidate 9] "Starlight Disco" (loos feat. Meramipop) [Category: maimai]
+     [Candidate 10] "FestivaLight" (霜月はるか) [Category: maimai]
+     Ollama returned: "4"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "End of Twilight" (ALiCE'S EMOTiON feat. Ayumi Nomiya)
+     Covers downloaded successfully.
+
+[Processing 16/120] "強風オールバック Kyoufuu All Back [Cover by Meen]" -> Cleaned: "強風オールバック Kyoufuu All Back"
+  -> [Stage 1] Safe Match found! Game Song: "強風オールバック" (ゆこぴ)
+     Covers downloaded successfully.
+
+[Processing 17/120] "Twilight Light [Project Sekai Version / Thai short ver by Meen]" -> Cleaned: "Twilight Light"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "End of Twilight" (ALiCE'S EMOTiON feat. Ayumi Nomiya) [Category: maimai]
+     [Candidate 3] "Starlight★Limited" (カタオカツグミ) [Category: ゲキマイ]
+     [Candidate 4] "Starlight Vision" (矢鴇つかさ feat. 三澤秋) [Category: 東方Project]
+     [Candidate 5] "Starlight Dance Floor" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 6] "Transcend Lights" (曲：小高光太郎／歌：オンゲキシューターズ) [Category: ゲキマイ]
+     [Candidate 7] "Starlight Disco" (loos feat. Meramipop) [Category: maimai]
+     [Candidate 8] "FestivaLight" (霜月はるか) [Category: maimai]
+     [Candidate 9] "Straight into the lights" (Cosmograph) [Category: maimai]
+     [Candidate 10] "Crazy ∞ nighT" (ひとしずく×やま△) [Category: niconico]
+     Ollama returned: "2"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "End of Twilight" (ALiCE'S EMOTiON feat. Ayumi Nomiya)
+     Covers downloaded successfully.
+
+[Processing 18/120] "月光 (Moonlight - แสงจันทรา) [Thai ver by Meen]" -> Cleaned: "月光"
+  -> [Stage 1] Safe Match found! Game Song: "月光" (歌：V.I.P 作詞：廉　作曲：廉 「神椿市協奏中。」)
+     Covers downloaded successfully.
+
+[Processing 19/120] "Live เล่นเกม PDMM+ ฉลองวันเกิด Miku !!" -> Cleaned: "Live เล่นเกม PDMM+ ฉลองวันเกิด Miku !!"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Live เล่นเกม PDMM+ ฉลองวันเกิด Miku !!" to "ライブ PDMM+ ミクのバースデー!!"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "砂の惑星 feat. HATSUNE MIKU" (ハチ) [Category: niconico]
+     [Candidate 3] "FEEL ALIVE" (ELEMENTAS feat. NAGISA) [Category: maimai]
+     [Candidate 4] "Hyper Active" (HiTECH NINJA) [Category: ゲキマイ]
+     [Candidate 5] "Excalibur ～Revived resolution～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 6] "崩壊歌姫 -disruptive diva-" (マチゲリータ) [Category: niconico]
+     [Candidate 7] "Revived" (UNDEAD CORPORATION) [Category: 東方Project]
+     [Candidate 8] "U&iVERSE -銀河鸞翔-" (Kai VS 大国奏音 VS 水野健治) [Category: ゲキマイ]
+     [Candidate 9] "え？あぁ、そう。- 10th Anniversary Edition -" (蝶々P) [Category: niconico]
+     [Candidate 10] "Revive The Rave" (void(Mournfinale)) [Category: maimai]
+     Ollama match error for "Live เล่นเกม PDMM+ ฉลองวันเกิด Miku !!": Timeout: Ollama did not respond within 30 seconds.
+  -> [No Match] Could not match to any game song.
+
+[Processing 20/120] "Kagerou Daze [Thai cover by Meen]" -> Cleaned: "Kagerou Daze"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Kagerou Daze" to "カゲロウデイズ"
+  -> [Stage 2] Ollama Translation Match found! Game Song: "カゲロウデイズ" (じん)
+     Covers downloaded successfully.
+
+[Processing 21/120] "Kuyamu to kaite mirai (บาดแผลสร้างอนาคตจากนี้ไป) [Thai ver by Meen]" -> Cleaned: "Kuyamu to kaite mirai"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Kuyamu to kaite mirai" to "クヤムトカイテミライ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "True Love Song" (Kai/クラシック「G線上のアリア」) [Category: maimai]
+     [Candidate 2] "ネコ日和。" (Kai/能登有沙) [Category: maimai]
+     [Candidate 3] "炭★坑★節" (Kai/光吉猛修) [Category: maimai]
+     [Candidate 4] "さよならプリンセス" (Kai) [Category: niconico＆ボーカロイド]
+     [Candidate 5] "ℝ∈Χ LUNATiCA" (Kai) [Category: maimai]
+     [Candidate 6] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 7] "ラプラスショコラ" (Kai) [Category: niconico＆ボーカロイド]
+     [Candidate 8] "ARROW RAIN feat. Ayame" (Alstroemeria Records) [Category: 東方Project]
+     [Candidate 9] "A Man In The Mirror" (orangentle) [Category: ゲキマイ]
+     [Candidate 10] "Last Samurai" (Street) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 22/120] "Kuyamu to kaite mirai [Project Sekai Version / Thai short ver by Meen]" -> Cleaned: "Kuyamu to kaite mirai"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Kuyamu to kaite mirai" to "クヤムトカイテミライ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "輪廻転生" (まふまふ) [Category: niconico]
+     [Candidate 2] "サクリファイス" (まふまふ) [Category: niconico]
+     [Candidate 3] "セカイはまだ始まってすらいない" (ピノキオピー / 初音ミク / ワンダーランズ×ショウタイム「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 4] "拝啓、桜舞い散るこの日に" (まふまふ) [Category: niconico]
+     [Candidate 5] "失敗作少女" (かいりきベア・MARETU feat.初音ミク) [Category: niconico]
+     [Candidate 6] "モア！ジャンプ！モア！" (ナユタン星人 / 初音ミク / MORE MORE JUMP！「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 7] "携帯恋話" (まふまふ / 初音ミク / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 8] "The secret garden" (Project DIVA Original Song feat.初音ミク) [Category: niconico]
+     [Candidate 9] "ステラ" (じん / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 10] "Ready Steady" (Giga / 初音ミク / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 23/120] "Q [Thai Cover by Meen]" -> Cleaned: "Q"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Q" to "キュウ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 1 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 24/120] "Tarantula [Thai ver by Meen]" -> Cleaned: "Tarantula"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Tarantula" to "タランチュラ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Sweet Requiem" (REDALiCE & aran) [Category: 東方Project]
+     [Candidate 2] "Aetheric Energy" (aran) [Category: maimai]
+     [Candidate 3] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 4] "Paranoia" (DiGiTAL WiNG feat. 花たん) [Category: 東方Project]
+     [Candidate 5] "少女幻葬戦慄曲　～　Necro Fantasia" (どぶウサギ) [Category: 東方Project]
+     [Candidate 6] "Starlight Vision" (矢鴇つかさ feat. 三澤秋) [Category: 東方Project]
+     [Candidate 7] "Phantasm Brigade" (Silver Forest) [Category: 東方Project]
+     [Candidate 8] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 9] "Starlight Dance Floor" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 10] "Help me, ERINNNNNN!! -Cranky remix-" (ビートまりお × Cranky) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 25/120] "Dorado no Higeki (โศกนาฏกรรมสีทอง) [Thai ver by Meen]" -> Cleaned: "Dorado no Higeki"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Dorado no Higeki" to "ドルアドの悲鳴"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "幽闇に目醒めしは" (セブンスヘブンMAXION) [Category: 東方Project]
+     [Candidate 2] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 3] "PANDORA PARADOXXX" (削除) [Category: ゲキマイ]
+     [Candidate 4] "Desperado Waltz" (ぺのれり) [Category: ゲキマイ]
+     [Candidate 5] "Idoratrize World" (A-One) [Category: 東方Project]
+     [Candidate 6] "AFTER PANDORA" (削除) [Category: maimai]
+     [Candidate 7] "Magical Paradox" (Mr.Asyu) [Category: maimai]
+     [Candidate 8] "Paradoxical Empress" (polysha) [Category: maimai]
+     [Candidate 9] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 10] "Technicians High" (HiTECH NINJA) [Category: ゲキマイ]
+     Ollama returned: "4"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "Desperado Waltz" (ぺのれり)
+     Covers downloaded successfully.
+
+[Processing 26/120] "Kodoku no Nami ni Sarawarenai you ni (อย่าถูกคลื่นแห่งความเหงาพัดพาไป) [Thai ver by Meen]" -> Cleaned: "Kodoku no Nami ni Sarawarenai you ni"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Kodoku no Nami ni Sarawarenai you ni" to "孤独の波にさらわれないように"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "Dreaming" (Alstroemeria Records) [Category: 東方Project]
+     [Candidate 3] "GEMINI -M-" (Tatsh) [Category: maimai]
+     [Candidate 4] "Our Wrenally" (t+pazolite) [Category: maimai]
+     [Candidate 5] "Unfinished Epic" (SLAVE.V-V-R feat.Sor△) [Category: maimai]
+     [Candidate 6] "雲外蒼電 -Dreaming Voltage-" (adaptor vs DRIVE.) [Category: maimai]
+     [Candidate 7] "taboo tears you up" (REDALiCE (HARDCORE TANO*C)) [Category: 東方Project]
+     [Candidate 8] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 9] "Tell Your World" (livetune) [Category: niconico]
+     [Candidate 10] "Calamity Fortune" (LeaF) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 27/120] "再生 (Saisei - เกิดใหม่) [Thai ver by Meen]" -> Cleaned: "再生"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 1 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 28/120] "Kagome Kagome (มาล้อมวง มาล้อมวง) [Thai Cover by Meen]" -> Cleaned: "Kagome Kagome"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Kagome Kagome" to "かこめかこめ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "幽闇に目醒めしは" (セブンスヘブンMAXION) [Category: 東方Project]
+     [Candidate 2] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 3] "QZKago Requiem" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 4] "Last Moments" (NJK Record (3L&maria♂polo)) [Category: 東方Project]
+     [Candidate 5] "星の器～STAR OF ANDROMEDA" (sun3) [Category: 東方Project]
+     [Candidate 6] "GEOMETRIC DANCE" (山本真央樹) [Category: ゲキマイ]
+     [Candidate 7] "Monochrome Rainbow" (Sta) [Category: maimai]
+     [Candidate 8] "Dragoon" (Shandy kubota) [Category: maimai]
+     [Candidate 9] "welcome to maimai!! with マイマイマー" (Hiro feat.越田Rute隆人&ビートまりお) [Category: maimai]
+     [Candidate 10] "You Mean the World to Me" (Mameyudoufu feat. Shully) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 29/120] "August 31 /  8月31日 [Thai cover by Meen]" -> Cleaned: "August 31 / 8月31日"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "August 31 / 8月31日" to "8月31日"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "ストリーミングハート" (DECO*27) [Category: niconico]
+     [Candidate 2] "シリョクケンサ" (40mP) [Category: niconico]
+     [Candidate 3] "幽闇に目醒めしは" (セブンスヘブンMAXION) [Category: 東方Project]
+     [Candidate 4] "恋愛裁判" (40mP) [Category: niconico]
+     [Candidate 5] "愛迷エレジー" (DECO*27) [Category: niconico]
+     [Candidate 6] "愛言葉" (DECO*27) [Category: niconico]
+     [Candidate 7] "からくりピエロ" (40mP) [Category: niconico]
+     [Candidate 8] "だんだん早くなる" (40mP) [Category: niconico]
+     [Candidate 9] "ゴーストルール" (DECO*27) [Category: niconico]
+     [Candidate 10] "妄想感傷代償連盟" (DECO*27) [Category: niconico]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 30/120] "⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀[Thai ver by Meen]" -> Cleaned: "⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 4 candidates. Querying Ollama to select...
+     [Candidate 1] "生きてるおばけは生きている" (鬱P feat.flower) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "デーモンベット" (ちいたな feat.flower) [Category: maimai]
+     [Candidate 3] "Cry Cry Cry" (FLG4 feat.Flower) [Category: maimai]
+     [Candidate 4] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     Ollama returned: "4"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」)
+     Covers downloaded successfully.
+
+[Processing 31/120] "Haitoku no Hana (ดอกไม้ไร้ศีลธรรม) [Thai cover by Meen]" -> Cleaned: "Haitoku no Hana"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Haitoku no Hana" to "ハイトクノハナ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "幽闇に目醒めしは" (セブンスヘブンMAXION) [Category: 東方Project]
+     [Candidate 2] "恋の氷結おてんば湯けむりチルノ温泉" (uno×夕野ヨシミ feat. miko) [Category: 東方Project]
+     [Candidate 3] "Phantasm Brigade" (Silver Forest) [Category: 東方Project]
+     [Candidate 4] "Hand in Hand" (livetune) [Category: niconico]
+     [Candidate 5] "Absolunote" (Lemm) [Category: niconico]
+     [Candidate 6] "Change me" (shu-t) [Category: niconico]
+     [Candidate 7] "Seyana. ～何でも言うことを聞いてくれるアカネチャン～" (GYARI) [Category: niconico]
+     [Candidate 8] "夜もすがら君想ふ (10th Anniv.)" (TOKOTOKO（西沢さんP）) [Category: niconico]
+     [Candidate 9] "え？あぁ、そう。- 10th Anniversary Edition -" (蝶々P) [Category: niconico]
+     [Candidate 10] "enchanted wanderer" (linear ring) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 32/120] "Empty Prayer (คำอธิษฐานอันว่างเปล่า) [Thai ver by Meen]" -> Cleaned: "Empty Prayer"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Empty Prayer" to "空の祈り"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "フラジール" (ぬゆり) [Category: niconico]
+     [Candidate 2] "命ばっかり" (ぬゆり) [Category: niconico]
+     [Candidate 3] "ブレス・ユア・ブレス" (和田たけあき) [Category: niconico]
+     [Candidate 4] "フィクサー" (ぬゆり) [Category: niconico]
+     [Candidate 5] "ロウワー" (ぬゆり / MEIKO / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 6] "てらてら" (和田たけあき / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 7] "LEMON MELON COOKIE" (TAK) [Category: niconico]
+     [Candidate 8] "ディカディズム" (ぬゆり) [Category: niconico＆ボーカロイド]
+     [Candidate 9] "春嵐" (john) [Category: niconico＆ボーカロイド]
+     [Candidate 10] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     Ollama returned: "3"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "ブレス・ユア・ブレス" (和田たけあき)
+     Covers downloaded successfully.
+
+[Processing 33/120] "[Re-make] How To Sekai Seifuku [Thai cover by Meen]" -> Cleaned: "How To Sekai Seifuku"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "How To Sekai Seifuku" to "世界征服"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "ロストワンの号哭" (Neru) [Category: niconico]
+     [Candidate 2] "幽闇に目醒めしは" (セブンスヘブンMAXION) [Category: 東方Project]
+     [Candidate 3] "洗脳" (ゆりん・柿チョコ×Neru) [Category: ゲキマイ]
+     [Candidate 4] "咲キ誇レ常世ノ華" (Sou×マチゲリータ) [Category: ゲキマイ]
+     [Candidate 5] "True Love Song" (Kai/クラシック「G線上のアリア」) [Category: maimai]
+     [Candidate 6] "ネコ日和。" (Kai/能登有沙) [Category: maimai]
+     [Candidate 7] "炭★坑★節" (Kai/光吉猛修) [Category: maimai]
+     [Candidate 8] "リフヴェイン" (青栗鼠 feat.sekai) [Category: maimai]
+     [Candidate 9] "さよならプリンセス" (Kai) [Category: niconico＆ボーカロイド]
+     [Candidate 10] "ℝ∈Χ LUNATiCA" (Kai) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 34/120] "携帯恋話 โดนเพื่อนแกง(?) [Cover shot ver. by Meen & เดอะแก้ง?]" -> Cleaned: "携帯恋話 โดนเพื่อนแกง"
+  -> [Stage 1] Safe Match found! Game Song: "携帯恋話" (まふまふ / 初音ミク / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」)
+     Covers downloaded successfully.
+
+[Processing 35/120] "Sayonara Boku no Hero (ลาก่อนนะ ฮีโร่ของผม) [Thai ver by Meen]" -> Cleaned: "Sayonara Boku no Hero"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Sayonara Boku no Hero" to "さようならぼくのヒーロー"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "on the rocks" (OSTER project) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "taboo tears you up" (REDALiCE (HARDCORE TANO*C)) [Category: 東方Project]
+     [Candidate 3] "Yet Another ”drizzly rain”" (myu314 feat.あまね（COOL&CREATE）) [Category: 東方Project]
+     [Candidate 4] "東方妖々夢 ～the maximum moving about～" (石鹸屋) [Category: 東方Project]
+     [Candidate 5] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 6] "Absolunote" (Lemm) [Category: niconico]
+     [Candidate 7] "Paranoia" (DiGiTAL WiNG feat. 花たん) [Category: 東方Project]
+     [Candidate 8] "Here We Go" (曲：TeddyLoid／歌：高瀬 梨緒(CV：久保 ユリカ)) [Category: ゲキマイ]
+     [Candidate 9] "HERA" (ルゼ) [Category: ゲキマイ]
+     [Candidate 10] "Ruler Count, Zero" (曲：本多友紀（Arte Refact）／歌：R.B.P. [九條 楓(CV：佳村 はるか)、逢坂 茜(CV：大空 直美)、珠洲島 有栖(CV：長縄 まりあ)]) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 36/120] "学校を休んだ日のこと (ในวันที่ฉันไม่ได้ไปโรงเรียน) [Thai ver by Meen]" -> Cleaned: "学校を休んだ日のこと"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+  -> [No Match] Could not match to any game song.
+
+[Processing 37/120] "Bella Donna ! Bella Donna ! [Thai ver by Meen]" -> Cleaned: "Bella Donna ! Bella Donna !"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Bella Donna ! Bella Donna !" to "ベラドンナ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "アージェントシンメトリー" (Sta feat.b) [Category: ゲキマイ]
+     [Candidate 2] "Monochrome Rainbow" (Sta) [Category: maimai]
+     [Candidate 3] "Dreampainter" (Sta feat.tigerlily and DOT96) [Category: maimai]
+     [Candidate 4] "Viyella's Tears" (Laur) [Category: ゲキマイ]
+     [Candidate 5] "Cinderella Story [BlackY Remix]" (Amateras Records feat. 柚之原りえ) [Category: 東方Project]
+     [Candidate 6] "Viyella's Scream" (Laur) [Category: ゲキマイ]
+     [Candidate 7] "We Gonna Party" (Cranky) [Category: maimai]
+     [Candidate 8] "進め！イッスン軍団 -Rebellion of the Dwarfs-" (dawn-system) [Category: 東方Project]
+     [Candidate 9] "WORLD'S END UMBRELLA" (ハチ) [Category: niconico＆ボーカロイド]
+     [Candidate 10] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 38/120] "KING (by Kanaria) [Thai cover by Meen]" -> Cleaned: "KING"
+  -> [Stage 1] Safe Match found! Game Song: "KING" (Kanaria)
+     Covers downloaded successfully.
+
+[Processing 39/120] "Sacrifice (ผู้เสียสละ) [Thai ver by Meen]" -> Cleaned: "Sacrifice"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Sacrifice" to "サクリファイス"
+  -> [Stage 2] Ollama Translation Match found! Game Song: "サクリファイス" (まふまふ)
+     Covers downloaded successfully.
+
+[Processing 40/120] "Romeo and Cinderella [Thai ver by Meen]" -> Cleaned: "Romeo and Cinderella"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Romeo and Cinderella" to "ロミオとシンデレラ"
+  -> [Stage 2] Ollama Translation Match found! Game Song: "ロミオとシンデレラ" (doriko)
+     Covers downloaded successfully.
+
+[Processing 41/120] "Proof of life [Thai cover by Meen]" -> Cleaned: "Proof of life"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 9 candidates. Querying Ollama to select...
+     [Candidate 1] "咲キ誇レ常世ノ華" (Sou×マチゲリータ) [Category: ゲキマイ]
+     [Candidate 2] "GAME IS LIFE" (曲：ヒゲドライバー／歌：井之原 小星(CV：ももの はるな)) [Category: ゲキマイ]
+     [Candidate 3] "No Life Queen [DJ Command Remix]" (SOUND HOLIC Vs. Eurobeat Union feat. Nana Takahashi) [Category: 東方Project]
+     [Candidate 4] "Life Feels Good" (Cranky) [Category: maimai]
+     [Candidate 5] "LiftOff" (MAYA AKAI) [Category: ゲキマイ]
+     [Candidate 6] "Prominence" (曲：下野 隼／歌：皇城 セツナ(CV：八巻 アンナ)、式宮 碧音(CV：髙橋 ミナミ)) [Category: ゲキマイ]
+     [Candidate 7] "LOL -lots of laugh-" (KeN/エンドケイプ) [Category: niconico＆ボーカロイド]
+     [Candidate 8] "Prophesy One" (vox2（小野秀幸）) [Category: maimai]
+     [Candidate 9] "quiet room" (有機酸) [Category: niconico＆ボーカロイド]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+[Skipping] ร้องเพลงอะไรดี EP.1 (มาคุยกันได้ , ออกแนวบ่นนิดๆ(?) , คาดว่าอาจมีตอนต่อไป(???)) (Non-song video)
+
+[Processing 43/120] "Theo [Thai ver by Meen]" -> Cleaned: "Theo"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Theo" to "テオ"
+  -> [Stage 2] Ollama Translation Match found! Game Song: "テオ" (Omoi)
+     Covers downloaded successfully.
+[Skipping] HBD Meen Thaisub เล่นเกม Identity V กัน! (Non-song video)
+
+[Processing 45/120] "Home Sweet Home (บ้านแสนโศก) Ver.Rock [Cover by Meen]" -> Cleaned: "Home Sweet Home"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Home Sweet Home" to "ホーム・スイート・ホーム"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "sweet little sister" (Silver Forest) [Category: 東方Project]
+     [Candidate 2] "Sweet Devil" (八王子P) [Category: niconico]
+     [Candidate 3] "Sweet Requiem" (REDALiCE & aran) [Category: 東方Project]
+     [Candidate 4] "SWEET SHAKE!!" (曲：佐藤純一（fhána）／歌：桜井 春菜(CV：近藤 玲奈)) [Category: ゲキマイ]
+     [Candidate 5] "Sweets×Sweets" (Team-D) [Category: maimai]
+     [Candidate 6] "Sweetiex2" (Dixie Flatline) [Category: niconico＆ボーカロイド]
+     [Candidate 7] "Sweets Time" (SYNC.ART'S feat. 3L) [Category: 東方Project]
+     [Candidate 8] "Last Moments" (NJK Record (3L&maria♂polo)) [Category: 東方Project]
+     [Candidate 9] "星の器～STAR OF ANDROMEDA" (sun3) [Category: 東方Project]
+     [Candidate 10] "GEOMETRIC DANCE" (山本真央樹) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 46/120] "I Think I Just Died [Thai cover by Meen]" -> Cleaned: "I Think I Just Died"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Justified" (MintJam feat.光吉猛修) [Category: maimai]
+     [Candidate 2] "Just Be Friends" (Dixie Flatline) [Category: niconico]
+     [Candidate 3] "Blows Up Everything" (USAO) [Category: ゲキマイ]
+     [Candidate 4] "Customized Justice" (Kobaryo) [Category: maimai]
+     [Candidate 5] "Scream out! -CHUNITHM Tuning-" (A-One) [Category: 東方Project]
+     [Candidate 6] "Perfect Shining!!" (曲：宮崎誠／歌：星咲 あかり(CV：赤尾 ひかる)) [Category: ゲキマイ]
+     [Candidate 7] "Starduster" (ジミーサムP) [Category: niconico]
+     [Candidate 8] "Stardust:RAY" (kanone vs. BlackY) [Category: ゲキマイ]
+     [Candidate 9] "Pastel Sprinkles" (pan) [Category: ゲキマイ]
+     [Candidate 10] "Starlight Disco" (loos feat. Meramipop) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 47/120] "Orange [Thai cover by Meen]" -> Cleaned: "Orange"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Orange" to "オレンジ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "ヒトリシズカ(Arranged: Iceon)" (幽閉サテライト(direction:嵯峨飛鳥)) [Category: 東方Project]
+     [Candidate 2] "Change me" (shu-t) [Category: niconico]
+     [Candidate 3] "Beat of getting entangled" (Shoichiro Hirata) [Category: maimai]
+     [Candidate 4] "Jimang Shot" (じまんぐ) [Category: 東方Project]
+     [Candidate 5] "Help me, ERINNNNNN!! -Cranky remix-" (ビートまりお × Cranky) [Category: 東方Project]
+     [Candidate 6] "Paranoia" (DiGiTAL WiNG feat. 花たん) [Category: 東方Project]
+     [Candidate 7] "ナイト・オブ・ナイツ (Cranky Remix)" (ビートまりお × Cranky) [Category: 東方Project]
+     [Candidate 8] "GranFatalité" (曲：ZAQ／歌：柏木 咲姫(CV：石見 舞菜香)) [Category: ゲキマイ]
+     [Candidate 9] "Transcend Lights" (曲：小高光太郎／歌：オンゲキシューターズ) [Category: ゲキマイ]
+     [Candidate 10] "Idoratrize World" (A-One) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 48/120] "Lemon (Kenshi Yonezu) Piano ver [Cover by Meen]" -> Cleaned: "Lemon"
+  -> [Stage 1] Safe Match found! Game Song: "LEMON MELON COOKIE" (TAK)
+     Covers downloaded successfully.
+
+[Processing 49/120] "Plot:0 [Thai cover by Meen]" -> Cleaned: "Plot:0"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 2 candidates. Querying Ollama to select...
+     [Candidate 1] "VIIIbit Explorer" (Lime) [Category: ゲキマイ]
+     [Candidate 2] "LOL -lots of laugh-" (KeN/エンドケイプ) [Category: niconico＆ボーカロイド]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 50/120] "BRING IT ON [Thai ver by Meen Feat. zxbara]" -> Cleaned: "BRING IT ON"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "BRING IT ON" to "ブリング・イット・オン"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Ready Steady" (Giga / 初音ミク / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 2] "劣等上等" (Giga / 鏡音リン・レン / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico＆ボーカロイド]
+     [Candidate 3] "ワーワーワールド" (Giga & Mitchie M / 初音ミク、花里みのり、小豆沢こはね「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico＆ボーカロイド]
+     [Candidate 4] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 5] "Spring of Dreams" (3L (NJK Record)) [Category: 東方Project]
+     [Candidate 6] "KING is BACK!!" (A-One) [Category: maimai]
+     [Candidate 7] "Help me, ERINNNNNN!!（Band ver.）" (ビートまりお) [Category: 東方Project]
+     [Candidate 8] "Dreaming" (Alstroemeria Records) [Category: 東方Project]
+     [Candidate 9] "東方妖々夢 ～the maximum moving about～" (石鹸屋) [Category: 東方Project]
+     [Candidate 10] "Phantasm Brigade" (Silver Forest) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 51/120] "Reincarnation (ไปเกิดใหม่ซะ) [Thai ver by Meen]" -> Cleaned: "Reincarnation"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Reincarnation" to "転生"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "幽闇に目醒めしは" (セブンスヘブンMAXION) [Category: 東方Project]
+     [Candidate 2] "RE:INCARNATED DRAGNER" (黒沢ダイスケ × 小寺可南子) [Category: maimai]
+     [Candidate 3] "STRIPES feat. EL.J (2018 reinterpretation)" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 4] "TEmPTaTiON" (かねこちはる) [Category: ゲキマイ]
+     [Candidate 5] "Mutation" (Laur) [Category: ゲキマイ]
+     [Candidate 6] "Acceleration" (REDALiCE) [Category: maimai]
+     [Candidate 7] "magician's operation" (EZFG) [Category: niconico＆ボーカロイド]
+     [Candidate 8] "Imitation:Loud Lounge" (Ino(chronoize)) [Category: maimai]
+     [Candidate 9] "Excalibur ～Revived resolution～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 10] "Music Evolution" (DiGiTAL WiNG feat. 花たん) [Category: 東方Project]
+     Ollama returned: "2"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "RE:INCARNATED DRAGNER" (黒沢ダイスケ × 小寺可南子)
+     Covers downloaded successfully.
+
+[Processing 52/120] "Slow Motion [Thai ver by Meen]" -> Cleaned: "Slow Motion"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Slow Motion" to "スローモーション"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "幽闇に目醒めしは" (セブンスヘブンMAXION) [Category: 東方Project]
+     [Candidate 2] "DEVOTION" (AJURIKA feat.SAK.) [Category: maimai]
+     [Candidate 3] "Excalibur ～Revived resolution～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 4] "STRIPES feat. EL.J (2018 reinterpretation)" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 5] "Music Evolution" (DiGiTAL WiNG feat. 花たん) [Category: 東方Project]
+     [Candidate 6] "TEmPTaTiON" (かねこちはる) [Category: ゲキマイ]
+     [Candidate 7] "Resolution" (曲：ANCHOR／歌：皇城 セツナ(CV：八巻 アンナ)) [Category: ゲキマイ]
+     [Candidate 8] "Mutation" (Laur) [Category: ゲキマイ]
+     [Candidate 9] "え？あぁ、そう。- 10th Anniversary Edition -" (蝶々P) [Category: niconico]
+     [Candidate 10] "Acceleration" (REDALiCE) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 53/120] "Handicap (อุปสรรค) [Thai ver by Meen]" -> Cleaned: "Handicap"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Handicap" to "ハンディキャップ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Hand in Hand" (livetune) [Category: niconico]
+     [Candidate 2] "前衛的Landscape" (HiTECH NINJA feat. RANASOL) [Category: maimai]
+     [Candidate 3] "enchanted wanderer" (linear ring) [Category: maimai]
+     [Candidate 4] "HANIPAGANDA" (暁Records) [Category: 東方Project]
+     [Candidate 5] "Help me, ERINNNNNN!!（Band ver.）" (ビートまりお) [Category: 東方Project]
+     [Candidate 6] "Phantasm Brigade" (Silver Forest) [Category: 東方Project]
+     [Candidate 7] "Mr. Wonderland" (sasakure.UK) [Category: niconico]
+     [Candidate 8] "Change me" (shu-t) [Category: niconico]
+     [Candidate 9] "星の器～STAR OF ANDROMEDA" (sun3) [Category: 東方Project]
+     [Candidate 10] "No Life Queen [DJ Command Remix]" (SOUND HOLIC Vs. Eurobeat Union feat. Nana Takahashi) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 54/120] "Often (บ่อยครั้ง) [Thai ver by Meen]" -> Cleaned: "Often"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Often" to "オフトン"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 5 candidates. Querying Ollama to select...
+     [Candidate 1] "Caliburne ～Story of the Legendary sword～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 2] "Latent Kingdom" (Laur vs 大国奏音) [Category: ゲキマイ]
+     [Candidate 3] "End of Twilight" (ALiCE'S EMOTiON feat. Ayumi Nomiya) [Category: maimai]
+     [Candidate 4] "進め！イッスン軍団 -Rebellion of the Dwarfs-" (dawn-system) [Category: 東方Project]
+     [Candidate 5] "AFTER PANDORA" (削除) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 55/120] "Otome Kaibou (กายวิภาคของหญิงสาว) [Thai ver by Meen]" -> Cleaned: "Otome Kaibou"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Otome Kaibou" to "乙女解剖"
+  -> [Stage 2] Ollama Translation Match found! Game Song: "乙女解剖" (DECO*27)
+     Covers downloaded successfully.
+
+[Processing 56/120] "จนกว่าจะทิ้งความฝันและเติบโตเป็นผู้ใหญ่ (HBD to Me!!!) [Thai ver by Meen]" -> Cleaned: "จนกว่าจะทิ้งความฝันและเติบโตเป็นผู้ใหญ่"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "จนกว่าจะทิ้งความฝันและเติบโตเป็นผู้ใหญ่" to "僕が夢を捨てて大人になるまで"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "セカイはまだ始まってすらいない" (ピノキオピー / 初音ミク / ワンダーランズ×ショウタイム「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 2] "失敗作少女" (かいりきベア・MARETU feat.初音ミク) [Category: niconico]
+     [Candidate 3] "モア！ジャンプ！モア！" (ナユタン星人 / 初音ミク / MORE MORE JUMP！「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 4] "携帯恋話" (まふまふ / 初音ミク / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 5] "The secret garden" (Project DIVA Original Song feat.初音ミク) [Category: niconico]
+     [Candidate 6] "ステラ" (じん / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 7] "Ready Steady" (Giga / 初音ミク / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 8] "ワールドイズマイン" (supercell feat. 初音ミク) [Category: niconico]
+     [Candidate 9] "フューチャー・イヴ" (sasakure.UK feat. 初音ミク) [Category: niconico]
+     [Candidate 10] "てらてら" (和田たけあき / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     Ollama match error for "จนกว่าจะทิ้งความฝันและเติบโตเป็นผู้ใหญ่": Timeout: Ollama did not respond within 30 seconds.
+  -> [No Match] Could not match to any game song.
+
+[Processing 57/120] "Patchwork Staccato (รอยเย็บปุปะกระท่อนกระแท่น) [Thai ver by Meen]" -> Cleaned: "Patchwork Staccato"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Patchwork Staccato" to "パッチワーク・スタッカート"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "アージェントシンメトリー" (Sta feat.b) [Category: ゲキマイ]
+     [Candidate 2] "Monochrome Rainbow" (Sta) [Category: maimai]
+     [Candidate 3] "Dreampainter" (Sta feat.tigerlily and DOT96) [Category: maimai]
+     [Candidate 4] "Catch the Wave" (livetune) [Category: niconico]
+     [Candidate 5] "Catch Me If You Can" (曲：TAKU INOUE／歌：早乙女 彩華(CV：中島 唯)) [Category: ゲキマイ]
+     [Candidate 6] "HECATONCHEIR" (Yuta Imai) [Category: ゲキマイ]
+     [Candidate 7] "Starlight Vision" (矢鴇つかさ feat. 三澤秋) [Category: 東方Project]
+     [Candidate 8] "Tell Your World" (livetune) [Category: niconico]
+     [Candidate 9] "Starlight Dance Floor" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 10] "Witches night" (Liz Triangle) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 58/120] "Drama and a Deformed City (บทละครและเมืองหลอกลวง) [Thai ver by Meen]" -> Cleaned: "Drama and a Deformed City"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Drama and a Deformed City" to "ドラマと歪んだ街"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Dramatic…?" (曲：Kijibato／歌：星咲 あかり(CV：赤尾 ひかる)、珠洲島 有栖(CV：長縄 まりあ)、日向 千夏(CV：岡咲 美保)、皇城 セツナ(CV：八巻 アンナ)) [Category: ゲキマイ]
+     [Candidate 2] "Oshama Scramble!" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 3] "Calamity Fortune" (LeaF) [Category: 東方Project]
+     [Candidate 4] "星の器～STAR OF ANDROMEDA" (sun3) [Category: 東方Project]
+     [Candidate 5] "Get the star for you [DJ Command Remix]" (SOUND HOLIC Vs. Eurobeat Union feat. 709sec.) [Category: 東方Project]
+     [Candidate 6] "Danza zandA" (福山光晴) [Category: maimai]
+     [Candidate 7] "HANIPAGANDA" (暁Records) [Category: 東方Project]
+     [Candidate 8] "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)" (かめりあ) [Category: maimai]
+     [Candidate 9] "Help me, ERINNNNNN!!（Band ver.）" (ビートまりお) [Category: 東方Project]
+     [Candidate 10] "Phantasm Brigade" (Silver Forest) [Category: 東方Project]
+     Ollama returned: "1"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "Dramatic…?" (曲：Kijibato／歌：星咲 あかり(CV：赤尾 ひかる)、珠洲島 有栖(CV：長縄 まりあ)、日向 千夏(CV：岡咲 美保)、皇城 セツナ(CV：八巻 アンナ))
+     Covers downloaded successfully.
+
+[Processing 59/120] "kimi no koto ga suki de gomennasai (ขอโทษนะที่แอบชอบเธอเหลือเกิน) [Thai ver by Meen]" -> Cleaned: "kimi no koto ga suki de gomennasai"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "kimi no koto ga suki de gomennasai" to "君のことが好きでごめんね"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Last Moments" (NJK Record (3L&maria♂polo)) [Category: 東方Project]
+     [Candidate 2] "We Gonna Party" (Cranky) [Category: maimai]
+     [Candidate 3] "OTOGEMA" (ビートまりお) [Category: maimai]
+     [Candidate 4] "Comet Panto Men!" (MYUKKE.) [Category: maimai]
+     [Candidate 5] "Unlimited Spark!" (t+pazolite feat.鈴木 ななこ) [Category: 東方Project]
+     [Candidate 6] "Dreaming" (Alstroemeria Records) [Category: 東方Project]
+     [Candidate 7] "Club Ibuki in Break All" (void＋夕野ヨシミ (IOSYS) feat.藤原鞠菜) [Category: 東方Project]
+     [Candidate 8] "Ai Nov" (Feryquitous) [Category: ゲキマイ]
+     [Candidate 9] "Doll Judgment" (ぬるはち) [Category: 東方Project]
+     [Candidate 10] "星の器～STAR OF ANDROMEDA" (sun3) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 60/120] "SNOBBISM (ผู้จอมเสแสร้ง) [Thai ver by Meen]" -> Cleaned: "SNOBBISM"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "SNOBBISM" to "スノービズム"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 5 candidates. Querying Ollama to select...
+     [Candidate 1] "Iudicium “Apocalypsis Mix”" (曲：Powerless／歌：柏木 咲姫(CV：石見 舞菜香)、柏木 美亜(CV:和氣 あず未)) [Category: ゲキマイ]
+     [Candidate 2] "snooze" (wotaku feat. SHIKI) [Category: niconico]
+     [Candidate 3] "MeteorSnow" (あず♪) [Category: ゲキマイ]
+     [Candidate 4] "Prismatic" (CielArc) [Category: 東方Project]
+     [Candidate 5] "Metamorphosism" (削除) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 61/120] "Guren Veritable Pandemonium (ขบวนอสูรบุปผาสีชาด) [Thai ver by Meen]" -> Cleaned: "Guren Veritable Pandemonium"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Guren Veritable Pandemonium" to "紅蓮のパンデモニウム"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Pastel Sprinkles" (pan) [Category: ゲキマイ]
+     [Candidate 2] "shake it!" (emon) [Category: niconico＆ボーカロイド]
+     [Candidate 3] "Horoscope Express" (pan) [Category: maimai]
+     [Candidate 4] "Help me, ERINNNNNN!!（Band ver.）" (ビートまりお) [Category: 東方Project]
+     [Candidate 5] "Imperishable Night 2006 (2016 Refine)" (ゆうゆ / 篠螺悠那) [Category: 東方Project]
+     [Candidate 6] "VANTABLACK RAVER" (DIVELA feat.桐谷こむぎ) [Category: maimai]
+     [Candidate 7] "Mr. Wonderland" (sasakure.UK) [Category: niconico]
+     [Candidate 8] "LEMON MELON COOKIE" (TAK) [Category: niconico]
+     [Candidate 9] "PANDORA PARADOXXX" (削除) [Category: ゲキマイ]
+     [Candidate 10] "enchanted wanderer" (linear ring) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 62/120] "朧月 (Oborozuki) (หมอกซ่อนจันทร์) [Thai ver by Meen]" -> Cleaned: "朧月"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+  -> [No Match] Could not match to any game song.
+
+[Processing 63/120] "Worm Eaten Psychedelism (ประสาทหลอน หนอนผู้กัดกิน) [Thai ver by Meen]" -> Cleaned: "Worm Eaten Psychedelism"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Worm Eaten Psychedelism" to "虫食いサイケデリック"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "True Love Song" (Kai/クラシック「G線上のアリア」) [Category: maimai]
+     [Candidate 2] "ネコ日和。" (Kai/能登有沙) [Category: maimai]
+     [Candidate 3] "炭★坑★節" (Kai/光吉猛修) [Category: maimai]
+     [Candidate 4] "LOL -lots of laugh-" (KeN/エンドケイプ) [Category: niconico＆ボーカロイド]
+     [Candidate 5] "さよならプリンセス" (Kai) [Category: niconico＆ボーカロイド]
+     [Candidate 6] "ℝ∈Χ LUNATiCA" (Kai) [Category: maimai]
+     [Candidate 7] "ラプラスショコラ" (Kai) [Category: niconico＆ボーカロイド]
+     [Candidate 8] "STRIPES feat. EL.J (2018 reinterpretation)" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 9] "Beat Eater" (ポリスピカデリー / 鏡音レン / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 10] "Latent Kingdom" (Laur vs 大国奏音) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 64/120] "Cantarella (Piano ver.) [Cover by Meen]" -> Cleaned: "Cantarella"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Cantarella" to "カンタレラ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "Cinderella Story [BlackY Remix]" (Amateras Records feat. 柚之原りえ) [Category: 東方Project]
+     [Candidate 3] "WORLD'S END UMBRELLA" (ハチ) [Category: niconico＆ボーカロイド]
+     [Candidate 4] "少女幻葬戦慄曲　～　Necro Fantasia" (どぶウサギ) [Category: 東方Project]
+     [Candidate 5] "Phantasm Brigade" (Silver Forest) [Category: 東方Project]
+     [Candidate 6] "Viyella's Tears" (Laur) [Category: ゲキマイ]
+     [Candidate 7] "Viyella's Scream" (Laur) [Category: ゲキマイ]
+     [Candidate 8] "VANTABLACK RAVER" (DIVELA feat.桐谷こむぎ) [Category: maimai]
+     [Candidate 9] "VERTeX (rintaro soma deconstructed remix)" (Hiro／rintaro soma) [Category: maimai]
+     [Candidate 10] "LOSTPHANTASIA" (岸田教団&THE明星ロケッツ×草野華余子) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 65/120] "命ばっかり (Inochi Bakkari) (ก็แค่ชีวิต) [Thai ver By Meen]" -> Cleaned: "命ばっかり"
+  -> [Stage 1] Safe Match found! Game Song: "命ばっかり" (ぬゆり)
+     Covers downloaded successfully.
+
+[Processing 66/120] "Ghost Rule (กฎของวิญญาณ) [Thai ver by Meen]" -> Cleaned: "Ghost Rule"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Ghost Rule" to "ゴースト・ルール"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Yakumo >>JOINT STRUGGLE (2019 Update)" (くっちー (DARKSIDE APPROACH)) [Category: 東方Project]
+     [Candidate 2] "Rule the World!!" (曲：八木雄一 feat. Marty Friedman／歌：逢坂 茜(CV：大空 直美)) [Category: ゲキマイ]
+     [Candidate 3] "Ruler Count, Zero" (曲：本多友紀（Arte Refact）／歌：R.B.P. [九條 楓(CV：佳村 はるか)、逢坂 茜(CV：大空 直美)、珠洲島 有栖(CV：長縄 まりあ)]) [Category: ゲキマイ]
+     [Candidate 4] "VERTeX (rintaro soma deconstructed remix)" (Hiro／rintaro soma) [Category: maimai]
+     [Candidate 5] "CITRUS MONSTER" (D-Cee) [Category: ゲキマイ]
+     [Candidate 6] "STRIPES feat. EL.J (2018 reinterpretation)" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 7] "Energy Booster ～ 上海紅茶館" (激戦の人) [Category: 東方Project]
+     [Candidate 8] "AstrøNotes." (MisoilePunch♪) [Category: ゲキマイ]
+     [Candidate 9] "Stardust:RAY" (kanone vs. BlackY) [Category: ゲキマイ]
+     [Candidate 10] "Lostwizz" (s-don) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 67/120] "A Thousand Year Solo [Thai ver by Meen]" -> Cleaned: "A Thousand Year Solo"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "A Thousand Year Solo" to "千年のソロ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)" (かめりあ) [Category: maimai]
+     [Candidate 2] "taboo tears you up" (REDALiCE (HARDCORE TANO*C)) [Category: 東方Project]
+     [Candidate 3] "Viyella's Tears" (Laur) [Category: ゲキマイ]
+     [Candidate 4] "Candy Tall Woman" (naotyu- feat. 佐々木恵梨) [Category: maimai]
+     [Candidate 5] "Help me, ERINNNNNN!!（Band ver.）" (ビートまりお) [Category: 東方Project]
+     [Candidate 6] "Mr. Wonderland" (sasakure.UK) [Category: niconico]
+     [Candidate 7] "Hand in Hand" (livetune) [Category: niconico]
+     [Candidate 8] "Absolunote" (Lemm) [Category: niconico]
+     [Candidate 9] "砂の惑星 feat. HATSUNE MIKU" (ハチ) [Category: niconico]
+     [Candidate 10] "星の器～STAR OF ANDROMEDA" (sun3) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 68/120] "Celestial Fox (จิ้งจอกสวรรค์) [Thai ver by Meen]" -> Cleaned: "Celestial Fox"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Celestial Fox" to "天狐"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Magical Flavor" (DECO*27 feat.Tia) [Category: maimai]
+     [Candidate 2] "ケロ⑨destiny" (Silver Forest) [Category: 東方Project]
+     [Candidate 3] "Acceleration" (REDALiCE) [Category: maimai]
+     [Candidate 4] "FestivaLight" (霜月はるか) [Category: maimai]
+     [Candidate 5] "Dive into The Sky ～initialized～" (A-One) [Category: 東方Project]
+     [Candidate 6] "Destiny Runner" (さわわ) [Category: 東方Project]
+     [Candidate 7] "sweet little sister" (Silver Forest) [Category: 東方Project]
+     [Candidate 8] "Caliburne ～Story of the Legendary sword～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 9] "CYCLES" (Masayoshi Minoshima feat. 綾倉盟) [Category: ゲキマイ]
+     [Candidate 10] "Everlasting Today" (void (Mournfinale)) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 69/120] "Nameless Song (เพลงไร้นาม) [Thai ver by Meen]" -> Cleaned: "Nameless Song"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Endless Seeker" (A-One) [Category: 東方Project]
+     [Candidate 2] "Endless, Sleepless Night" (samfree feat.(V)・∀・(V)かにぱん。(A-ONE)) [Category: 東方Project]
+     [Candidate 3] "True Love Song" (Kai/クラシック「G線上のアリア」) [Category: maimai]
+     [Candidate 4] "Endless World" (RYOHEI KOHNO/保立美和子) [Category: maimai]
+     [Candidate 5] "Sqlupp (Camellia's "Sqleipd*Hiytex" Remix)" (owl＊tree Remixed by Camellia) [Category: maimai]
+     [Candidate 6] "sweet little sister" (Silver Forest) [Category: 東方Project]
+     [Candidate 7] "Caliburne ～Story of the Legendary sword～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 8] "Melody！" (あ～るの～と（いえろ～ぜぶら）) [Category: 東方Project]
+     [Candidate 9] "Floating Darkness" (Tatsh feat. 月子) [Category: 東方Project]
+     [Candidate 10] "CYCLES" (Masayoshi Minoshima feat. 綾倉盟) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 70/120] "Kotonoha Yuugi (เกมเล่นคำ) [Thai ver by Meen]" -> Cleaned: "Kotonoha Yuugi"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Kotonoha Yuugi" to "言の葉遊戯"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 6 candidates. Querying Ollama to select...
+     [Candidate 1] "MEGATON BLAST" (BlackY vs. Yooh) [Category: ゲキマイ]
+     [Candidate 2] "Moon of Noon" (Sampling Masters MEGA) [Category: ゲキマイ]
+     [Candidate 3] "HECATONCHEIR" (Yuta Imai) [Category: ゲキマイ]
+     [Candidate 4] "Monochrome Rainbow" (Sta) [Category: maimai]
+     [Candidate 5] "進め！イッスン軍団 -Rebellion of the Dwarfs-" (dawn-system) [Category: 東方Project]
+     [Candidate 6] "OTOGEMA" (ビートまりお) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 71/120] "Tokyo Teddy Bear [Thai Cover by Meen]" -> Cleaned: "Tokyo Teddy Bear"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Tokyo Teddy Bear" to "東京テディベア"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Honey Bear" (Freezer) [Category: ゲキマイ]
+     [Candidate 2] "taboo tears you up" (REDALiCE (HARDCORE TANO*C)) [Category: 東方Project]
+     [Candidate 3] "Heartbeats" (RAMM feat. 若井友希) [Category: maimai]
+     [Candidate 4] "RE:INCARNATED DRAGNER" (黒沢ダイスケ × 小寺可南子) [Category: maimai]
+     [Candidate 5] "Unlimited Spark!" (t+pazolite feat.鈴木 ななこ) [Category: 東方Project]
+     [Candidate 6] "鬼KYOKAN" (じーざすP（ワンダフル☆オポチュニティ！）) [Category: niconico]
+     [Candidate 7] "Absolunote" (Lemm) [Category: niconico]
+     [Candidate 8] "FEEL the BEATS" (A-One) [Category: ゲキマイ]
+     [Candidate 9] "Cosmic Magic Shooter" (SOUND HOLIC feat. Nana Takahashi) [Category: 東方Project]
+     [Candidate 10] "Viyella's Tears" (Laur) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 72/120] ""วงกต" (The Maze) Ost.วงกต เรื่องเฮี้ยนหลังห้อง [Cover by Meen]" -> Cleaned: ""วงกต" Ost.วงกต เรื่องเฮี้ยนหลังห้อง"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated ""วงกต" Ost.วงกต เรื่องเฮี้ยนหลังห้อง" to "迷宮 部屋の後ろの不気味な話"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 3 candidates. Querying Ollama to select...
+     [Candidate 1] "Energy Booster ～ 上海紅茶館" (激戦の人) [Category: 東方Project]
+     [Candidate 2] "Lostwizz" (s-don) [Category: ゲキマイ]
+     [Candidate 3] "LOSTPHANTASIA" (岸田教団&THE明星ロケッツ×草野華余子) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 73/120] "Electric Angel [Thai ver by Meen]" -> Cleaned: "Electric Angel"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Electric Angel" to "電気天使"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Selector" (Aliesrite* (Ym1024 feat. lamie*)) [Category: maimai]
+     [Candidate 2] "Change me" (shu-t) [Category: niconico]
+     [Candidate 3] "GEOMETRIC DANCE" (山本真央樹) [Category: ゲキマイ]
+     [Candidate 4] "ヒトリシズカ(Arranged: Iceon)" (幽閉サテライト(direction:嵯峨飛鳥)) [Category: 東方Project]
+     [Candidate 5] "THE TRiANGLE" (Yuta Imai) [Category: ゲキマイ]
+     [Candidate 6] "Beat of getting entangled" (Shoichiro Hirata) [Category: maimai]
+     [Candidate 7] "Trick tear" (しーけー) [Category: maimai]
+     [Candidate 8] "Tricolor⁂circuS" (ああ…翡翠茶漬け…) [Category: maimai]
+     [Candidate 9] "Jimang Shot" (じまんぐ) [Category: 東方Project]
+     [Candidate 10] "Caliburne ～Story of the Legendary sword～" (Project Grimoire) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 74/120] "Brainwashing (ล้างสมอง) [Thai ver by Meen]" -> Cleaned: "Brainwashing"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Brainwashing" to "洗脳"
+  -> [Stage 2] Ollama Translation Match found! Game Song: "洗脳" (ゆりん・柿チョコ×Neru)
+     Covers downloaded successfully.
+
+[Processing 75/120] "Abstract Nonsense (บทสรุปอันไร้สาระ) [Thai cover by Meen]" -> Cleaned: "Abstract Nonsense"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Abstract Nonsense" to "抽象的無意味"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "7thSense" (削除) [Category: ゲキマイ]
+     [Candidate 2] "Hyper Active" (HiTECH NINJA) [Category: ゲキマイ]
+     [Candidate 3] "Stardust:RAY" (kanone vs. BlackY) [Category: ゲキマイ]
+     [Candidate 4] "VERTeX (rintaro soma deconstructed remix)" (Hiro／rintaro soma) [Category: maimai]
+     [Candidate 5] "Straight into the lights" (Cosmograph) [Category: maimai]
+     [Candidate 6] "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)" (かめりあ) [Category: maimai]
+     [Candidate 7] "STRAY" (umigame) [Category: maimai]
+     [Candidate 8] "Bad Apple!! feat.nomico" (Masayoshi Minoshima) [Category: 東方Project]
+     [Candidate 9] "ODDS&ENDS" (ryo(supercell)) [Category: niconico]
+     [Candidate 10] "Absolunote" (Lemm) [Category: niconico]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 76/120] "Paradichlorobenzene (PDF2nd Ver.) [Thai ver by Meen]" -> Cleaned: "Paradichlorobenzene"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Paradisoda" (魂音泉) [Category: ゲキマイ]
+     [Candidate 2] "Contrapasso -paradiso-" (t+pazolite) [Category: maimai]
+     [Candidate 3] "Individual on parade!" (曲：渡部チェル／歌：珠洲島 有栖(CV：長縄 まりあ)、皇城 セツナ(CV：八巻 アンナ)、柏木 咲姫(CV：石見 舞菜香)、日向 千夏(CV：岡咲 美保)、井之原 小星(CV：ももの はるな)) [Category: ゲキマイ]
+     [Candidate 4] "PANDORA PARADOXXX" (削除) [Category: ゲキマイ]
+     [Candidate 5] "Mystic Parade" (ひとしずく×やま△ feat.悠佑＆ないこ（いれいす）) [Category: maimai]
+     [Candidate 6] "Magical Paradox" (Mr.Asyu) [Category: maimai]
+     [Candidate 7] "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)" (かめりあ) [Category: maimai]
+     [Candidate 8] "Paradoxical Empress" (polysha) [Category: maimai]
+     [Candidate 9] "Paranoia" (DiGiTAL WiNG feat. 花たん) [Category: 東方Project]
+     [Candidate 10] "Radiance" (Nhato) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 77/120] "boku no basho boku no umi (มหาสมุทรที่ฉันอยู่) [Thai cover By Meen]" -> Cleaned: "boku no basho boku no umi"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "boku no basho boku no umi" to "僕の場所 僕の海"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "Absolunote" (Lemm) [Category: niconico]
+     [Candidate 3] "Jimang Shot" (じまんぐ) [Category: 東方Project]
+     [Candidate 4] "Cosmic Magic Shooter" (SOUND HOLIC feat. Nana Takahashi) [Category: 東方Project]
+     [Candidate 5] "Earthquake Super Shock" (SOUND HOLIC feat. Nana Takahashi) [Category: 東方Project]
+     [Candidate 6] "Splash Dance!!" (曲：Q-MHz／歌：オンゲキシューターズ) [Category: ゲキマイ]
+     [Candidate 7] "FLUFFY FLASH" (Kobaryo) [Category: ゲキマイ]
+     [Candidate 8] "反撃! 突撃! Back To Back!" (曲：矢鴇つかさ & 脇眞富（Arte Refact）／歌：星咲 あかり(CV：赤尾 ひかる)、高瀬 梨緒(CV：久保 ユリカ)) [Category: ゲキマイ]
+     [Candidate 9] "M@GICAL☆CURE! LOVE ♥ SHOT!" (SAWTOWNE) [Category: niconico]
+     [Candidate 10] "ぐるぐるWASH！コインランドリー・ディスコ" (D.watt(IOSYS)feat.ちよこ) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 78/120] "Alien Alien [Thai cover by Meen]" -> Cleaned: "Alien Alien"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Alien Alien" to "アリエン アリエン"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Kairos" (ARForest feat.nayuta) [Category: maimai]
+     [Candidate 2] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 3] "スローグロー" (nayuta) [Category: maimai]
+     [Candidate 4] "Just Be Friends" (Dixie Flatline) [Category: niconico]
+     [Candidate 5] "Caliburne ～Story of the Legendary sword～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 6] "Excalibur ～Revived resolution～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 7] "GranFatalité" (曲：ZAQ／歌：柏木 咲姫(CV：石見 舞菜香)) [Category: ゲキマイ]
+     [Candidate 8] "Bad Apple!! feat.nomico (REDALiCE Remix)" (Masayoshi Minoshima × REDALiCE) [Category: 東方Project]
+     [Candidate 9] "FEEL ALIVE" (ELEMENTAS feat. NAGISA) [Category: maimai]
+     [Candidate 10] "Our Wrenally" (t+pazolite) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 79/120] "Yakubyougami (ผู้ชักนำหายนะ) [Thai ver by Meen]" -> Cleaned: "Yakubyougami"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Yakubyougami" to "ヤクブヨウガミ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "Yakumo >>JOINT STRUGGLE (2019 Update)" (くっちー (DARKSIDE APPROACH)) [Category: 東方Project]
+     [Candidate 3] "taboo tears you up" (REDALiCE (HARDCORE TANO*C)) [Category: 東方Project]
+     [Candidate 4] "Dreaming" (Alstroemeria Records) [Category: 東方Project]
+     [Candidate 5] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 6] "Tell Your World" (livetune) [Category: niconico]
+     [Candidate 7] "Calamity Fortune" (LeaF) [Category: 東方Project]
+     [Candidate 8] "GAME IS LIFE" (曲：ヒゲドライバー／歌：井之原 小星(CV：ももの はるな)) [Category: ゲキマイ]
+     [Candidate 9] "Get the star for you [DJ Command Remix]" (SOUND HOLIC Vs. Eurobeat Union feat. 709sec.) [Category: 東方Project]
+     [Candidate 10] "Mami Mami Zone" (REDALiCE feat. 野宮あゆみ) [Category: 東方Project]
+     Ollama returned: "2"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "Yakumo >>JOINT STRUGGLE (2019 Update)" (くっちー (DARKSIDE APPROACH))
+     Covers downloaded successfully.
+
+[Processing 80/120] "Meteor (ความฝันยามค่ำคืนของดาวตก) [Thai ver by Meen]" -> Cleaned: "Meteor"
+  -> [Stage 1] Safe Match found! Game Song: "METEOR" (DIVELA)
+     Covers downloaded successfully.
+
+[Processing 81/120] "[Re-make] Kanashimi no Nami ni Oboreru ( จมดิ่งสู่ห้วงแห่งความโศกเศร้า ) [Thai ver by Meen]" -> Cleaned: "Kanashimi no Nami ni Oboreru"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Kanashimi no Nami ni Oboreru" to "悲しみの波に溺れる"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "Dreaming" (Alstroemeria Records) [Category: 東方Project]
+     [Candidate 3] "GEMINI -M-" (Tatsh) [Category: maimai]
+     [Candidate 4] "雲外蒼電 -Dreaming Voltage-" (adaptor vs DRIVE.) [Category: maimai]
+     [Candidate 5] "Perfect Shining!!" (曲：宮崎誠／歌：星咲 あかり(CV：赤尾 ひかる)) [Category: ゲキマイ]
+     [Candidate 6] "VIIIbit Explorer" (Lime) [Category: ゲキマイ]
+     [Candidate 7] "Prominence" (曲：下野 隼／歌：皇城 セツナ(CV：八巻 アンナ)、式宮 碧音(CV：髙橋 ミナミ)) [Category: ゲキマイ]
+     [Candidate 8] "oboro" (ヒゲドライバー) [Category: maimai]
+     [Candidate 9] "曖昧mind" (Halozy) [Category: maimai]
+     [Candidate 10] "キリキリ舞Mine" (A-One) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 82/120] "FPS (First Person Shooting) [Thai ver by Meen]" -> Cleaned: "FPS"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "FPS" to "ファーストパーソンシューティング"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 1 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 83/120] "Black ★ Rock Shooter [Thai ver by Meen]" -> Cleaned: "Black ★ Rock Shooter"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Black ★ Rock Shooter" to "ブラック★ロックシューター"
+  -> [Stage 2] Ollama Translation Match found! Game Song: "ブラック★ロックシューター" (supercell feat.初音ミク)
+     Covers downloaded successfully.
+
+[Processing 84/120] "Hibikase(ก้องกังวาล)[Thai ver by Meen]" -> Cleaned: "Hibikase"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Hibikase" to "聞こせ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 4 candidates. Querying Ollama to select...
+     [Candidate 1] "みくみくにしてあげる♪【してやんよ】" (ika) [Category: niconico]
+     [Candidate 2] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 3] "VIIIbit Explorer" (Lime) [Category: ゲキマイ]
+     [Candidate 4] "Phase: Theatre" (藍月なくる) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 85/120] "Remote controL(รีโมทคอนโทรล)[Thai ver by Meen]" -> Cleaned: "Remote controL"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Remote controL" to "リモートコントロール"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "TAKE CONTROL" (ryhki) [Category: maimai]
+     [Candidate 3] "Contrapasso -paradiso-" (t+pazolite) [Category: maimai]
+     [Candidate 4] "VERTeX (rintaro soma deconstructed remix)" (Hiro／rintaro soma) [Category: maimai]
+     [Candidate 5] "Bad Apple!! feat.nomico (Nhato Remix)" (Masayoshi Minoshima × Nhato) [Category: 東方Project]
+     [Candidate 6] "Ether Second" (Akira Complex) [Category: maimai]
+     [Candidate 7] "Bad Apple!! feat.nomico (Tetsuya Komuro Remix)" (Masayoshi Minoshima Remixed by 小室哲哉) [Category: 東方Project]
+     [Candidate 8] "taboo tears you up" (REDALiCE (HARDCORE TANO*C)) [Category: 東方Project]
+     [Candidate 9] "Help me, ERINNNNNN!! -Cranky remix-" (ビートまりお × Cranky) [Category: 東方Project]
+     [Candidate 10] "Absolunote" (Lemm) [Category: niconico]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 86/120] "Idola no Circus [Thai ver by Meen]" -> Cleaned: "Idola no Circus"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Idola no Circus" to "イドーラのサーカス"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "ロストワンの号哭" (Neru) [Category: niconico]
+     [Candidate 2] "洗脳" (ゆりん・柿チョコ×Neru) [Category: ゲキマイ]
+     [Candidate 3] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 4] "Tricolor⁂circuS" (ああ…翡翠茶漬け…) [Category: maimai]
+     [Candidate 5] "Crazy Circle" (みきとP feat. FantasticYouth) [Category: maimai]
+     [Candidate 6] "CiRCLE CAMPAiGN" (サツキ feat.天音かなた) [Category: maimai]
+     [Candidate 7] "Yet Another ”drizzly rain”" (myu314 feat.あまね（COOL&CREATE）) [Category: 東方Project]
+     [Candidate 8] "M.S.S.Planet" (M.S.S Project) [Category: niconico]
+     [Candidate 9] "Mr. Wonderland" (sasakure.UK) [Category: niconico]
+     [Candidate 10] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+[Skipping] เพราะคลิปนี้คือ Meen Thaisub และ Q&A ของผู้ติดตามจร้า(???) (Non-song video)
+
+[Processing 88/120] "Kirisaki★Carnival (คาร์นิวัลแห่งการฉีกกระชาก) [Thai ver by Meen]" -> Cleaned: "Kirisaki★Carnival"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Kirisaki★Carnival" to "キリサキ★カーニバル"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "The Great Banquet" (Iris) [Category: maimai]
+     [Candidate 2] "HAGAKIRI" (Masayoshi Iimori) [Category: maimai]
+     [Candidate 3] "WARNING×WARNING×WARNING" (暁Records) [Category: 東方Project]
+     [Candidate 4] "WARNING!" (NJK Record) [Category: 東方Project]
+     [Candidate 5] "雷切-RAIKIRI-" (kanone) [Category: ゲキマイ]
+     [Candidate 6] "FestivaLight" (霜月はるか) [Category: maimai]
+     [Candidate 7] "mystique as iris" (かねこちはる) [Category: maimai]
+     [Candidate 8] "RE:INCARNATED DRAGNER" (黒沢ダイスケ × 小寺可南子) [Category: maimai]
+     [Candidate 9] "Imperishable Night 2006 (2016 Refine)" (ゆうゆ / 篠螺悠那) [Category: 東方Project]
+     [Candidate 10] "Valsqotch" (owl＊tree feat.chi＊tree) [Category: ゲキマイ]
+     Ollama returned: "2"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "HAGAKIRI" (Masayoshi Iimori)
+     Covers downloaded successfully.
+
+[Processing 89/120] "Garbage Parade (พาเหรดกองขยะ) [Thai ver by Meen]" -> Cleaned: "Garbage Parade"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Garbage Parade" to "ゴミパレード"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Individual on parade!" (曲：渡部チェル／歌：珠洲島 有栖(CV：長縄 まりあ)、皇城 セツナ(CV：八巻 アンナ)、柏木 咲姫(CV：石見 舞菜香)、日向 千夏(CV：岡咲 美保)、井之原 小星(CV：ももの はるな)) [Category: ゲキマイ]
+     [Candidate 2] "Mystic Parade" (ひとしずく×やま△ feat.悠佑＆ないこ（いれいす）) [Category: maimai]
+     [Candidate 3] "Paradisoda" (魂音泉) [Category: ゲキマイ]
+     [Candidate 4] "PANDORA PARADOXXX" (削除) [Category: ゲキマイ]
+     [Candidate 5] "Contrapasso -paradiso-" (t+pazolite) [Category: maimai]
+     [Candidate 6] "Magical Paradox" (Mr.Asyu) [Category: maimai]
+     [Candidate 7] "Paradoxical Empress" (polysha) [Category: maimai]
+     [Candidate 8] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 9] "Paranoia" (DiGiTAL WiNG feat. 花たん) [Category: 東方Project]
+     [Candidate 10] "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)" (かめりあ) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 90/120] "Unhappy Refrain [Thai ver by Meen]" -> Cleaned: "Unhappy Refrain"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Unhappy Refrain" to "不幸レフレイン"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Ref:rain (for 7th Heaven)" (カモメサノエレクトリックオーケストラ include Limonène) [Category: maimai]
+     [Candidate 2] "みんな Happy!!" (曲：ヒゲドライバー／歌：藤沢 柚子(CV：久保田 梨沙)) [Category: ゲキマイ]
+     [Candidate 3] "Get Happy" (Jimmy Weckl) [Category: maimai]
+     [Candidate 4] "RIFFRAIN" (夏代孝明) [Category: maimai]
+     [Candidate 5] "Yet Another ”drizzly rain”" (myu314 feat.あまね（COOL&CREATE）) [Category: 東方Project]
+     [Candidate 6] "Bad Apple!! feat.nomico (Nhato Remix)" (Masayoshi Minoshima × Nhato) [Category: 東方Project]
+     [Candidate 7] "ARROW RAIN feat. Ayame" (Alstroemeria Records) [Category: 東方Project]
+     [Candidate 8] "Cosmic Train" (Shoichiro Hirata feat.SUIMI) [Category: maimai]
+     [Candidate 9] "Monochrome Rainbow" (Sta) [Category: maimai]
+     [Candidate 10] "Believe the Rainbow" (Shoichiro Hirata feat.Sana) [Category: maimai]
+     Ollama returned: "1"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "Ref:rain (for 7th Heaven)" (カモメサノエレクトリックオーケストラ include Limonène)
+     Covers downloaded successfully.
+
+[Processing 91/120] "The Lost One's Weeping(การคร่ำครวญของสิ่งหนึ่งที่หายไป)[Thai ver by Meen]" -> Cleaned: "The Lost One's Weeping"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "The Lost One's Weeping" to "失われた者の涙"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "Caliburne ～Story of the Legendary sword～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 3] "keep hopping" (kamome sano) [Category: maimai]
+     [Candidate 4] "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)" (かめりあ) [Category: maimai]
+     [Candidate 5] "sweet little sister" (Silver Forest) [Category: 東方Project]
+     [Candidate 6] "Sweet Devil" (八王子P) [Category: niconico]
+     [Candidate 7] "東方妖々夢 ～the maximum moving about～" (石鹸屋) [Category: 東方Project]
+     [Candidate 8] "Floating Darkness" (Tatsh feat. 月子) [Category: 東方Project]
+     [Candidate 9] "Sweet Requiem" (REDALiCE & aran) [Category: 東方Project]
+     [Candidate 10] "SWEET SHAKE!!" (曲：佐藤純一（fhána）／歌：桜井 春菜(CV：近藤 玲奈)) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 92/120] "Out of Eden [Thai ver by Meen]" -> Cleaned: "Out of Eden"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Out of Eden" to "オトゥ・オブ・エデン"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "東方妖々夢 ～the maximum moving about～" (石鹸屋) [Category: 東方Project]
+     [Candidate 2] "No Routine" (A-One) [Category: 東方Project]
+     [Candidate 3] "Barbed Eye" (柿チョコ×みきとP) [Category: ゲキマイ]
+     [Candidate 4] "Scream out! -CHUNITHM Tuning-" (A-One) [Category: 東方Project]
+     [Candidate 5] "Zest of Blue" (曲：上松範廉(Elements Garden)／歌：三角 葵(CV：春野 杏)) [Category: ゲキマイ]
+     [Candidate 6] "The secret garden" (Project DIVA Original Song feat.初音ミク) [Category: niconico]
+     [Candidate 7] "LiftOff" (MAYA AKAI) [Category: ゲキマイ]
+     [Candidate 8] "BAD∞END∞NIGHT" (ひとしずくP・やま△) [Category: niconico＆ボーカロイド]
+     [Candidate 9] "Black Out" (Tsukasa(Arte Refact)) [Category: maimai]
+     [Candidate 10] "Beat of getting entangled" (Shoichiro Hirata) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 93/120] "KomoriUta(เพลงกล่อมเด็กกำพร้า)[Thai ver by Meen]" -> Cleaned: "KomoriUta"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "KomoriUta" to "子守歌"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "FREELY TOMORROW" (Mitchie M) [Category: niconico]
+     [Candidate 2] "Stardust Memories" (Maozon) [Category: maimai]
+     [Candidate 3] "WiPE OUT MEMORIES" (t+pazolite) [Category: maimai]
+     [Candidate 4] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 5] "UTAKATA" (曲：ゆよゆっぺ／歌：九條 楓(CV：佳村 はるか)) [Category: ゲキマイ]
+     [Candidate 6] "Komplexe" (雄之助 feat. Sennzai) [Category: ゲキマイ]
+     [Candidate 7] "Mutation" (Laur) [Category: ゲキマイ]
+     [Candidate 8] "Glorious Crown" (xi) [Category: maimai]
+     [Candidate 9] "ネクロファンタジア～Arr.Demetori" (Demetori) [Category: 東方Project]
+     [Candidate 10] "Metamorphosism" (削除) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 94/120] "Shinsetsu Shounen Shinkaron(ทฤษฎี"วิวัฒนาการใหม่"ของเด็กชาย)[Thai ver by Meen]" -> Cleaned: "Shinsetsu Shounen Shinkaron"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Shinsetsu Shounen Shinkaron" to "真心少年真論"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "ウタヒメナイトストーム" (yowanecity feat.Eye) [Category: maimai]
+     [Candidate 2] "Perfect Shining!!" (曲：宮崎誠／歌：星咲 あかり(CV：赤尾 ひかる)) [Category: ゲキマイ]
+     [Candidate 3] "Shining Ray ～僕らの絆～" (伊藤和馬(Arte Refact) feat.konoco) [Category: maimai]
+     [Candidate 4] "YURUSHITE" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 5] "Technicians High" (HiTECH NINJA) [Category: ゲキマイ]
+     [Candidate 6] "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)" (かめりあ) [Category: maimai]
+     [Candidate 7] "砂の惑星 feat. HATSUNE MIKU" (ハチ) [Category: niconico]
+     [Candidate 8] "Blows Up Everything" (USAO) [Category: ゲキマイ]
+     [Candidate 9] "NAGAREBOSHI☆ROCKET" (梅干茶漬け) [Category: ゲキマイ]
+     [Candidate 10] "7thSense" (削除) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 95/120] "Prison Break(ปฏิบัติการแหกคุกนรก)[Thai ver by Meen]" -> Cleaned: "Prison Break"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Club Ibuki in Break All" (void＋夕野ヨシミ (IOSYS) feat.藤原鞠菜) [Category: 東方Project]
+     [Candidate 2] "Grip & Break down !!" (SOUND HOLIC feat. Nana Takahashi) [Category: 東方Project]
+     [Candidate 3] "DAYBREAK FRONTLINE" (Orangestar) [Category: niconico]
+     [Candidate 4] "BREAK YOU!!" (A-One) [Category: maimai]
+     [Candidate 5] "Scream out! -maimai SONIC WASHER Edit-" (A-One) [Category: 東方Project]
+     [Candidate 6] "Limit Break" (DiGiTAL WiNG) [Category: maimai]
+     [Candidate 7] "BREaK! BREaK! BREaK!" (HiTECH NINJA vs Cranky) [Category: maimai]
+     [Candidate 8] "Break The Speakers" (DJ Myosuke) [Category: maimai]
+     [Candidate 9] "Spring of Dreams" (3L (NJK Record)) [Category: 東方Project]
+     [Candidate 10] "Streak" (ARM(IOSYS)) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 96/120] "Justitia Of Life(ความยุติธรรมของชีวิต)[Thai ver by Meen]" -> Cleaned: "Justitia Of Life"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Justitia Of Life" to "正義の人生"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Magical Flavor" (DECO*27 feat.Tia) [Category: maimai]
+     [Candidate 2] "Justified" (MintJam feat.光吉猛修) [Category: maimai]
+     [Candidate 3] "Customized Justice" (Kobaryo) [Category: maimai]
+     [Candidate 4] "Just Be Friends" (Dixie Flatline) [Category: niconico]
+     [Candidate 5] "GAME IS LIFE" (曲：ヒゲドライバー／歌：井之原 小星(CV：ももの はるな)) [Category: ゲキマイ]
+     [Candidate 6] "No Life Queen [DJ Command Remix]" (SOUND HOLIC Vs. Eurobeat Union feat. Nana Takahashi) [Category: 東方Project]
+     [Candidate 7] "Life Feels Good" (Cranky) [Category: maimai]
+     [Candidate 8] "Dive into The Sky ～initialized～" (A-One) [Category: 東方Project]
+     [Candidate 9] "ケロ⑨destiny" (Silver Forest) [Category: 東方Project]
+     [Candidate 10] "Everlasting Today" (void (Mournfinale)) [Category: ゲキマイ]
+     Ollama returned: "2"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "Justified" (MintJam feat.光吉猛修)
+     Covers downloaded successfully.
+
+[Processing 97/120] "Hitorinbo Envy(ความริษยาอันสันโดษ)[Thai cover by Meen]" -> Cleaned: "Hitorinbo Envy"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Hitorinbo Envy" to "ヒトリンボ エンヴィー"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "咲キ誇レ常世ノ華" (Sou×マチゲリータ) [Category: ゲキマイ]
+     [Candidate 2] "Freak Out Hr." (雄之助 feat. POPY & ROSE) [Category: niconico＆ボーカロイド]
+     [Candidate 3] "Rainbow Rush Story" (いるかアイス feat.ちょこ) [Category: maimai]
+     [Candidate 4] "Monochrome Rainbow" (Sta) [Category: maimai]
+     [Candidate 5] "ネクロファンタジア～Arr.Demetori" (Demetori) [Category: 東方Project]
+     [Candidate 6] "Believe the Rainbow" (Shoichiro Hirata feat.Sana) [Category: maimai]
+     [Candidate 7] "Help me, ERINNNNNN!!（Band ver.）" (ビートまりお) [Category: 東方Project]
+     [Candidate 8] "Club Ibuki in Break All" (void＋夕野ヨシミ (IOSYS) feat.藤原鞠菜) [Category: 東方Project]
+     [Candidate 9] "Help me, ERINNNNNN!! -Cranky remix-" (ビートまりお × Cranky) [Category: 東方Project]
+     [Candidate 10] "Caliburne ～Story of the Legendary sword～" (Project Grimoire) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 98/120] "Monochrome dream eater(ผู้กลืนกินความฝันสีขาวดำ)[Thai ver by Meen]" -> Cleaned: "Monochrome dream eater"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Monochrome dream eater" to "モノクローム ドリームイーター"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Monochrome Rainbow" (Sta) [Category: maimai]
+     [Candidate 2] "Stargazing Dreamer" (xi) [Category: ゲキマイ]
+     [Candidate 3] "Dreampainter" (Sta feat.tigerlily and DOT96) [Category: maimai]
+     [Candidate 4] "Dreaming" (Alstroemeria Records) [Category: 東方Project]
+     [Candidate 5] "Spring of Dreams" (3L (NJK Record)) [Category: 東方Project]
+     [Candidate 6] "星の器～STAR OF ANDROMEDA" (sun3) [Category: 東方Project]
+     [Candidate 7] "STRIPES feat. EL.J (2018 reinterpretation)" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 8] "Beat Eater" (ポリスピカデリー / 鏡音レン / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 9] "最終鬼畜妹フランドール・S (Chroma Remix)" (ビートまりお × 黒魔) [Category: 東方Project]
+     [Candidate 10] "Daydreama" (HiTECH NINJA) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 99/120] "Knife(มีด)[Thai ver by Meen]" -> Cleaned: "Knife"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Knife" to "ナイフ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 3 candidates. Querying Ollama to select...
+     [Candidate 1] "GAME IS LIFE" (曲：ヒゲドライバー／歌：井之原 小星(CV：ももの はるな)) [Category: ゲキマイ]
+     [Candidate 2] "No Life Queen [DJ Command Remix]" (SOUND HOLIC Vs. Eurobeat Union feat. Nana Takahashi) [Category: 東方Project]
+     [Candidate 3] "Life Feels Good" (Cranky) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 100/120] "Shinkai Shoujo Another[Piano ver][Thai ver by meen]" -> Cleaned: "Shinkai Shoujo"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Shinkai Shoujo" to "深海少女"
+  -> [Stage 2] Ollama Translation Match found! Game Song: "深海少女" (ゆうゆ)
+     Covers downloaded successfully.
+
+[Processing 101/120] "Sekai wo kowashiteiru(ขณะทำลายล้างโลกใบนี้)[Thai ver by meen]" -> Cleaned: "Sekai wo kowashiteiru"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Sekai wo kowashiteiru" to "世界を壊している"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "ロストワンの号哭" (Neru) [Category: niconico]
+     [Candidate 2] "洗脳" (ゆりん・柿チョコ×Neru) [Category: ゲキマイ]
+     [Candidate 3] "True Love Song" (Kai/クラシック「G線上のアリア」) [Category: maimai]
+     [Candidate 4] "ネコ日和。" (Kai/能登有沙) [Category: maimai]
+     [Candidate 5] "炭★坑★節" (Kai/光吉猛修) [Category: maimai]
+     [Candidate 6] "リフヴェイン" (青栗鼠 feat.sekai) [Category: maimai]
+     [Candidate 7] "さよならプリンセス" (Kai) [Category: niconico＆ボーカロイド]
+     [Candidate 8] "ℝ∈Χ LUNATiCA" (Kai) [Category: maimai]
+     [Candidate 9] "ラプラスショコラ" (Kai) [Category: niconico＆ボーカロイド]
+     [Candidate 10] "YURUSHITE" (t+pazolite) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 102/120] "Tokyo teddy bear [Piano ver][Thai cover by meen]" -> Cleaned: "Tokyo teddy bear"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Tokyo teddy bear" to "東京テディベア"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Honey Bear" (Freezer) [Category: ゲキマイ]
+     [Candidate 2] "taboo tears you up" (REDALiCE (HARDCORE TANO*C)) [Category: 東方Project]
+     [Candidate 3] "Heartbeats" (RAMM feat. 若井友希) [Category: maimai]
+     [Candidate 4] "RE:INCARNATED DRAGNER" (黒沢ダイスケ × 小寺可南子) [Category: maimai]
+     [Candidate 5] "Unlimited Spark!" (t+pazolite feat.鈴木 ななこ) [Category: 東方Project]
+     [Candidate 6] "鬼KYOKAN" (じーざすP（ワンダフル☆オポチュニティ！）) [Category: niconico]
+     [Candidate 7] "Absolunote" (Lemm) [Category: niconico]
+     [Candidate 8] "FEEL the BEATS" (A-One) [Category: ゲキマイ]
+     [Candidate 9] "Cosmic Magic Shooter" (SOUND HOLIC feat. Nana Takahashi) [Category: 東方Project]
+     [Candidate 10] "Viyella's Tears" (Laur) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 103/120] "Kowase Kowase (ทำลายซะ ทำลายซะ) [Thai ver by meen]" -> Cleaned: "Kowase Kowase"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Kowase Kowase" to "壊せ壊せ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 4 candidates. Querying Ollama to select...
+     [Candidate 1] "Desperado Waltz" (ぺのれり) [Category: ゲキマイ]
+     [Candidate 2] "ぐるぐるWASH！コインランドリー・ディスコ" (D.watt(IOSYS)feat.ちよこ) [Category: maimai]
+     [Candidate 3] "Scream out! -maimai SONIC WASHER Edit-" (A-One) [Category: 東方Project]
+     [Candidate 4] "Phase: Theatre" (藍月なくる) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 104/120] "Crescent Moon (จันทร์ข้างขึ้น) [Thai cover by meen]" -> Cleaned: "Crescent Moon"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Crescent Moon" to "三日月"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "咲キ誇レ常世ノ華" (Sou×マチゲリータ) [Category: ゲキマイ]
+     [Candidate 2] "Last Moments" (NJK Record (3L&maria♂polo)) [Category: 東方Project]
+     [Candidate 3] "Transcend Lights" (曲：小高光太郎／歌：オンゲキシューターズ) [Category: ゲキマイ]
+     [Candidate 4] "Moon of Noon" (Sampling Masters MEGA) [Category: ゲキマイ]
+     [Candidate 5] "Blew Moon" (t+pazolite) [Category: maimai]
+     [Candidate 6] "Scream out! -CHUNITHM Tuning-" (A-One) [Category: 東方Project]
+     [Candidate 7] "Doll Judgment" (ぬるはち) [Category: 東方Project]
+     [Candidate 8] "Excalibur ～Revived resolution～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 9] "Secret Sleuth" (島爺×蜂屋ななし) [Category: ゲキマイ]
+     [Candidate 10] "The secret garden" (Project DIVA Original Song feat.初音ミク) [Category: niconico]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 105/120] "Re-education (เริ่มระบบการศึกษาใหม่)  [Thai ver by Meen]" -> Cleaned: "Re-education"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Re-education" to "リ・エデュケーション"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "ロストワンの号哭" (Neru) [Category: niconico]
+     [Candidate 2] "幽闇に目醒めしは" (セブンスヘブンMAXION) [Category: 東方Project]
+     [Candidate 3] "洗脳" (ゆりん・柿チョコ×Neru) [Category: ゲキマイ]
+     [Candidate 4] "STRIPES feat. EL.J (2018 reinterpretation)" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 5] "TEmPTaTiON" (かねこちはる) [Category: ゲキマイ]
+     [Candidate 6] "Mutation" (Laur) [Category: ゲキマイ]
+     [Candidate 7] "Acceleration" (REDALiCE) [Category: maimai]
+     [Candidate 8] "magician's operation" (EZFG) [Category: niconico＆ボーカロイド]
+     [Candidate 9] "Imitation:Loud Lounge" (Ino(chronoize)) [Category: maimai]
+     [Candidate 10] "Excalibur ～Revived resolution～" (Project Grimoire) [Category: ゲキマイ]
+     Ollama returned: "3"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "洗脳" (ゆりん・柿チョコ×Neru)
+     Covers downloaded successfully.
+
+[Processing 106/120] "Iroha uta (เพลงหลากสี) [Thai ver by Meen]" -> Cleaned: "Iroha uta"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Iroha uta" to "いろはうた"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "みくみくにしてあげる♪【してやんよ】" (ika) [Category: niconico]
+     [Candidate 2] "タカハせ！名人マン" (ビートまりお + ARM feat. 高橋名人) [Category: maimai]
+     [Candidate 3] "むしみこうにゃーのハッピッピー" (ARM×狐夢想 feat. miko×山本椛) [Category: 東方Project]
+     [Candidate 4] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 5] "UTAKATA" (曲：ゆよゆっぺ／歌：九條 楓(CV：佳村 はるか)) [Category: ゲキマイ]
+     [Candidate 6] "Mutation" (Laur) [Category: ゲキマイ]
+     [Candidate 7] "Beautiful Future" (PSYQUI) [Category: ゲキマイ]
+     [Candidate 8] "NAGAREBOSHI☆ROCKET" (梅干茶漬け) [Category: ゲキマイ]
+     [Candidate 9] "Kairos" (ARForest feat.nayuta) [Category: maimai]
+     [Candidate 10] "raputa" (sasakure.UK × TJ.hangneil) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 107/120] "The Fifth Pierrot (ปิเอโร่หมายเลข 5) [Thai ver by Meen]" -> Cleaned: "The Fifth Pierrot"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "The Fifth Pierrot" to "五番目のピエロ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "the EmpErroR" (sasakure.UK) [Category: ゲキマイ]
+     [Candidate 2] "Caliburne ～Story of the Legendary sword～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 3] "A Man In The Mirror" (orangentle) [Category: ゲキマイ]
+     [Candidate 4] "進め！イッスン軍団 -Rebellion of the Dwarfs-" (dawn-system) [Category: 東方Project]
+     [Candidate 5] "False Amber (from the Black Bazaar, Or by A Kervan Trader from the Lands Afar, Or Buried Beneath the Shifting Sands That Lead Everywhere but Nowhere)" (かめりあ) [Category: maimai]
+     [Candidate 6] "Yet Another ”drizzly rain”" (myu314 feat.あまね（COOL&CREATE）) [Category: 東方Project]
+     [Candidate 7] "東方妖々夢 ～the maximum moving about～" (石鹸屋) [Category: 東方Project]
+     [Candidate 8] "FREELY TOMORROW" (Mitchie M) [Category: niconico]
+     [Candidate 9] "Imperishable Night 2006 (2016 Refine)" (ゆうゆ / 篠螺悠那) [Category: 東方Project]
+     [Candidate 10] "Like the Wind [Reborn]" (sampling masters MEGA「パワードリフト」) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 108/120] "Mr.sadistic night [TV size][Thai ver by Meen]" -> Cleaned: "Mr.sadistic night"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Mr.sadistic night" to "ミスター・サディスティック・ナイト"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Crazy ∞ nighT" (ひとしずく×やま△) [Category: niconico]
+     [Candidate 2] "Imperishable Night 2006 (2016 Refine)" (ゆうゆ / 篠螺悠那) [Category: 東方Project]
+     [Candidate 3] "Witches night" (Liz Triangle) [Category: 東方Project]
+     [Candidate 4] "ALLNIGHT_DANCER" (brz1128) [Category: ゲキマイ]
+     [Candidate 5] "BAD∞END∞NIGHT" (ひとしずくP・やま△) [Category: niconico＆ボーカロイド]
+     [Candidate 6] "Starlight Disco" (loos feat. Meramipop) [Category: maimai]
+     [Candidate 7] "Night Fly" (発熱巫女～ず) [Category: maimai]
+     [Candidate 8] "Endless, Sleepless Night" (samfree feat.(V)・∀・(V)かにぱん。(A-ONE)) [Category: 東方Project]
+     [Candidate 9] "FestivaLight" (霜月はるか) [Category: maimai]
+     [Candidate 10] "Starlight Vision" (矢鴇つかさ feat. 三澤秋) [Category: 東方Project]
+     Ollama returned: "1"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "Crazy ∞ nighT" (ひとしずく×やま△)
+     Covers downloaded successfully.
+
+[Processing 109/120] "Paper plane / Kami Hikouki (เครื่องบินกระดาษ) [Thai ver by Meen]" -> Cleaned: "Paper plane / Kami Hikouki"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Paper plane / Kami Hikouki" to "紙の飛行機"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "M.S.S.Planet" (M.S.S Project) [Category: niconico]
+     [Candidate 2] "Girl's Party Planet!" (曲：山本恭平（Arte Refact）／歌：桜井 春菜(CV：近藤 玲奈)、早乙女 彩華(CV：中島 唯)、井之原 小星(CV：ももの はるな)、柏木 咲姫(CV：石見 舞菜香)) [Category: ゲキマイ]
+     [Candidate 3] "planet dancer" (樽木栄一郎) [Category: maimai]
+     [Candidate 4] "SUPER AMBULANCE" (AJURIKA) [Category: ゲキマイ]
+     [Candidate 5] "前衛的Landscape" (HiTECH NINJA feat. RANASOL) [Category: maimai]
+     [Candidate 6] "Dreaming" (Alstroemeria Records) [Category: 東方Project]
+     [Candidate 7] "Club Ibuki in Break All" (void＋夕野ヨシミ (IOSYS) feat.藤原鞠菜) [Category: 東方Project]
+     [Candidate 8] "Mr. Wonderland" (sasakure.UK) [Category: niconico]
+     [Candidate 9] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 10] "Imperishable Night 2006 (2016 Refine)" (ゆうゆ / 篠螺悠那) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 110/120] "テロル/ Terror (ความหวาดกลัว) [Thai ver by Meen]" -> Cleaned: "テロル/ Terror"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "テロル/ Terror" to "テロル"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "ロストワンの号哭" (Neru) [Category: niconico]
+     [Candidate 2] "洗脳" (ゆりん・柿チョコ×Neru) [Category: ゲキマイ]
+     [Candidate 3] "the EmpErroR" (sasakure.UK) [Category: ゲキマイ]
+     [Candidate 4] "A Man In The Mirror" (orangentle) [Category: ゲキマイ]
+     [Candidate 5] "MIRROR of MAGIC" (Shoichiro Hirata feat.SUIMI) [Category: maimai]
+     [Candidate 6] "sweet little sister" (Silver Forest) [Category: 東方Project]
+     [Candidate 7] "FREELY TOMORROW" (Mitchie M) [Category: niconico]
+     [Candidate 8] "CITRUS MONSTER" (D-Cee) [Category: ゲキマイ]
+     [Candidate 9] "STRIPES feat. EL.J (2018 reinterpretation)" (発熱巫女～ず) [Category: 東方Project]
+     [Candidate 10] "Cosmic Magic Shooter" (SOUND HOLIC feat. Nana Takahashi) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 111/120] "Prisoner / Shuujin (นักโทษ) [Thai ver by Meen]" -> Cleaned: "Prisoner / Shuujin"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Prisoner / Shuujin" to "囚人 / Shuujin"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "殿ッ！？ご乱心！？" (Shu feat. 天羽しろっぷ) [Category: maimai]
+     [Candidate 2] "Earthquake Super Shock" (SOUND HOLIC feat. Nana Takahashi) [Category: 東方Project]
+     [Candidate 3] "Scream out! -maimai SONIC WASHER Edit-" (A-One) [Category: 東方Project]
+     [Candidate 4] "Prismatic" (CielArc) [Category: 東方Project]
+     [Candidate 5] "Imperishable Night 2006 (2016 Refine)" (ゆうゆ / 篠螺悠那) [Category: 東方Project]
+     [Candidate 6] "Spring of Dreams" (3L (NJK Record)) [Category: 東方Project]
+     [Candidate 7] "STARTLINER" (曲：kz(livetune)／歌：オンゲキシューターズ) [Category: ゲキマイ]
+     [Candidate 8] "Energy Booster ～ 上海紅茶館" (激戦の人) [Category: 東方Project]
+     [Candidate 9] "妖々跋扈　～ Who done it！！！" (Demetori) [Category: 東方Project]
+     [Candidate 10] "Mami Mami Zone" (REDALiCE feat. 野宮あゆみ) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 112/120] "Tengaku (บทบรรเลงจากสวรรค์) [Thai ver by Meen]" -> Cleaned: "Tengaku"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Tengaku" to "天楽"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 7 candidates. Querying Ollama to select...
+     [Candidate 1] "みくみくにしてあげる♪【してやんよ】" (ika) [Category: niconico]
+     [Candidate 2] "東方妖々夢 ～the maximum moving about～" (石鹸屋) [Category: 東方Project]
+     [Candidate 3] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 4] "Yakumo >>JOINT STRUGGLE (2019 Update)" (くっちー (DARKSIDE APPROACH)) [Category: 東方Project]
+     [Candidate 5] "Latent Kingdom" (Laur vs 大国奏音) [Category: ゲキマイ]
+     [Candidate 6] "Round Round Spinning Around" (Nhato) [Category: maimai]
+     [Candidate 7] "HAGAKIRI" (Masayoshi Iimori) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 113/120] "Shounen Shoujo Chameleon Symptom (อาการคาร์เมเลียนของหนุ่มสาว)  [Thai ver by Meen]" -> Cleaned: "Shounen Shoujo Chameleon Symptom"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Shounen Shoujo Chameleon Symptom" to "少年少女カメレオン症候群"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "ロストワンの号哭" (Neru) [Category: niconico]
+     [Candidate 2] "洗脳" (ゆりん・柿チョコ×Neru) [Category: ゲキマイ]
+     [Candidate 3] "ステラ" (じん / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 4] "てらてら" (和田たけあき / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico]
+     [Candidate 5] "needLe" (DECO*27 / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」) [Category: niconico＆ボーカロイド]
+     [Candidate 6] "Magical Sound Shower" (HIRO/曲者P) [Category: niconico＆ボーカロイド]
+     [Candidate 7] "Jimang Shot" (じまんぐ) [Category: 東方Project]
+     [Candidate 8] "Cosmic Magic Shooter" (SOUND HOLIC feat. Nana Takahashi) [Category: 東方Project]
+     [Candidate 9] "Earthquake Super Shock" (SOUND HOLIC feat. Nana Takahashi) [Category: 東方Project]
+     [Candidate 10] "M@GICAL☆CURE! LOVE ♥ SHOT!" (SAWTOWNE) [Category: niconico]
+     Ollama returned: "1"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "ロストワンの号哭" (Neru)
+     Covers downloaded successfully.
+
+[Processing 114/120] "Soleil (แสงสุริยา) [Thai ver by Meen]" -> Cleaned: "Soleil"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 7 candidates. Querying Ollama to select...
+     [Candidate 1] "Absolunote" (Lemm) [Category: niconico]
+     [Candidate 2] "Excalibur ～Revived resolution～" (Project Grimoire) [Category: ゲキマイ]
+     [Candidate 3] "Resolution" (曲：ANCHOR／歌：皇城 セツナ(CV：八巻 アンナ)) [Category: ゲキマイ]
+     [Candidate 4] "The Music of Violent Eating" (Jerico) [Category: 東方Project]
+     [Candidate 5] "Sqlupp (Camellia's "Sqleipd*Hiytex" Remix)" (owl＊tree Remixed by Camellia) [Category: maimai]
+     [Candidate 6] "Xaleid◆scopiX" (xi) [Category: maimai]
+     [Candidate 7] "Absolute Queen" (Laur) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 115/120] "21 Sekai Exemplify (สภาพสังคมในศตวรรษที่ 21) [Piano ver][Thai ver by Meen]" -> Cleaned: "21 Sekai Exemplify"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "21 Sekai Exemplify" to "21セカイ Exemplify"
+  -> [Stage 2] Ollama Translation Match found! Game Song: "セカイ" (DECO*27×堀江晶太(kemu))
+     Covers downloaded successfully.
+
+[Processing 116/120] "Life Prolonging Treatment (ชีวิตที่ยืดยาวเพราะการรักษา) [Thai ver by Meen]" -> Cleaned: "Life Prolonging Treatment"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Let's ミクササイズ！！" (cosMo＠暴走P「Fit Boxing feat. 初音ミク -ミクといっしょにエクササイズ-」) [Category: niconico＆ボーカロイド]
+     [Candidate 2] "The Music of Violent Eating" (Jerico) [Category: 東方Project]
+     [Candidate 3] "Beat of getting entangled" (Shoichiro Hirata) [Category: maimai]
+     [Candidate 4] "Beginning together!" (高瀬一矢 feat. R.I.N.A) [Category: maimai]
+     [Candidate 5] "Dreaming" (Alstroemeria Records) [Category: 東方Project]
+     [Candidate 6] "Last Moments" (NJK Record (3L&maria♂polo)) [Category: 東方Project]
+     [Candidate 7] "Scream out! -CHUNITHM Tuning-" (A-One) [Category: 東方Project]
+     [Candidate 8] "Spring of Dreams" (3L (NJK Record)) [Category: 東方Project]
+     [Candidate 9] "Everlasting Today" (void (Mournfinale)) [Category: ゲキマイ]
+     [Candidate 10] "Doll Judgment" (ぬるはち) [Category: 東方Project]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 117/120] "Salvage (ผู้กอบกู้) [Thai ver by Meen]" -> Cleaned: "Salvage"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Salvage" to "サルベージ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 6 candidates. Querying Ollama to select...
+     [Candidate 1] "Armageddon" (LeaF) [Category: 東方Project]
+     [Candidate 2] "MAXRAGE" (EBIMAYO ) [Category: ゲキマイ]
+     [Candidate 3] "Sage" (かめりあ) [Category: ゲキマイ]
+     [Candidate 4] "Pixel Voyage" (YMCK) [Category: maimai]
+     [Candidate 5] "REAL VOICE" (達見 恵 featured by 佐野 宏晃) [Category: maimai]
+     [Candidate 6] "雲外蒼電 -Dreaming Voltage-" (adaptor vs DRIVE.) [Category: maimai]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 118/120] "Gomibako / Recycle Bin (ถังขยะรีไซเคิล) [Thai ver by Meen]" -> Cleaned: "Gomibako / Recycle Bin"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Gomibako / Recycle Bin" to "ゴミ箱"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "CYCLES" (Masayoshi Minoshima feat. 綾倉盟) [Category: ゲキマイ]
+     [Candidate 2] "Bad Apple!! feat.nomico (Tetsuya Komuro Remix)" (Masayoshi Minoshima Remixed by 小室哲哉) [Category: 東方Project]
+     [Candidate 3] "Bad Apple!! feat.nomico (Nhato Remix)" (Masayoshi Minoshima × Nhato) [Category: 東方Project]
+     [Candidate 4] "Bad Apple!! feat.nomico (REDALiCE Remix)" (Masayoshi Minoshima × REDALiCE) [Category: 東方Project]
+     [Candidate 5] "Bad Apple!! feat.nomico" (Masayoshi Minoshima) [Category: 東方Project]
+     [Candidate 6] "ナイト・オブ・ナイツ (USAO Remix)" (ビートまりお × USAO) [Category: 東方Project]
+     [Candidate 7] "Wizdomiot" (LeaF) [Category: 東方Project]
+     [Candidate 8] "QZKago Requiem" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 9] "VIIIbit Explorer" (Lime) [Category: ゲキマイ]
+     [Candidate 10] "MarbleBlue." (MisoilePunch♪) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+
+[Processing 119/120] "Erase or zero( ลบหรือศูนย์ ) [Thai ver by Meen]" -> Cleaned: "Erase or zero"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Erase or zero" to "消去またはゼロ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "LANCE" (Ras) [Category: maimai]
+     [Candidate 2] "Ruler Count, Zero" (曲：本多友紀（Arte Refact）／歌：R.B.P. [九條 楓(CV：佳村 はるか)、逢坂 茜(CV：大空 直美)、珠洲島 有栖(CV：長縄 まりあ)]) [Category: ゲキマイ]
+     [Candidate 3] "Hyper Active" (HiTECH NINJA) [Category: ゲキマイ]
+     [Candidate 4] "StargazeR" (骨盤P) [Category: niconico]
+     [Candidate 5] "METEOR" (DIVELA) [Category: niconico]
+     [Candidate 6] "HERA" (ルゼ) [Category: ゲキマイ]
+     [Candidate 7] "Desperado Waltz" (ぺのれり) [Category: ゲキマイ]
+     [Candidate 8] "SUPER AMBULANCE" (AJURIKA) [Category: ゲキマイ]
+     [Candidate 9] "MeteorSnow" (あず♪) [Category: ゲキマイ]
+     [Candidate 10] "Acceleration" (REDALiCE) [Category: maimai]
+     Ollama returned: "2"
+  -> [Stage 3] Ollama Candidate Match found! Game Song: "Ruler Count, Zero" (曲：本多友紀（Arte Refact）／歌：R.B.P. [九條 楓(CV：佳村 はるか)、逢坂 茜(CV：大空 直美)、珠洲島 有栖(CV：長縄 まりあ)])
+     Covers downloaded successfully.
+
+[Processing 120/120] "Sakurane(เสียงดอกซากุระ) [Thai ver by Meen]" -> Cleaned: "Sakurane"
+  -> [Stage 2] Querying Ollama (qwen3:14b) to translate English/Romaji title to Japanese...
+     Ollama translated "Sakurane" to "サクラネ"
+  -> [Stage 3] No match from translation. Fetching candidates for selection...
+     Found 10 candidates. Querying Ollama to select...
+     [Candidate 1] "Ourania" (satella feat.藍月なくる) [Category: maimai]
+     [Candidate 2] "M.S.S.Planet" (M.S.S Project) [Category: niconico]
+     [Candidate 3] "Garakuta Doll Play" (t+pazolite) [Category: ゲキマイ]
+     [Candidate 4] "Help me, ERINNNNNN!! -Cranky remix-" (ビートまりお × Cranky) [Category: 東方Project]
+     [Candidate 5] "Paranoia" (DiGiTAL WiNG feat. 花たん) [Category: 東方Project]
+     [Candidate 6] "ナイト・オブ・ナイツ (Cranky Remix)" (ビートまりお × Cranky) [Category: 東方Project]
+     [Candidate 7] "GranFatalité" (曲：ZAQ／歌：柏木 咲姫(CV：石見 舞菜香)) [Category: ゲキマイ]
+     [Candidate 8] "Yakumo >>JOINT STRUGGLE (2019 Update)" (くっちー (DARKSIDE APPROACH)) [Category: 東方Project]
+     [Candidate 9] "Transcend Lights" (曲：小高光太郎／歌：オンゲキシューターズ) [Category: ゲキマイ]
+     [Candidate 10] "Girl's Party Planet!" (曲：山本恭平（Arte Refact）／歌：桜井 春菜(CV：近藤 玲奈)、早乙女 彩華(CV：中島 唯)、井之原 小星(CV：ももの はるな)、柏木 咲姫(CV：石見 舞菜香)) [Category: ゲキマイ]
+     Ollama returned: "0"
+  -> [No Match] Could not match to any game song.
+Output saved to: /home/administrator/si_shitpost/memethaisub-xd/src/data/qwen3_14b/matched_songs.json
+Saved default root outputs to src/data/ matched_songs.json and filtered_game_songs.json
+
+--- Preprocessing & Matching Complete ---
+Total Videos: 120 (Processed: 117, Skipped: 3)
+Exact Matches: 10
+Ollama Matches: 27
+No Matches: 80
+Total Time Taken: 2089.3s
+Average Time per Video: 17.9s
