@@ -228,24 +228,63 @@ export default function Home() {
   };
 
   const getFunnyLandingMessage = (song: any) => {
-    const maxLevelValue = Math.max(...(song.sheets || []).map((sh: any) => sh.levelValue || 0));
+    const allSheets = [
+      ...(song.sheets || []),
+      ...(song.maimaiSheets || []),
+      ...(song.chuniSheets || [])
+    ];
+    const maxLevelValue = allSheets.length > 0
+      ? Math.max(...allSheets.map((sh: any) => sh.levelValue || 0))
+      : 0;
+
+    let messages: string[] = [];
 
     if (maxLevelValue >= 14.5) {
-      return '💀 ระดับภัยพิบัติแห่งชาติ Lv.14.5+!! แนะนำให้เตรียมถังออกซิเจน โทรจองคิวนักกายภาพบำบัด และลาพักร้อนล่วงหน้าได้เลยครับ ข้อนิ้วไม่หลุดก็บุญแล้ว! 🏥🚑';
+      messages = [
+        '💀 ระดับภัยพิบัติแห่งชาติ Lv.14.5+!! แนะนำให้เตรียมถังออกซิเจน โทรจองคิวนักกายภาพบำบัด และลาพักร้อนล่วงหน้าได้เลยครับ ข้อนิ้วไม่หลุดก็บุญแล้ว! 🏥🚑',
+        '💀 เลเวล 14.5+? บ้าไปแล้ว! นี่มันทางผ่านของสัตว์ประหลาดชัดๆ แนะนำให้ตัดแขนสองข้างไปเปลี่ยนเป็นเครื่องจักรแบบไซบอร์กก่อนเล่นนะครับ! 🤖🦾',
+        '💀 ระดับความยากขั้น "ผู้สร้างเกมยังเล่นไม่ผ่าน"! กรุณาเตรียมสวดมนต์ แผ่เมตตา และเซ็นพินัยกรรมให้เรียบร้อยก่อนสแกนบัตรเล่นเพลงนี้ 😇📝',
+        '💀 เลเวล 14.5+ ข้ามไปเลยดีไหม? นิ้วมือคุณกำลังจะถูกส่งไปมิติที่สี่ ความยากระดับทำลายมิตรภาพและตู้เกม! 🌌💥'
+      ];
+    } else if (maxLevelValue >= 14) {
+      messages = [
+        '💀 ระดับความยากนรก Lv.14! แนะนำให้เตรียมใบรับรองแพทย์และยาเคาน์เตอร์เพนชโลมมือด่วน ๆ ครับ 🏥',
+        '🔥 เลเวล 14 ตึงจัด! นิ้วสไลด์จนแทบจะมีประกายไฟลุกท่วมจอ อย่าลืมเตรียมน้ำเย็นมาราดระบายความร้อนนิ้วมือหลังเล่นเสร็จด้วยล่ะ! 🧯💨',
+        '⚡ เลเวล 14 นี่เล่นเอาหลังเคล็ด สะบักจม นวดแผนไทยก็เอาไม่อยู่! แนะนำให้พกยาหม่องและลูกประคบส่วนตัวไปที่ร้านด้วย 🩹💆',
+        '🔥 เลเวล 14! จังหวะกลองรัวราวกับพายุทอร์นาโด เตรียมรับมือความโกลาหลระดับ 10 ริกเตอร์หน้าตู้ได้เลย! 🌪️💥'
+      ];
+    } else if (maxLevelValue >= 13) {
+      messages = [
+        '🔥 โหมดคัดกรองมนุษย์จริง Lv.13! เตรียมหน้าจอตู้ให้พร้อม เพราะเหงื่อจะไหลท่วมจนสไลด์ไม่ไปแน่นอนครับ สู้ ๆ นะน้อน ๆ! 💦🥵',
+        '🎵 เลเวล 13 ข้อมือต้องติดเทอร์โบ! ถ้าจังหวะรัวมา แล้วนิ้วคุณยังขยับเหมือนเต่าระเบียบ เตรียมตัวรับตัวแดงจอรัวๆ ได้เลย! 🐢💥',
+        '🧤 เลเวล 13 นี้บอกเลย... สไลด์จนถุงมือขาดไปสามคู่! กรุณาเช็กรอยไหม้ที่ปลายนิ้วก่อนกดเล่นรอบถัดไปนะครับ 🧤🔥',
+        '🎹 เลเวล 13! จังหวะกำลังหน่วง ห้ามเหม่อเด็ดขาด ไม่งั้นกดเบิ้ลจนหน้าจอแตกร้าวแน่นอนครับท่านผู้เจริญ 🔨💔'
+      ];
+    } else if (maxLevelValue >= 11) {
+      messages = [
+        '⚡ เลเวล 11-12 กำลังตึงมือ! ได้เวลาโชว์ฟอร์มสะบัดข้อมือขั้นเทพให้เด็กนักเรียนแถวนั้นยืนอ้าปากค้างแล้วครับ! 😎💫',
+        '🎸 เลเวล 11-12 นี่แหละความสนุกที่แท้จริง! วาดลวดลายดุจดั่งโปรเพลเยอร์ในตำนาน แม้ว่าจริงๆ คะแนนจะเกือบไม่ผ่านก็ตามที 🎭🤣',
+        '✨ โชว์ท่าเต้นหน้าตู้ให้โลกจำ! เลเวลนี้เพลงกำลังมันส์ ขยับตัวให้พลิ้วไหวประหนึ่งกำลังเต้นแอโรบิกหน้าโลตัส 💃🕺',
+        '⚡ เลเวล 11-12! เพลงตึงกำลังพอดีคำ เล่นจบแล้วเหงื่อซึมนิดๆ เหมือนวิ่งรอบสนามหมู่บ้าน 🏃‍♂️💦'
+      ];
+    } else if (maxLevelValue >= 7) {
+      messages = [
+        '✨ เลเวล 7-10 ชิล ๆ สบายใจ! กดไปฮัมเพลงไปได้ชวนฝัน ไม่ต้องเกร็งกล้ามเนื้อตานะครับเพื่อนรัก 🌸🎶',
+        '🍦 ชิลจัดระดับกินไอติมไปด้วยเล่นไปด้วย! ความเร็วระดับนี้นิ้วมือคุณแทบจะนอนหลับพักผ่อนได้เลย สบายเกินนนน 😴🏖️',
+        '🦜 เลเวล 7-10 สำหรับการผ่อนคลายสมองหลังโดนเพลงนรกกระแทกตา! เล่นไปยิ้มไป หล่อเท่ประหนึ่งเซียนชิล 🧘‍♂️💚',
+        '🍃 ระดับลมโชยสบายๆ เลเวล 7-10 เหมาะแก่การชวนคนข้างๆ มาดูความน่ารักของเพลงซับไทยครับ 🍃🎀'
+      ];
+    } else {
+      messages = [
+        '👶 เลเวลสำหรับผู้เริ่มต้น! สามารถกดเล่นด้วยจมูก หรือเล่นขณะหลับตาข้างเดียวก็การันตี AP/AJ สบาย ๆ ครับ 🍼😴',
+        '👶 เลเวลนี้ง่ายจนน้องหมาข้างบ้านยังกดเอา Full Combo ได้! ถือซะว่าเป็นการวอร์มข้อมือแบบเบาบางขั้นสุดละกันนะ 🐶🐾',
+        '👼 เลเวลน่ารักสดใส! เหมาะแก่การกดเล่นระบายอารมณ์ คีย์ไหลช้าจนนึกว่าเน็ตหลุด วิ่งไปกินชาบูแล้วกลับมากดก็ยังทัน 🍲⏰',
+        '🐣 เลเวลเริ่มต้นสุดแสนละมุนหัวใจ เหมาะสำหรับการพาน้องๆ หนูๆ มาหัดเคาะหน้าตู้รับความสุขแบบเบาสมอง 🐥🌈'
+      ];
     }
-    if (maxLevelValue >= 14) {
-      return '💀 ระดับความยากนรก Lv.14! แนะนำให้เตรียมใบรับรองแพทย์และยาเคาน์เตอร์เพนชโลมมือด่วน ๆ ครับ 🏥';
-    }
-    if (maxLevelValue >= 13) {
-      return '🔥 โหมดคัดกรองมนุษย์จริง Lv.13! เตรียมหน้าจอตู้ให้พร้อม เพราะเหงื่อจะไหลท่วมจนสไลด์ไม่ไปแน่นอนครับ สู้ ๆ นะน้อน ๆ! 💦🥵';
-    }
-    if (maxLevelValue >= 11) {
-      return '⚡ เลเวล 11-12 กำลังตึงมือ! ได้เวลาโชว์ฟอร์มสะบัดข้อมือขั้นเทพให้เด็กนักเรียนแถวนั้นยืนอ้าปากค้างแล้วครับ! 😎💫';
-    }
-    if (maxLevelValue >= 7) {
-      return '✨ เลเวล 7-10 ชิล ๆ สบายใจ! กดไปฮัมเพลงไปได้ชวนฝัน ไม่ต้องเกร็งกล้ามเนื้อตานะครับเพื่อนรัก 🌸🎶';
-    }
-    return '👶 เลเวลสำหรับผู้เริ่มต้น! สามารถกดเล่นด้วยจมูก หรือเล่นขณะหลับตาข้างเดียวก็การันตี AP/AJ สบาย ๆ ครับ 🍼😴';
+
+    const randomIndex = Math.floor(Math.random() * messages.length);
+    return messages[randomIndex];
   };
 
   const startRandomization = () => {
@@ -697,7 +736,39 @@ export default function Home() {
     if (selectedCategory !== 'all' && currentSong.category !== selectedCategory) return false;
 
     // 4. Difficulty level range
-    const hasSheetInRange = currentSong.sheets.some((sheet: Sheet) => {
+    let relevantSheets: Sheet[] = [];
+    if (selectedGame === 'maimai') {
+      relevantSheets = currentSong.maimaiSheets && currentSong.maimaiSheets.length > 0
+        ? currentSong.maimaiSheets
+        : (currentSong.sheets || []);
+    } else if (selectedGame === 'chunithm') {
+      relevantSheets = currentSong.chuniSheets && currentSong.chuniSheets.length > 0
+        ? currentSong.chuniSheets
+        : (currentSong.sheets || []);
+    } else {
+      // selectedGame === 'all'
+      const mSheets = (currentSong.game === 'maimai' || currentSong.game === 'both')
+        ? (currentSong.maimaiSheets && currentSong.maimaiSheets.length > 0 ? currentSong.maimaiSheets : [])
+        : [];
+      const cSheets = (currentSong.game === 'chunithm' || currentSong.game === 'both')
+        ? (currentSong.chuniSheets && currentSong.chuniSheets.length > 0 ? currentSong.chuniSheets : [])
+        : [];
+
+      if (currentSong.game === 'both') {
+        relevantSheets = [...mSheets, ...cSheets];
+        if (relevantSheets.length === 0) {
+          relevantSheets = currentSong.sheets || [];
+        }
+      } else if (currentSong.game === 'maimai') {
+        relevantSheets = mSheets.length > 0 ? mSheets : (currentSong.sheets || []);
+      } else if (currentSong.game === 'chunithm') {
+        relevantSheets = cSheets.length > 0 ? cSheets : (currentSong.sheets || []);
+      } else {
+        relevantSheets = currentSong.sheets || [];
+      }
+    }
+
+    const hasSheetInRange = relevantSheets.some((sheet: Sheet) => {
       // Filter by level value
       const levelMatches = sheet.levelValue >= minLevel && sheet.levelValue <= maxLevel;
       // Filter by type if selected
@@ -705,7 +776,7 @@ export default function Home() {
       return levelMatches && typeMatches;
     });
 
-    if (currentSong.sheets && currentSong.sheets.length > 0 && !hasSheetInRange) return false;
+    if (relevantSheets.length > 0 && !hasSheetInRange) return false;
 
     return true;
   });
